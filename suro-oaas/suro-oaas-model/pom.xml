@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.ibm.au.optim.suro</groupId>
+	<artifactId>suro-oaas-model</artifactId>
+	<version>${suro-oaas.version}</version>
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>com.ibm.au.optim.suro</groupId>
+		<artifactId>suro-oaas-parent</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../suro-oaas-parent/pom.xml</relativePath>
+	</parent>
+
+
+	<name>Surgical Unit Resource Optimization - Data Entities</name>
+	<url>https://github.ibm.com/aur/suro-oaas</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jackson.version>2.6.1</jackson.version>
+		<commons-io.version>2.0.1</commons-io.version>
+		<jsr311-api.version>1.1.1</jsr311-api.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-test</artifactId>
+			<version>${suro-oaas.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.au.jaws.web</groupId>
+			<artifactId>jaws-web-core</artifactId>
+			<version>${jaws.version}</version>
+		</dependency>
+		<!-- JAX-RS and Servlet Support -->
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>jsr311-api</artifactId>
+			<version>${jsr311-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.4</version>
+		</dependency>
+	</dependencies>
+	<description>This project defines the entities that are used to manipulate the core logic of the application.</description>
+</project>

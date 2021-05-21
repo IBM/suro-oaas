@@ -1,0 +1,69 @@
+{
+  "fileName": "beds.csv",
+  "mappingType": "complex",
+  "sources": [
+    {
+      "row": {
+        "labels": [
+          "available"
+        ]
+      },
+      "solutionKey": "bedAvailRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    },
+    {
+      "row": {
+        "labels": [
+          "totalUsed"
+        ]
+      },
+      "solutionKey": "bedTotalRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "name"
+        ]
+      },
+      "solutionKey": "bedRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    }
+  ]
+}

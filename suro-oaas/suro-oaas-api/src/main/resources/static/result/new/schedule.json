@@ -1,0 +1,6258 @@
+{
+	"week 1": {
+		"monday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "CAR1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 9
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 10
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 37
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 38
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "NS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": "NS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "EYE10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ORT10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": "ORT10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 7
+			},
+			{
+				"surgeryType": "ORT10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 11
+			},
+			{
+				"surgeryType": "ORT10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 18
+			},
+			{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "PLS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "URO10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 12
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		}],
+		"tuesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "CS1cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "CAR1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "DEN10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 20
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GNS1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "EYE10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 10
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 68
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 78
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 81
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 95
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 106
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 113
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 122
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS1Ncluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 11
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 16
+			}]
+		}],
+		"wednesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "CS1cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "CS1cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 4
+			}]
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "DEN10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 9
+			},
+			{
+				"surgeryType": "DEN2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 49
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 63
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 83
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 85
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 93
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 99
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 113
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 140
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 144
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 168
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 192
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 199
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 200
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 204
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 205
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 210
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 212
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 213
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 214
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": [{
+				"surgeryType": "GNS1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "ENT30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 98
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 44
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 71
+			}]
+		}],
+		"thursday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "CS1cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			}]
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "DEN1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 87
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 190
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 192
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 197
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 223
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 244
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 121
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 156
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 169
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 170
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 184
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 190
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 209
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 211
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 216
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 219
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 225
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 226
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 230
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 232
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 38
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 155
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 169
+			}]
+		}],
+		"friday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 2
+			},
+			{
+				"surgeryType": "CAR1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 9
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 212
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 215
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 218
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 226
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 231
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 232
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 233
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 234
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 236
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 240
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 245
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 251
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 259
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 261
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 264
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 266
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 274
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 286
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 292
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 295
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 301
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 42
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 50
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 61
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 78
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 84
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 85
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 86
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 98
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 99
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "NS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 2
+			},
+			{
+				"surgeryType": "NS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": "NS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "NS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 194
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": "EYE30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 362
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 10
+			},
+			{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 86
+			},
+			{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 18
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 25
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 41
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 47
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 48
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": "PLS20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 63
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 59
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 69
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 134
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 140
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		}],
+		"saturday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}],
+		"sunday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}]
+	},
+	"week 2": {
+		"monday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "DEN20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": "DEN20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 44
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 240
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 257
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 276
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 284
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 297
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 310
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": "GAS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 326
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 100
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 101
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 118
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 121
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 128
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 129
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 131
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 137
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 142
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 143
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 149
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 150
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 151
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 157
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 159
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 166
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 180
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 188
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 193
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 194
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 206
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "NS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 271
+			},
+			{
+				"surgeryType": "NS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 296
+			},
+			{
+				"surgeryType": "NS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 353
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 363
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": [{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 6
+			},
+			{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 19
+			},
+			{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 20
+			},
+			{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 25
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ENT2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": "PLS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 358
+			},
+			{
+				"surgeryType": "PLS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 361
+			},
+			{
+				"surgeryType": "PLS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 363
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 151
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 163
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 164
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 180
+			}]
+		}],
+		"tuesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "CAR1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 22
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 34
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 298
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 299
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 309
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 310
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 311
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 312
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 313
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 316
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 318
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 206
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 207
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 212
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 82
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 92
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 51
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 54
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 71
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 72
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 79
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": "ORT10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 25
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 31
+			},
+			{
+				"surgeryType": "PLS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 184
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 207
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 212
+			}]
+		}],
+		"wednesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "CAR10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 2
+			},
+			{
+				"surgeryType": "CAR20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 49
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 50
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 33
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 34
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 35
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 38
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 54
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 35
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 94
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 99
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "EYE10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "EYE10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 101
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 102
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 105
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 106
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 107
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 130
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 231
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 238
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 266
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 276
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 281
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 318
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 322
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 323
+			},
+			{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 332
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 25
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 17
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 134
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 155
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 183
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 197
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 211
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 213
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 220
+			}]
+		}],
+		"thursday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "CS1cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": "CS1cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 4
+			}]
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "DEN10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": "DEN2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 36
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": "GAS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": "GAS10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 54
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 55
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 56
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 210
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 213
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 217
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 219
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 220
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 224
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 226
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 230
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 232
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 233
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 240
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 241
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 247
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 251
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 258
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 259
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 260
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 261
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 262
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 265
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 266
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "EYE30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 363
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 139
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 149
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 153
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 161
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 163
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 182
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 183
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 184
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 190
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 205
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 81
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 83
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 84
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 90
+			},
+			{
+				"surgeryType": "ORT30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 358
+			},
+			{
+				"surgeryType": "ORT30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 6
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 213
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 217
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 219
+			}]
+		}],
+		"friday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": "CAR1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 20
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 6
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 92
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 204
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 209
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 225
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 238
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 254
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "NS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 10
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 205
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 210
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 217
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 218
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 222
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 232
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 236
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 244
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 245
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 246
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 20
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS10cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 9
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 57
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 225
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 240
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 245
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 253
+			}]
+		}],
+		"saturday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}],
+		"sunday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}]
+	},
+	"week 3": {
+		"monday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 53
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 59
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 96
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 10
+			},
+			{
+				"surgeryType": "GAS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 7
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 11
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 18
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 21
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 303
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 306
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 326
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 362
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 363
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 244
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 246
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 249
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 250
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 257
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 263
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 264
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 269
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 270
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "ENT2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": [{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 20
+			},
+			{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 25
+			},
+			{
+				"surgeryType": "PLS10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 84
+			},
+			{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 87
+			},
+			{
+				"surgeryType": "PLS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": "PLS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": "PLS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 31
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 250
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 264
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 275
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 276
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 215
+			}]
+		}],
+		"tuesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "DEN20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 59
+			},
+			{
+				"surgeryType": "DEN20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 77
+			},
+			{
+				"surgeryType": "DEN20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 78
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 22
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 31
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 121
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 134
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 141
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 148
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 185
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 269
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 277
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 281
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 284
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 288
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 290
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 295
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 296
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 297
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 299
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 2
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 7
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 13
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 21
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 31
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 37
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 39
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 61
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 284
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 298
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 302
+			}]
+		}],
+		"wednesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "CAR10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": "CAR20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "CAR20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 63
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 119
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 177
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 248
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 51
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 33
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 34
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 35
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 37
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 41
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 261
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 262
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 269
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 270
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 273
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 274
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 275
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 276
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 280
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 284
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 288
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 289
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 290
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 291
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 296
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 297
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 302
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 308
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 309
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 310
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 311
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 302
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 303
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 310
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 311
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 312
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 318
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 324
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "ORT10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 86
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 90
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 22
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 26
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 35
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 41
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 38
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 91
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 63
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 75
+			},
+			{
+				"surgeryType": "URO20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 77
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 169
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 220
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 221
+			}]
+		}],
+		"thursday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 20
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 21
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 50
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 54
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 55
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 60
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 61
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 311
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 315
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 318
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 321
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 329
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 335
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 337
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 340
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 351
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 352
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 353
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 357
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 359
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 363
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 19
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 35
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 42
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 47
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 48
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 55
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 56
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 61
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 64
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 69
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 93
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 101
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 115
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 301
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 314
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 248
+			},
+			{
+				"surgeryType": "URO30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 252
+			}]
+		}],
+		"friday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": "CAR1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 23
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 41
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 42
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 43
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 45
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 47
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 48
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 49
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 188
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 194
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 196
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 224
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 238
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 244
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 245
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 246
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "NS1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 3
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 53
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 59
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 63
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 66
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 90
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 117
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 139
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 39
+			},
+			{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 41
+			},
+			{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 49
+			},
+			{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 82
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 313
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 316
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 328
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 211
+			}]
+		}],
+		"saturday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}],
+		"sunday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}]
+	},
+	"week 4": {
+		"monday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 28
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 51
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 52
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 53
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 56
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 58
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 59
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 249
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 291
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 296
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 299
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 305
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "NS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "NS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": "NS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 31
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "EYE10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 71
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": "EYE20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 80
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 363
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ENT2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 137
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 145
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 146
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 227
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 229
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 237
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 243
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 249
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 270
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 271
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 290
+			}]
+		}],
+		"tuesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 250
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 275
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 290
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 58
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 64
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 69
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 71
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": "GAS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 76
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 58
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 309
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 324
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 332
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 338
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 360
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ORT10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 25
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": "ENT10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": "ENT10cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 144
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 145
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 150
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "PLS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 80
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 180
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 190
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 135
+			},
+			{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 143
+			},
+			{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 149
+			},
+			{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 194
+			},
+			{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 197
+			},
+			{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 205
+			},
+			{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 233
+			},
+			{
+				"surgeryType": "URO30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 325
+			}]
+		}],
+		"wednesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "CAR20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 56
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 43
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 58
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 61
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 63
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 68
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 72
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 75
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 19
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 22
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 33
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 34
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 37
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 42
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 43
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 48
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "EYE10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 25
+			},
+			{
+				"surgeryType": "EYE10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "EYE10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 331
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 343
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 353
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 357
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 360
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 364
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "ENT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 149
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 168
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 176
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 207
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 288
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 290
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 295
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 302
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 316
+			},
+			{
+				"surgeryType": "URO30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 324
+			}]
+		}],
+		"thursday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 49
+			},
+			{
+				"surgeryType": "CAR2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 50
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 71
+			},
+			{
+				"surgeryType": "DEN30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 308
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 309
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 316
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 323
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 325
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 330
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 335
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 336
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 342
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 346
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 347
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 349
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 351
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 352
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 357
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 363
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 364
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 48
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 50
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 53
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 55
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 56
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 60
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": "GNS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 63
+			},
+			{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 364
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "EYE30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 352
+			},
+			{
+				"surgeryType": "EYE30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 357
+			},
+			{
+				"surgeryType": "EYE30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 359
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "ORT1Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": "ORT10cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ORT20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": "ORT30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 13
+			},
+			{
+				"surgeryType": "ORT30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 50
+			},
+			{
+				"surgeryType": "ORT30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 205
+			},
+			{
+				"surgeryType": "ORT30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 288
+			},
+			{
+				"surgeryType": "ORT30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 307
+			},
+			{
+				"surgeryType": "ORT30cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 360
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "ENT2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 189
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 190
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 90
+			},
+			{
+				"surgeryType": "PLS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 212
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "URO2Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 329
+			},
+			{
+				"surgeryType": "URO3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 336
+			}]
+		}],
+		"friday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "CAR1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": "CAR1Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 23
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "DEN10cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 287
+			},
+			{
+				"surgeryType": "DEN30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 301
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 75
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 77
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 78
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 81
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 82
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 83
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 84
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": "GAS20cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": "GAS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "GNS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 344
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 352
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 355
+			},
+			{
+				"surgeryType": "GNS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 362
+			},
+			{
+				"surgeryType": "GNS30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "NS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 47
+			},
+			{
+				"surgeryType": "NS20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 60
+			},
+			{
+				"surgeryType": "NS3Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": "EYE20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "EYE20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 6
+			},
+			{
+				"surgeryType": "EYE20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 11
+			},
+			{
+				"surgeryType": "EYE20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 12
+			},
+			{
+				"surgeryType": "EYE20cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 19
+			},
+			{
+				"surgeryType": "EYE30cluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": "ORT10cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": "ORT20cluster-3",
+				"isOverdue": false,
+				"daysUntilOverdue": 74
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 189
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 195
+			},
+			{
+				"surgeryType": "ENT3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 211
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": "PLS2Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 90
+			},
+			{
+				"surgeryType": "PLS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 349
+			},
+			{
+				"surgeryType": "PLS30cluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 350
+			},
+			{
+				"surgeryType": "PLS3Ncluster-1",
+				"isOverdue": false,
+				"daysUntilOverdue": 364
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": "URO2Ncluster-2",
+				"isOverdue": false,
+				"daysUntilOverdue": 87
+			}]
+		}],
+		"saturday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}],
+		"sunday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}]
+	}
+}

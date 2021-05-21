@@ -1,0 +1,31 @@
+<template name="chartsTab">
+    <div id="view-chartsTab">
+		<div class="row">
+			<div class="col s12" style="margin-bottom: 40px;text-align: center">
+				<div class="tabsRow" >
+					<ul class="tabs chartsTabs" style="width: 600px">
+						<li class="tab col s3"><a class="active" href="#chart2Tab">Sessions</a></li>
+						<li class="tab col s3"><a href="#patientsTab">Patients</a></li>
+						<li class="tab col s3 "><a href="#chart3Tab">Beds</a></li>
+					</ul>
+				</div>
+
+
+			</div>
+		</div>
+
+        <div class="row">
+
+            <div id="patientsTab" class="col s12">
+                {{> patientsTab}}
+            </div>
+            <div id="chart2Tab" class="col s12">
+				{{> sessionTab}}
+			</div>
+            <div id="chart3Tab" class="col s12">
+				{{> bedsTab}}
+			</div>
+        </div>
+
+    </div>
+</template>

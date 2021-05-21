@@ -1,0 +1,191 @@
+<head>
+	<!-- make sure this app can be properly displayed on a mobile device -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+
+</head>
+<body>
+
+{{> sAlert}}
+<div class="overlay-background">
+</div>
+<div class="backdrop">
+
+</div>
+</body>
+
+<template name="layout">
+
+	{{!-- The main layout template --}}
+
+	{{#if lostConnection}}
+		{{>connecting}}
+	{{/if}}
+
+
+	{{!-- if the user is logged in show the header and main yield --}}
+	<div class="layout-div1">
+		<div class="row layout-div2" >
+
+			{{#if currentUser}}
+				<div class="col s12 no-padding" style="height: 98px">
+					{{> header}}
+				</div>
+			{{/if}}
+
+			<div class="col s12" id="main">
+				<div class="container mainContainer" style="height: 100%">
+					{{> yield}}
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="maxPerformance" class="modal maxPerformance">
+		<i href="#!" class="fa fa-times fa-2x modal-action modal-close waves-effect btn-flat"
+		   aria-hidden="true"></i>
+		<div class="modal-content">
+
+			<div class="titleModal">
+				<span class="titleMedium">Maximise Hospital Performance</span>
+			</div>
+			<div class="container">
+				<form style="text-align: left; margin-top: 40px">
+					<div class="input-field col s12 inputTitle">
+						<input id="newRunLabel"
+							   aria-required="true"
+							   class="notSelected newRunLabelMax"
+							   type="text"
+
+						>
+						<label id="labelRun" for="newRunLabel" data-error="Provide A Name">Scenario name </label>
+					</div>
+					<div class=" row rowForm">
+
+
+						<input type="checkbox" id="minWaitListCB" />
+						<label for="minWaitListCB">Minimise waitlist</label>
+					</div>
+					<div class="row rowForm">
+						<input type="checkbox" id="minOverdueCB"/>
+						<label for="minOverdueCB">Minimise overdue</label>
+					</div>
+					<div class="row">
+						<input
+								required="" aria-required="true"
+								class="validate modalInputText extraBedsInput" value="0"
+								allowed-pattern="[0-9]"
+								min="0"
+								max="10"
+								type="number"
+								style="display: inline !important;"
+						>
+						<!--textarea class="materialize-textarea modalInputText extraBedsInput" value=0></textarea-->
+						<label>Extra beds</label>
+					</div>
+					<div class="row">
+						<input
+								required="" aria-required="true"
+								class="validate  modalInputText extraIcuInput" value="0"
+								allowed-pattern="[0-9]"
+								min="0"
+								max="10"
+								type="number"
+								style="display: inline !important;"
+						>
+						<!--textarea id="textarea2" class="materialize-textarea modalInputText extraIcuInput"
+								  value=0></textarea-->
+						<label>
+							Extra ICU
+						</label>
+					</div>
+
+
+					<div class="col s12 col-no-padding"
+						 style="margin-top:20px;padding: 0px; padding-right: 50px;padding-left: 50px;text-align: center">
+						<span class="headerGeneric setupTitle">{{runTime}} minutes</span>
+						<div class="range-field">
+							<input class="ranger rangeTime notSelected" type="range" data-tooltip="I am tooltip"
+								   id="runTime" value="10" min="1" max="60"/>
+							<label class="labelLight">Maximum run time</label>
+						</div>
+					</div>
+					<div class="col s12 col-no-padding"
+						 style="margin-top:20px;padding: 0px; padding-right: 50px;padding-left: 50px;text-align: center">
+						<span class="headerGeneric setupTitle">{{gap}}% </span>
+						<div class="range-field">
+							<input class="rangeOptimality notSelected" type="range" id="minGap" min="90" max="100"
+								   step="0.1"
+								   value="99"/>
+							<label class="labelLight">Accuracy</label>
+						</div>
+					</div>
+					<div class="row" style="text-align: center;" >
+						<a href="#!"
+						   class="btn btnModal modal-action modal-close waves-effect waves-blue submitMaxPerformance">Run</a>
+					</div>
+				</form>
+
+
+			</div>
+
+
+		</div>
+	</div>
+
+	<div id="tunePerformance" class="modal tunePerformance">
+		<i href="#!" class="fa fa-times fa-2x modal-action modal-close waves-effect btn-flat"
+		   aria-hidden="true"></i>
+		<div class="modal-content">
+
+			<div class="titleModal">
+				<span class="titleMedium">Fine Tune Optimisation</span>
+			</div>
+			<div class="container">
+				<form>
+					<div class="input-field col s12 inputTitle">
+						<input id="newRunLabel"
+							   aria-required="true"
+							   class="notSelected newRunLabelTune"
+							   type="text"
+						>
+						<label id="labelRun" for="newRunLabel" data-error="Provide A Name">Scenario name</label>
+					</div>
+					<div class="dynamicFieldsContainer" style="margin-top: 10px">
+						{{#each myStrategy.parameters}}
+							{{>parameterInput}}
+						{{/each}}
+					</div>
+					<div class="col s12 col-no-padding"
+						 style="margin-top:20px;padding: 0px; padding-right: 100px ;padding-left: 100px;text-align: center">
+						<span class="headerGeneric setupTitle">{{runTime}} minutes</span>
+						<div class="range-field">
+							<input class=" ranger rangeTime notSelected" type="range" data-tooltip="I am tooltip"
+								   id="runTime" value="10" min="1" max="60"/>
+							<label class="labelLight" fp>Maximum run time</label>
+						</div>
+					</div>
+					<div class="col s12 col-no-padding"
+						 style="margin-top:20px;padding: 0px; padding-right: 100px;padding-left: 100px;text-align: center">
+						<span class="headerGeneric setupTitle">{{gap}}% </span>
+						<div class="range-field">
+							<input class="rangeOptimality notSelected"
+								   type="range" id="minGap" min="90" max="100"
+								   step="0.1"
+								   value="99"/>
+							<label class="labelLight">Accuracy</label>
+							<label class="labelLight">Accuracy</label>
+						</div>
+					</div>
+					<div class="row" style="text-align: center">
+						<a href="#!" class="btn btnModal modal-action modal-close waves-effect waves-blue submitTune">Run</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</template>
+
+
+

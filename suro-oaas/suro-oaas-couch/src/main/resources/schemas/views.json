@@ -1,0 +1,184 @@
+[
+  {
+	"docName" 		: 	"CouchDbDataSet",
+	"repoType"		:	"com.ibm.au.optim.suro.model.store.DataSetRepository",
+	"repoInstance"	:	"com.ibm.au.optim.suro.model.store.impl.couch.CouchDbDataSetRepository",
+	"repoAttribute" :	"repo:dataset:instance",
+	"views"			: 	{
+      "by_modelId" : {
+        "map" : "function(doc) { if (doc.cdbData) { emit(doc.content.modelId, doc._id); } }"
+      }
+	}
+  },
+  {
+	"docName"		:	"CouchDbTemplate",
+	"repoType"		:	"com.ibm.au.optim.suro.model.store.TemplateRepository",
+	"repoInstance"	:	"com.ibm.au.optim.suro.model.store.impl.couch.CouchDbTemplateRepository",
+	"repoAttribute" :	"repo:template:instance",
+	"views" 		: 	{
+      "by_modelId" : {
+        "map" : "function(doc) { if (doc.cdbTemplate) { emit(doc.content.modelId, doc._id); } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbModel",
+	"repoType"		:	"com.ibm.au.optim.suro.model.store.ModelRepository",
+	"repoInstance"	:	"com.ibm.au.optim.suro.model.store.impl.couch.CouchDbModelRepository",
+	"repoAttribute" :	"repo:model:instance",
+    "views" 		: {
+      "by_defaultFlag" : {
+        "map" : "function(doc) { if (doc.cdbModel && doc.content.default === true) { emit(null, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbRun",
+	"repoType"		:	"com.ibm.au.optim.suro.model.store.RunRepository",
+	"repoInstance"	:	"com.ibm.au.optim.suro.model.store.impl.couch.CouchDbRunRepository",
+	"repoAttribute" :	"repo:run:instance",
+    "views" 		: {
+      "by_jobId" : {
+        "map" : "function(doc) { if (doc.cdbRun && doc.content.jobId) { emit(doc.content.jobId, doc._id) } }"
+      },
+      "by_templateId": {
+        "map" : "function(doc) { if (doc.cdbRun && doc.content.templateId) { emit(doc.content.templateId, doc._id) } }"
+      },
+      "by_modelId": {
+        "map" : "function(doc) { if (doc.cdbRun && doc.content.modelId) { emit(doc.content.modelId, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbRunDetails",
+	"repoType"		:	"com.ibm.au.optim.suro.model.store.RunDetailsRepository",
+	"repoInstance"	:	"com.ibm.au.optim.suro.model.store.impl.couch.CouchDbRunDetailsRepository",
+	"repoAttribute" :	"repo:details:instance",
+    "views" 		: {
+      "by_runId" : {
+        "map" : "function(doc) { if (doc.cdbRunDetails && doc.content.runId) { emit(doc.content.runId, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbSystemPreference",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.admin.preference.SystemPreferenceRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.admin.preference.impl.couch.CouchDbSystemPreferenceRepository",
+    "repoAttribute" :	"repo:preference:instance",
+    "views" 		: {
+      "by_name" : {
+        "map" : "function(doc) { if (doc.cdbPreference && doc.content.name) { emit(doc.content.name, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbRegion",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.RegionRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.impl.couch.CouchDbRegionRepository",
+    "repoAttribute" :	"repo:region:instance",
+    "views" 		: {
+      "by_name" : {
+        "map" : "function(doc) { if (doc.cdbRegion && doc.content.name) { emit(doc.content.name, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbHospital",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.HospitalRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.impl.couch.CouchDbHospitalRepository",
+    "repoAttribute" :	"repo:hospital:instance",
+    "views" 		: {
+      "by_name" : {
+        "map" : "function(doc) { if (doc.cdbHospital && doc.content.regionId) { emit(doc.content.regionId, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbBasePlanList",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.ingestion.BasePlanListRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.ingestion.impl.couch.CouchDbBasePlanListRepository",
+    "repoAttribute" :	"repo:baseplan:instance",
+    "views" 		: {
+      "by_time" : {
+        "map" : "function(doc) { if (doc.cdbBasePlanList) { emit(doc.content.timestamp, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbWaitingPatientList",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.ingestion.WaitingPatientListRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.ingestion.impl.couch.CouchDbWaitingPatientListRepository",
+    "repoAttribute" :	"repo:waitingpatientlist:instance",
+    "views" 		: {
+      "by_time" : {
+        "map" : "function(doc) { if (doc.cdbWaitingPatientList) { emit(doc.content.timestamp, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbIcuAvailabilities",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.ingestion.IcuAvailabilitiesRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.ingestion.impl.couch.CouchDbIcuAvailabilitiesRepository",
+    "repoAttribute" :	"repo:icuavailabilities:instance",
+    "views" 		: {
+      "by_time" : {
+        "map" : "function(doc) { if (doc.cdbIcuAvailabilities) { emit(doc.content.timestamp, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbWardAvailabilities",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.ingestion.WardAvailabilitiesRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.ingestion.impl.couch.CouchDbWardAvailabilitiesRepository",
+    "repoAttribute" :	"repo:wardavailabilities:instance",
+    "views" 		: {
+      "by_time" : {
+        "map" : "function(doc) { if (doc.cdbWardAvailabilities) { emit(doc.content.timestamp, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbSpecialistAvailabilities",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.ingestion.SpecialistAvailabilitiesRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.ingestion.impl.couch.CouchDbSpecialistAvailabilitiesRepository",
+    "repoAttribute" :	"repo:specialistavailabilities:instance",
+    "views" 		: {
+      "by_time" : {
+        "map" : "function(doc) { if (doc.cdbSpecialistAvailabilities) { emit(doc.content.timestamp, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbArrivingPatient",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.learning.ArrivingPatientRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.learning.impl.couch.CouchDbArrivingPatientRepository",
+    "repoAttribute" :	"repo:arrivingpatient:instance",
+    "views" 		: {
+      "by_time" : {
+        "map" : "function(doc) { if (doc.cdbArrivingPatient) { emit(doc.content.arrivalTime, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbInitialPatientList",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.learning.InitialPatientListRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.learning.impl.couch.CouchDbInitialPatientListRepository",
+    "repoAttribute" :	"repo:initialpatientlist:instance",
+    "views" 		: {
+      "by_time" : {
+        "map" : "function(doc) { if (doc.cdbInitialPatientList) { emit(doc.content.timestamp, doc._id) } }"
+      }
+    }
+  },
+  {
+    "docName" 		:	"CouchDbSurgeryClusterList",
+    "repoType"		:	"com.ibm.au.optim.suro.model.store.domain.learning.SurgeryClusterListRepository",
+    "repoInstance"	:	"com.ibm.au.optim.suro.model.store.domain.learning.impl.couch.CouchDbSurgeryClusterListRepository",
+    "repoAttribute" :	"repo:surgeryclusterlist:instance",
+    "views" 		: {
+      "by_time" : {
+        "map" : "function(doc) { if (doc.cdbSurgeryClusterList) { emit(doc.content.timestamp, doc._id) } }"
+      }
+    }
+  }
+]

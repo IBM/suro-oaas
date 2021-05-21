@@ -1,0 +1,20 @@
+
+<template name="header">
+    <div id="view-header">
+        <div class="col dropDownColumn col-no-padding dropdown-button"  data-activates='dropdown1'>
+			<a href="#"    class="">
+				<span class="fa fa-angle-down arrowDownButton"></span>
+			</a>
+			{{>sidebarMenu}}
+        </div>
+        <div class="col s6" >
+            <span class="suroTitle bold ibmLogo">IBM</span>
+			<span class="suroTitle"> Surgical Unit Resource Optimization</span>
+        </div>
+        <div class="col s3 right header-menu">
+			<span>{{currentNavigation}}</span>
+		</div>
+    </div>
+</template>
+
+

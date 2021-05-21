@@ -1,0 +1,15 @@
+language: java
+group: bluezone
+install:
+  # mvn -f suro-oaas-parent/pom.xml --settings private/travis/settings.xml -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true -Dhttps.protocols=TLSv1.2 clean deploy
+  - mvn -f suro-oaas-parent/pom.xml --settings private/travis/settings.xml -Dhttps.protocols=TLSv1.2 clean deploy
+script:
+  - sh private/travis/deploy.sh
+cache:
+  directories:
+    - ~/.m2
+branches:
+  only:
+    - master
+    - production
+

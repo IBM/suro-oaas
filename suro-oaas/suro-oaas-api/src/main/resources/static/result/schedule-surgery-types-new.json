@@ -1,0 +1,884 @@
+{
+	"CS1cluster-1": {
+		"medicalUnitID": 11,
+		"urgencyCategory": 1,
+		"duration": 360.0,
+		"lengthOfStay": 12.0,
+		"icuRequirementProbability": 1.0
+	},
+	"CS1cluster-2": {
+		"medicalUnitID": 11,
+		"urgencyCategory": 1,
+		"duration": 135.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.5
+	},
+	"CS2cluster-1": {
+		"medicalUnitID": 11,
+		"urgencyCategory": 2,
+		"duration": 255.0,
+		"lengthOfStay": 7.0,
+		"icuRequirementProbability": 1.0
+	},
+	"CS2cluster-2": {
+		"medicalUnitID": 11,
+		"urgencyCategory": 2,
+		"duration": 450.0,
+		"lengthOfStay": 14.0,
+		"icuRequirementProbability": 1.0
+	},
+	"CS3cluster-1": {
+		"medicalUnitID": 11,
+		"urgencyCategory": 3,
+		"duration": 255.0,
+		"lengthOfStay": 4.0,
+		"icuRequirementProbability": 1.0
+	},
+	"CS3cluster-2": {
+		"medicalUnitID": 11,
+		"urgencyCategory": 3,
+		"duration": 420.0,
+		"lengthOfStay": 12.0,
+		"icuRequirementProbability": 1.0
+	},
+	"CAR10cluster-1": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 1,
+		"duration": 90.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"CAR1Ncluster-1": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 1,
+		"duration": 255.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.25
+	},
+	"CAR1Ncluster-2": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 1,
+		"duration": 135.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.0
+	},
+	"CAR20cluster-1": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 2,
+		"duration": 120.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"CAR2Ncluster-1": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 2,
+		"duration": 135.0,
+		"lengthOfStay": 1.0,
+		"icuRequirementProbability": 0.0
+	},
+	"CAR2Ncluster-2": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 2,
+		"duration": 225.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"CAR30cluster-1": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 3,
+		"duration": 120.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"CAR3Ncluster-1": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 3,
+		"duration": 225.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"CAR3Ncluster-2": {
+		"medicalUnitID": 12,
+		"urgencyCategory": 3,
+		"duration": 120.0,
+		"lengthOfStay": 1.0,
+		"icuRequirementProbability": 0.25
+	},
+	"DEN10cluster-1": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 1,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"DEN1Ncluster-1": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 1,
+		"duration": 75.0,
+		"lengthOfStay": 1.0,
+		"icuRequirementProbability": 0.25
+	},
+	"DEN10cluster-2": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 1,
+		"duration": 90.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"DEN20cluster-1": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 2,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"DEN2Ncluster-1": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 2,
+		"duration": 105.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"DEN20cluster-2": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 2,
+		"duration": 105.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"DEN30cluster-1": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 3,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"DEN3Ncluster-1": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 3,
+		"duration": 105.0,
+		"lengthOfStay": 1.0,
+		"icuRequirementProbability": 0.25
+	},
+	"DEN30cluster-2": {
+		"medicalUnitID": 13,
+		"urgencyCategory": 3,
+		"duration": 120.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GAS10cluster-1": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 1,
+		"duration": 15.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"GAS1Ncluster-1": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 1,
+		"duration": 60.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.25
+	},
+	"GAS10cluster-2": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 1,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GAS20cluster-1": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 2,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GAS2Ncluster-1": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 2,
+		"duration": 45.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GAS20cluster-2": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 2,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GAS30cluster-1": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 3,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GAS3Ncluster-1": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 3,
+		"duration": 60.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"GAS30cluster-2": {
+		"medicalUnitID": 15,
+		"urgencyCategory": 3,
+		"duration": 15.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GNS10cluster-1": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 1,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GNS1Ncluster-1": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 1,
+		"duration": 90.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"GNS10cluster-2": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 1,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"GNS1Ncluster-2": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 1,
+		"duration": 165.0,
+		"lengthOfStay": 34.0,
+		"icuRequirementProbability": 0.5
+	},
+	"GNS20cluster-1": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 2,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GNS2Ncluster-1": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 2,
+		"duration": 120.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"GNS20cluster-2": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 2,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"GNS2Ncluster-2": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 2,
+		"duration": 165.0,
+		"lengthOfStay": 32.0,
+		"icuRequirementProbability": 0.25
+	},
+	"GNS30cluster-1": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 3,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GNS3Ncluster-1": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 3,
+		"duration": 90.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GNS30cluster-2": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 3,
+		"duration": 90.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"GNS3Ncluster-2": {
+		"medicalUnitID": 16,
+		"urgencyCategory": 3,
+		"duration": 465.0,
+		"lengthOfStay": 34.0,
+		"icuRequirementProbability": 1.0
+	},
+	"NS10cluster-1": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 1,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"NS1Ncluster-1": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 1,
+		"duration": 255.0,
+		"lengthOfStay": 4.0,
+		"icuRequirementProbability": 0.25
+	},
+	"NS1Ncluster-2": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 1,
+		"duration": 480.0,
+		"lengthOfStay": 46.0,
+		"icuRequirementProbability": 1.0
+	},
+	"NS20cluster-1": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 2,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"NS2Ncluster-1": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 2,
+		"duration": 450.0,
+		"lengthOfStay": 6.0,
+		"icuRequirementProbability": 0.25
+	},
+	"NS2Ncluster-2": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 2,
+		"duration": 135.0,
+		"lengthOfStay": 4.0,
+		"icuRequirementProbability": 0.25
+	},
+	"NS30cluster-1": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 3,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"NS3Ncluster-1": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 3,
+		"duration": 105.0,
+		"lengthOfStay": 4.0,
+		"icuRequirementProbability": 0.25
+	},
+	"NS3Ncluster-2": {
+		"medicalUnitID": 18,
+		"urgencyCategory": 3,
+		"duration": 405.0,
+		"lengthOfStay": 5.0,
+		"icuRequirementProbability": 0.0
+	},
+	"EYE10cluster-1": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 1,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"EYE1Ncluster-1": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 1,
+		"duration": 105.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.0
+	},
+	"EYE10cluster-2": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 1,
+		"duration": 105.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"EYE20cluster-1": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 2,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"EYE2Ncluster-1": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 2,
+		"duration": 75.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"EYE20cluster-2": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 2,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"EYE30cluster-1": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 3,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"EYE3Ncluster-1": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 3,
+		"duration": 90.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"EYE30cluster-2": {
+		"medicalUnitID": 19,
+		"urgencyCategory": 3,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ORT10cluster-1": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 1,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ORT1Ncluster-1": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 1,
+		"duration": 90.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ORT10cluster-2": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 1,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ORT1Ncluster-2": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 1,
+		"duration": 120.0,
+		"lengthOfStay": 52.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT10cluster-3": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 1,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT1Ncluster-3": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 1,
+		"duration": 360.0,
+		"lengthOfStay": 9.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT20cluster-1": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 2,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ORT2Ncluster-1": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 2,
+		"duration": 90.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT20cluster-2": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 2,
+		"duration": 90.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ORT2Ncluster-2": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 2,
+		"duration": 255.0,
+		"lengthOfStay": 6.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT20cluster-3": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 2,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT2Ncluster-3": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 2,
+		"duration": 315.0,
+		"lengthOfStay": 34.0,
+		"icuRequirementProbability": 0.5
+	},
+	"ORT30cluster-1": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 3,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ORT3Ncluster-1": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 3,
+		"duration": 105.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT30cluster-2": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 3,
+		"duration": 105.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT3Ncluster-2": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 3,
+		"duration": 315.0,
+		"lengthOfStay": 29.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ORT30cluster-3": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 3,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ORT3Ncluster-3": {
+		"medicalUnitID": 20,
+		"urgencyCategory": 3,
+		"duration": 255.0,
+		"lengthOfStay": 6.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT10cluster-1": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 1,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT1Ncluster-1": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 1,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT10cluster-2": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 1,
+		"duration": 15.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT1Ncluster-2": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 1,
+		"duration": 165.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT20cluster-1": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 2,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT2Ncluster-1": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 2,
+		"duration": 75.0,
+		"lengthOfStay": 1.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT20cluster-2": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 2,
+		"duration": 120.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT2Ncluster-2": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 2,
+		"duration": 255.0,
+		"lengthOfStay": 1.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT30cluster-1": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 3,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT3Ncluster-1": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 3,
+		"duration": 210.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.0
+	},
+	"ENT30cluster-2": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 3,
+		"duration": 195.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"ENT3Ncluster-2": {
+		"medicalUnitID": 21,
+		"urgencyCategory": 3,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS10cluster-1": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 1,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS1Ncluster-1": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 1,
+		"duration": 105.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS10cluster-2": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 1,
+		"duration": 105.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS1Ncluster-2": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 1,
+		"duration": 450.0,
+		"lengthOfStay": 5.0,
+		"icuRequirementProbability": 0.5
+	},
+	"PLS10cluster-3": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 1,
+		"duration": 75.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS1Ncluster-3": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 1,
+		"duration": 180.0,
+		"lengthOfStay": 8.0,
+		"icuRequirementProbability": 0.5
+	},
+	"PLS20cluster-1": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 2,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS2Ncluster-1": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 2,
+		"duration": 120.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.0
+	},
+	"PLS20cluster-2": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 2,
+		"duration": 105.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS2Ncluster-2": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 2,
+		"duration": 390.0,
+		"lengthOfStay": 5.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS20cluster-3": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 2,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"PLS2Ncluster-3": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 2,
+		"duration": 210.0,
+		"lengthOfStay": 4.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS30cluster-1": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 3,
+		"duration": 90.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS3Ncluster-1": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 3,
+		"duration": 240.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.0
+	},
+	"PLS30cluster-2": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 3,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS3Ncluster-2": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 3,
+		"duration": 420.0,
+		"lengthOfStay": 6.0,
+		"icuRequirementProbability": 0.0
+	},
+	"PLS30cluster-3": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 3,
+		"duration": 135.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"PLS3Ncluster-3": {
+		"medicalUnitID": 22,
+		"urgencyCategory": 3,
+		"duration": 120.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO10cluster-1": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 1,
+		"duration": 15.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"URO1Ncluster-1": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 1,
+		"duration": 120.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO10cluster-2": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 1,
+		"duration": 90.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO1Ncluster-2": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 1,
+		"duration": 180.0,
+		"lengthOfStay": 36.0,
+		"icuRequirementProbability": 0.5
+	},
+	"URO10cluster-3": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 1,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO20cluster-1": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 2,
+		"duration": 60.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO2Ncluster-1": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 2,
+		"duration": 105.0,
+		"lengthOfStay": 2.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO20cluster-2": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 2,
+		"duration": 90.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO2Ncluster-2": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 2,
+		"duration": 240.0,
+		"lengthOfStay": 6.0,
+		"icuRequirementProbability": 0.0
+	},
+	"URO20cluster-3": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 2,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO30cluster-1": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 3,
+		"duration": 30.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO3Ncluster-1": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 3,
+		"duration": 105.0,
+		"lengthOfStay": 3.0,
+		"icuRequirementProbability": 0.0
+	},
+	"URO30cluster-2": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 3,
+		"duration": 105.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.0
+	},
+	"URO3Ncluster-2": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 3,
+		"duration": 90.0,
+		"lengthOfStay": 37.0,
+		"icuRequirementProbability": 0.25
+	},
+	"URO30cluster-3": {
+		"medicalUnitID": 23,
+		"urgencyCategory": 3,
+		"duration": 45.0,
+		"lengthOfStay": 0.0,
+		"icuRequirementProbability": 0.25
+	}
+}

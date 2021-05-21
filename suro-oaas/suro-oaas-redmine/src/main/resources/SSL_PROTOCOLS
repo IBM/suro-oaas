@@ -1,0 +1,7 @@
+# This file contains the list of the SSL protocols names, as understood by the Java Cryptography API
+# that will be used to establish secure connections with the remove endpoint point. The protocol files
+# should be added one per line.
+#
+# By default we adopt strong security and therefore we only allow for TLSv1.2
+
+TLSv1.2

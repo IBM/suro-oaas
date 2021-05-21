@@ -1,0 +1,90 @@
+[
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.DepartmentInputComponent",
+    "sections": {
+      "1": "DEPARTMENTS"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.SpecialistAvailabilityInputComponent",
+    "sections": {
+      "2": "SPECIALIST_INFO"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.WardInfoInputComponent",
+    "sections": {
+      "3": "WARD_INFO",
+      "16": "wardIds"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.ArrivingPatientInputComponent",
+    "sections": {
+      "5": "arrivingPatientInfo"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.InitialPatientInputComponent",
+    "sections": {
+      "8": "initialPatientInfo"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.SpecialistInputComponent",
+    "sections": {
+      "13": "specialistIds"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.BasePlanInputComponent",
+    "sections": {
+      "17": "BASE_PLAN_INFO"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.SurgeryClusterInputComponent",
+    "sections": {
+      "18": "SURGERIES"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.MaxWaitInputComponent",
+    "sections": {
+      "21": "maxWaitListStay"
+    }
+  },
+  {
+    "componentClassName": "com.ibm.au.optim.suro.core.composer.components.StaticInputComponent",
+    "sections": {
+      "4": "allocatedSessionsFixed",
+      "6": "baseConfigParams",
+      "7": "fixedParams",
+      "9": "objFunParams",
+      "10": "optimisationParams",
+      "11": "rollingTimeParams",
+      "12": "scenarioParams",
+      "14": "timingParams",
+      "15": "treatedPatientsFixed",
+      "19": "endDayOfPerformanceMeasurement",
+      "20": "fractionForPoint",
+      "22": "nOnTimeBeforeHorizon",
+      "23": "nOverDueBeforeHorizon"
+    },
+    "metadata": {
+      "endDayOfPerformanceMeasurement": "[91 183 273 365]",
+      "allocatedSessionsFixed": "{}",
+      "treatedPatientsFixed": "{}",
+      "baseConfigParams": "<28 240>",
+      "fixedParams": "<3 4 28 3>",
+      "objFunParams": "<0 560 36000>",
+      "optimisationParams": "<0.01 1 400 600>",
+      "rollingTimeParams": "<7 1>",
+      "scenarioParams": "<1000 0 0 50 20 \"_RunMadeUpHospitalDataFromODMEnterprise\" 14 4 1>",
+      "timingParams": "<365 1>",
+      "fractionForPoint": "[[[0.65 0.7 0.75] [0.65 0.7 0.75] [0.7 0.75 0.8] [0.7 0.75 0.8]] [[0.83 0.88 0.93] [0.83 0.88 0.93] [0.845 0.895 0.945] [0.845 0.895 0.945]]]",
+      "nOnTimeBeforeHorizon": "[0 0]",
+      "nOverDueBeforeHorizon": "[0 0]"
+    }
+  }
+]

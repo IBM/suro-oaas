@@ -1,0 +1,16 @@
+[
+	{ "type": "property", "name": "default-behaviour", "value": "Deny" },
+	{ "type": "property", "name": "default-answer",    "value": 401 },
+	{ "type": "property", "name": "auth-login",        "value": "/auth/login" },
+	{ "type": "property", "name": "auth-logout",       "value": "/auth/logout" },
+	{ "type": "property", "name": "expire-time",       "value": 5 },
+	{ "type": "property", "name": "password-hash",     "value": "none"},
+
+
+	{ "type" : "rule", "endpoint": "r:^/templates(.*)", "verbs" : { "GET" : [ "users" ] , "POST" : [ "users" ], "PUT" : [ "users" ],  "DELETE": [ "users" ] } },
+	{ "type" : "rule", "endpoint": "r:^/runs(.*)", "verbs" : { "GET" : [ "users" ] , "POST" : [ "users" ], "PUT" : [ "users" ],  "DELETE": [ "users" ] } },
+	{ "type" : "rule", "endpoint": "r:^/datasets(.*)", "verbs" : { "GET" : [ "users" ] , "POST" : [ "users" ], "PUT" : [ "users" ],  "DELETE": [ "users" ] } },
+	{ "type" : "rule", "endpoint": "r:^/hospitals(.*)", "verbs" : { "GET" : [ "users" ] , "POST" : [ "users" ], "PUT" : [ "users" ],  "DELETE": [ "users" ] } },
+    { "type" : "rule", "endpoint": "r:^/feedback(.*)", "verbs" : { "GET" : [ "users" ] , "POST" : [ "users" ], "PUT" : [ "users" ],  "DELETE": [ "users" ] } },
+	{ "type" : "rule", "endpoint": "r:^/models(.*)", "verbs" : { "GET" : [ "users" ] , "POST" : [ "users" ], "PUT" : [ "users" ],  "DELETE": [ "users" ] } }
+]

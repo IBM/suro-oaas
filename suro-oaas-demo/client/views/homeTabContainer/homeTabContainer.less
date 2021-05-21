@@ -1,0 +1,125 @@
+@import "../variables";
+
+#view-homeTabContainer {
+  .dateLabel {
+    margin-top: 30px;
+  }
+
+  .rowNavigation {
+    .indicator {
+      display: none;
+    }
+    .extendedDiv {
+      width: auto;
+      height: 78px;
+      background-color: white;
+      overflow: hidden;
+      border-bottom: 2px solid #C7C7C7;
+
+    }
+    .navTabs {
+      float: left;
+
+      background-color: white;
+      height: 78px;
+      width: auto;
+      overflow: hidden;
+      ul {
+        margin: 0px;
+        width: 968px !important;
+      }
+      li {
+        text-align: center;
+        width: 484px;
+        height: 78px;
+        background-color: #F9F9F9;
+
+        line: 42px;
+        character: 0px;
+        border-right: 1px solid @borderGrey;
+        border-left: 1px solid @borderGrey;
+        a {
+          border-bottom: 1px solid @borderGrey;
+          padding-top: 18px;
+          font-size: 22px;
+          color: #575769;
+          font-family: 'Helvetica Neue';
+          text-transform: none;
+        }
+      }
+      .active {
+        background-color: white;
+        height: 78px;
+        border-bottom: 1px solid #FFFFFF;
+
+        color:#3A6EB7 !important;
+      }
+
+      .tabs {
+        height: 78px;
+      }
+    }
+
+    .buttonHome {
+      cursor: pointer;
+      float: left;
+      display: inline-block;
+      width: 246px;
+      background-color: #457BBD;
+      padding-left: 110px;
+      height: 78px;
+      color: white;
+      i {
+        font-size: 2.9rem;
+        padding-top: 18px;
+        color: white;
+      }
+    }
+
+  }
+
+  #topContainer {
+    height: 220px;
+    background-color: #D3E9F2;
+    padding-top: 60px;
+    color: #4E4E61;
+  }
+
+  ul.tabs {
+    background-color: transparent;
+    overflow-x: hidden;
+
+  }
+  .homeTabs {
+    color: #3e444c;
+
+  }
+  .toggRow {
+    position: relative;
+
+
+    .centerLine{
+      margin: auto;
+      height: 35px;
+      width: 700px;
+      border-bottom: 1px solid @primaryBlue;
+      position: relative;
+    }
+    height: 70px;
+    .toggleMore {
+      width: 100px;
+      background-color: white !important;
+      border: white !important;
+      position: absolute;
+      color: #457bbd !important;
+      box-shadow: none !important;
+      left: 300px;
+    }
+    .toggleText {
+      font-size: 26px;
+
+    }
+
+  }
+
+}

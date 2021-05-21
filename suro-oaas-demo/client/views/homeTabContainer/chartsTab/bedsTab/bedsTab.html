@@ -1,0 +1,138 @@
+<template name="bedsTab">
+	<div id="view-bedsTab">
+
+
+
+
+
+		{{#if solutionAvailable}}
+
+			<div class="row">
+				<div class="col s12">
+					{{#if groupByIs 'department'}}
+						<input type="checkbox" id="collapse-beds" name="collapse-beds" /> <label for="collapse-beds">Collapse</label>
+					{{/if}}
+				</div>
+				<div class="col s12">
+					<div id="beds-chart">{{renderBedsChart}}</div>
+				</div>
+
+				<div class="col s12 table-data">
+
+					<a href="#" id="expand-beds-data">
+						<span>Show Table Data</span>
+						<span style="display: none;">Hide Table Data</span>
+					</a>
+
+					<table class="striped" id="beds-data" style="display: none;">
+						<thead>
+						<tr>
+							<th></th>
+							{{#each for 1 4}}
+								{{#if weekdaysOnly}}
+									{{#each weekday}}
+										<th>{{short}}</th>
+									{{/each}}
+								{{else}}
+									{{#if weekView}}
+										<th>Week {{this}}</th>
+									{{else}}
+										{{#each day}}
+											<th>{{short}}</th>
+										{{/each}}
+									{{/if}}
+								{{/if}}
+							{{/each}}
+						</tr>
+						</thead>
+						<tbody>
+						{{#each tableViewChartData}}
+							<tr>
+								<td title="{{id}}">{{id}}</td>
+								{{#each values}}
+									<td>{{value}}</td>
+								{{/each}}
+							</tr>
+						{{/each}}
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+
+		{{/if}}
+		<div class="row">
+			<div class="col s12 filters">
+				<a class="dropdown-button btn beds-dropdown-trigger" href="#" data-activates="beds-dropdown">Bed Type
+					<i class="fa fa-caret-down pull-right"></i>
+				</a>
+
+
+				<ul id="beds-dropdown" class="dropdown-content">
+					<li>
+						<input type="radio" name="beds-show" id="show-beds" data-beds="beds" checked="checked" />
+						<label for="show-beds">Ward Beds</label>
+					</li>
+					<li>
+						<input type="radio" name="beds-show" id="show-icus" data-beds="icus" />
+						<label for="show-icus">ICU Beds</label>
+					</li>
+				</ul>
+
+
+				<!-- Dropdown Trigger -->
+				<a class="dropdown-button btn beds-dropdown-trigger" href="#" data-activates="bedsdepartment-dropdown">Department
+					<i class="fa fa-caret-down pull-right"></i>
+				</a>
+				<!-- Dropdown Structure -->
+				<ul id="bedsdepartment-dropdown" class="dropdown-content" >
+					{{#each hospitalDepartments}}
+						<li>
+							<input type="checkbox" id="beds-department-filter-{{id}}" data-department-name="{{name}}" data-filter="beds-department" />
+							<label for="beds-department-filter-{{id}}">{{name}}</label>
+						</li>
+					{{/each}}
+				</ul>
+
+
+				<a class="dropdown-button btn beds-dropdown-trigger" href="#" data-activates="time-dropdown">Time
+					<i class="fa fa-caret-down pull-right"></i>
+				</a>
+
+
+				<ul id="time-dropdown" class="dropdown-content">
+					<li>
+						<input type="radio" name="beds-time" id="show-day" data-time="day" checked="checked" />
+						<label for="show-day">Per Day</label>
+					</li>
+					<li>
+						<input type="radio" name="beds-time" id="show-week" data-time="week" />
+						<label for="show-week">Per Week</label>
+					</li>
+				</ul>
+
+
+				<!-- Dropdown Trigger -->
+				<a class="dropdown-button btn beds-dropdown-trigger" href="#" data-activates="groupbyDropdown">Group by
+					<i class="fa fa-caret-down pull-right"></i>
+				</a>
+				<!-- Dropdown Structure -->
+				<ul id="groupbyDropdown" class="dropdown-content" >
+					<li>
+						<input class="with-gap" name="bedGroupExplode" data-beds-explode="beds" type="radio" id="bedsGroup1" checked="checked" />
+						<label for="bedsGroup1">Bed Types</label>
+					</li>
+					<li>
+						<input class="with-gap" name="bedGroupExplode" data-beds-explode="department" type="radio" id="bedsGroup2" />
+						<label for="bedsGroup2">Department</label>
+					</li>
+				</ul>
+
+
+
+			</div>
+		</div>
+
+
+	</div>
+</template>

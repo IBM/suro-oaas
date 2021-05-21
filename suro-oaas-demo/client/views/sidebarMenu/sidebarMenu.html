@@ -1,0 +1,47 @@
+<template name="sidebarMenu">
+	<div id="view-sidebarMenu">
+		<ul id="dropdown1" class="dropdown-content" style="width: 450px !important;">
+			<div id="menuBar" style="width: 100%">
+				{{#if showDefault}}
+				<div class="defaultPlanCard" id="defaultPlanCard">
+						<span class="sidebarTitleSmall " >
+							View Default Plan
+						</span>
+					<i class="fa fa-bar-chart fa-2x" aria-hidden="true" style="margin-left: 160px;font-size: 2rem"></i>
+
+				</div>
+				{{/if}}
+
+
+				{{#if showCompleted}}
+					<div>
+						<span class="sidebarTitleSmall" style="color: white">
+							Completed Scenarios
+						</span>
+					</div>
+					{{#each myRunsCompleted}}
+						{{>runCard}}
+					{{/each}}
+				{{/if}}
+
+				{{#if showProcessing}}
+					<li  class="runningScenarios">
+						<div  class="sidebarTitleSmall">
+							Running Scenarios
+						</div>
+
+					</li>
+					{{#each myRunsProcessing}}
+						{{>runCard}}
+					{{/each}}
+				{{/if}}
+
+				<!--a href="/user/{{currentUser._id}}" class="ease">{{currentUser.profile.name}}</a-->
+				<li id="logout" class="logoutLi"><div>Log out</div><div class="logoutIcon"><i class="fa fa-sign-out" aria-hidden="true"></i></div> </li>
+
+			</div>
+
+
+		</ul>
+	</div>
+</template>

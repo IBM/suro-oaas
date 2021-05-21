@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ibm.au.optim.suro</groupId>
+		<artifactId>suro-oaas-parent</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../suro-oaas-parent/pom.xml</relativePath>
+	</parent>
+
+	<groupId>com.ibm.au.optim.suro</groupId>
+	<artifactId>suro-oaas-test</artifactId>
+	<version>${suro-oaas.version}</version>
+	<name>Surgical Unit Resource Optimisation - Tests Support</name>
+	<description>This package contains utilities that are used to implement testing.</description>
+
+	<properties>
+		<oaas-client.version>1.0-STABLE-b41</oaas-client.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.ibm.au.jaws.web</groupId>
+			<artifactId>jaws-web-core</artifactId>
+			<version>${jaws.version}</version>
+		</dependency>
+
+
+	</dependencies>
+
+
+
+</project>

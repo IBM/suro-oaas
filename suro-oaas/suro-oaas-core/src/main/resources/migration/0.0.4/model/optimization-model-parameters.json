@@ -1,0 +1,70 @@
+[
+  {
+    "name"			: 	"inputWeightOverdue",
+    "label"			: 	"Overdue Waiting List",
+    "description"	: 	"Penalise the number of overdue patients still on the waiting list at the end of period. In general, there is a higher penalty for the overdue patients than on-time.",
+    "type"			: 	"INT",
+    "range"			: 	[ 0, 10 ],
+    "value"			:	0,
+    "objective"		:	"overdue"
+  },
+  {
+    "name"			: 	"inputWeightOntime",
+    "label"			: 	"On-time Waiting List",
+    "description"	: 	"Penalise the number of patients left on the waiting list and still on-time at the end of period.",
+    "type"			: 	"INT",
+    "range"			: 	[ 0, 10 ],
+    "value"			:	0
+  },
+  {
+    "name"			: 	"inputExtraNormalBeds",
+    "label"			:	"Extra Ward Beds",
+    "description"	: 	"The number of additional ward beds per day",
+    "type"			: 	"INT",
+    "range"			: 	[ 0, 500 ],
+    "value"			:	0
+  },
+  {
+    "name"			: 	"inputExtraIcuBeds",
+    "label"			: 	"Extra ICU Beds",
+    "description"	: 	"The number of additional ICU beds per day",
+    "type"			: 	"INT",
+    "range"			: 	[ 0, 50 ],
+    "value"			: 	0
+  },
+  {
+    "name"			: 	"inputPerformancePointBonus",
+    "label"			: 	"Performance Point Bonus",
+   	"description"	: 	"The bonus for each point in performance",
+    "type"			: 	"INT",
+    "range"			: 	[ 0, 100000 ],
+    "value"			:	0,
+    "objective"		:	"points"
+  },
+  {
+    "name"			: 	"inputLastPeriodOverduePatientPenalty",
+    "label"			: 	"Last Period Overdue Patient Penalty",
+    "description"	: 	"The penalty for the overdue patient on the last period",
+    "type"			: 	"INT",
+    "range"			: 	[ 0, 100 ],
+    "value"			:	0
+  },
+  {
+    "name"			: 	"inputPerPeriodWaitlistPatientPenalty",
+    "label"			: 	"Per Period Waitlist Patient Penalty",
+    "description"	: 	"The penalty for the patients on the waiting list for each period.",
+    "type"			: 	"INT",
+    "range"			: 	[ 0, 10 ],
+    "value"			:	0,
+    "objective"		:	"totalList"
+  },
+  {
+    "name"			: 	"inputUrgencyCategory1PatientPenalty",
+    "label"			:	"Urgency Category 1 Overdue Patient Penalty",
+    "description"	: 	"The penalty for initial overdue patients for urgency category 1",
+    "type"			: 	"INT",
+    "range"			: 	[ 0, 100000 ],
+    "value"			:	0,
+    "objective"		:	"cat1"
+  }
+]

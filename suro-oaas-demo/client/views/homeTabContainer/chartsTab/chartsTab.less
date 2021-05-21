@@ -1,0 +1,131 @@
+@import "../../variables";
+
+#view-chartsTab {
+  .tabsRow {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    li {
+      a {
+        background-color: @lightGrey;
+        color: @darkGrey;
+        border:1px solid @borderGrey;
+
+      }
+
+    }
+    .active {
+      background-color: @primaryBlue;
+      color: white !important;
+      border: 1px solid @primaryBlue;
+    }
+  }
+
+  .chartsTabs {
+    padding-right: 1px;
+  }
+
+  .tabs li.tab {
+    cursor: pointer;
+  }
+
+  .tabs .indicator {
+    display: none;
+    //height: 5px;
+    background-color: transparent !important;
+    height: 100%;
+    border: 1px solid @primaryBlue;
+  }
+  .tabs .indicator:last-child {
+    display: none;
+  }
+  .tabs .indicator.clicked:last-child {
+    display: block;
+  }
+
+  li.tab a {
+    //color:@blueText !important;
+    //opacity: 1;
+    //transition: opacity .25s ease-in-out;
+    //-moz-transition: opacity .25s ease-in-out;
+    //-webkit-transition: opacity .25s ease-in-out;
+  }
+
+  ul.tabs {
+    overflow-x: hidden;
+  }
+
+  table.striped {
+    table-layout: fixed;
+    font-size: 10px;
+
+    tr {
+
+    }
+    td {
+      text-align: right;
+    }
+    td:first-child {
+      overflow-x: hidden;
+    }
+    th {
+      text-align: right;
+      overflow-x: hidden;
+    }
+  }
+
+  .filters {
+
+    position: relative;
+    padding-right: 180px;
+
+    .dropdown-button {
+      width: 180px;
+      height: 48px;
+      line-height: 48px;
+      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 2px 10px 0 rgba(0, 0, 0, 0);
+      background-color: #375f7e !important;
+
+    }
+    .dropdown-button:hover {
+      .fa-caret-down {
+        .rotate
+      }
+
+    }
+
+    .btn:hover {
+      background-color: @primaryBlue;
+    }
+
+
+    .dropdown-content {
+      li {
+        padding: 7px;
+      }
+    }
+
+    .fa-caret-down {
+      -moz-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+
+    }
+    .rotate {
+      opacity: 1;
+      -moz-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+      z-index: 1000;
+    }
+
+    .group-by-control {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  }
+
+}

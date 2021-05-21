@@ -1,0 +1,13 @@
+applications:
+- memory: 512M
+  domain: mybluemix.net
+  path: .
+  buildpack: https://github.com/alexbonti/bluemix-buildpack-meteor
+  host: suro-test-web
+  name: suro-test-web
+  disk_quota: 512M
+  instances: 1
+  service:
+    - mongodb-suro-test
+  env:
+    SERVICE_URL: http://suro-test.mybluemix.net

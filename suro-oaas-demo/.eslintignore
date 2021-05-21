@@ -1,0 +1,13 @@
+packages/
+node_modules/
+*.json
+*.xml
+*.yml
+*.md
+*.txt
+.meteor/
+.npm/
+target/
+private/
+public/
+client/compatibility

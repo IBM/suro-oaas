@@ -1,0 +1,485 @@
+[2015-12-13T06:47:36Z, INFO] Initialization of DEPARTMENTS.
+[2015-12-13T06:47:36Z, INFO] Initialization of TDepartments.
+[2015-12-13T06:47:36Z, INFO] Initialization of SPECIALIST_INFO.
+[2015-12-13T06:47:36Z, INFO] Initialization of TSpecialistInfo.
+[2015-12-13T06:47:36Z, INFO] Initialization of WARD_INFO.
+[2015-12-13T06:47:36Z, INFO] Initialization of TWardInfo.
+[2015-12-13T06:47:36Z, INFO] Initialization of allocatedSessionsFixed.
+[2015-12-13T06:47:36Z, INFO] Initialization of TAllocatedSessionsFixed.
+[2015-12-13T06:47:36Z, INFO] Initialization of arrivingPatientInfo.
+[2015-12-13T06:47:36Z, INFO] Initialization of TArrivingPatientInfo.
+[2015-12-13T06:47:36Z, INFO] Initialization of baseConfigParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of TBaseConfigParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of fixedParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of TFixedParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of initialPatientInfo.
+[2015-12-13T06:47:36Z, INFO] Initialization of TInitialPatientInfo.
+[2015-12-13T06:47:36Z, INFO] Initialization of objFunParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of TObjFunParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of optimisationParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of TOptimisationParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of rollingTimeParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of TRollingTimeParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of scenarioParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of TScenarioParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of specialistIds.
+[2015-12-13T06:47:36Z, INFO] Initialization of TSpecialistIds.
+[2015-12-13T06:47:36Z, INFO] Initialization of timingParams.
+[2015-12-13T06:47:36Z, INFO] Initialization of TTimingParameters.
+[2015-12-13T06:47:36Z, INFO] Initialization of treatedPatientsFixed.
+[2015-12-13T06:47:36Z, INFO] Initialization of TTreatedPatientsFixed.
+[2015-12-13T06:47:36Z, INFO] Initialization of wardIds.
+[2015-12-13T06:47:36Z, INFO] Initialization of TWardIds.
+[2015-12-13T06:47:36Z, INFO] Initialization of BASE_PLAN_INFO.
+[2015-12-13T06:47:36Z, INFO] Initialization of TBasePlanInfo.
+[2015-12-13T06:47:36Z, INFO] Initialization of SURGERIES.
+[2015-12-13T06:47:36Z, INFO] Initialization of TSurgeries.
+[2015-12-13T06:47:36Z, INFO] Initialization of TSurgeries_cat_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of endDayOfPerformanceMeasurement.
+[2015-12-13T06:47:36Z, INFO] Initialization of fractionForPoint.
+[2015-12-13T06:47:36Z, INFO] Initialization of maxWaitListStay.
+[2015-12-13T06:47:36Z, INFO] Initialization of nOnTimeBeforeHorizon.
+[2015-12-13T06:47:36Z, INFO] Initialization of nOverDueBeforeHorizon.
+[2015-12-13T06:47:36Z, INFO] Initialization of weights.
+[2015-12-13T06:47:36Z, INFO] Initialization of TObjectiveWeights.
+[2015-12-13T06:47:36Z, INFO] Initialization of extraResources.
+[2015-12-13T06:47:36Z, INFO] Initialization of TExtraResources.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTotalPeriods.
+[2015-12-13T06:47:36Z, INFO] Initialization of performanceMeasurementOfPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of TOTAL_PERIODS.
+[2015-12-13T06:47:36Z, INFO] Initialization of nPerformanceMeasurements.
+[2015-12-13T06:47:36Z, INFO] Initialization of PERIODS.
+[2015-12-13T06:47:36Z, INFO] Initialization of endPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of startPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of nPeriods.
+[2015-12-13T06:47:36Z, INFO] Initialization of equivalentBasePlanPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of cycleLength.
+[2015-12-13T06:47:36Z, INFO] Initialization of offset.
+[2015-12-13T06:47:36Z, INFO] Initialization of nAllocatedSessionsBasePlan.
+[2015-12-13T06:47:36Z, INFO]  [[4 0 2 2 2 0 0 4 2 2 2 2 0 0 4 2 2 2 2 0 0 2 2 0 3 2 0 0]
+[2015-12-13T06:47:36Z, INFO]          [0 1 2 0 0 0 0 0 1 2 0 0 0 0 0 1 2 0 0 0 0 0 1 2 0 0 0 0]
+[2015-12-13T06:47:36Z, INFO]          [0 1 2 1 0 0 0 0 1 0 1 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0]
+[2015-12-13T06:47:36Z, INFO]          [0 0 0 0 2 0 0 0 1 0 0 2 0 0 1 0 0 0 2 0 0 1 1 0 0 2 0 0]
+[2015-12-13T06:47:36Z, INFO]          [2 2 4 0 0 0 0 2 2 0 0 2 0 0 2 3 0 0 2 0 0 1 0 2 3 1 0 0]
+[2015-12-13T06:47:36Z, INFO]          [0 1 1 2 0 0 0 0 1 0 2 0 0 0 0 2 0 2 0 0 0 0 0 0 3 0 0 0]
+[2015-12-13T06:47:36Z, INFO]          [0 1 1 0 0 0 0 0 1 1 1 0 0 0 0 2 2 0 0 0 0 0 1 1 1 0 0 0]
+[2015-12-13T06:47:36Z, INFO]          [2 2 0 2 3 0 0 1 2 2 2 2 0 0 2 0 3 2 3 0 0 2 2 1 0 3 0 0]
+[2015-12-13T06:47:36Z, INFO]          [1 2 0 1 1 0 0 2 0 3 1 1 0 0 0 1 2 1 1 0 0 2 1 2 0 1 0 0]
+[2015-12-13T06:47:36Z, INFO]          [2 2 1 3 2 0 0 2 2 1 3 2 0 0 2 0 1 3 2 0 0 2 3 2 1 2 0 0]
+[2015-12-13T06:47:36Z, INFO]          [1 1 0 1 2 0 0 1 1 0 1 2 0 0 2 0 1 1 1 0 0 2 1 2 1 2 0 0]]
+[2015-12-13T06:47:36Z, INFO] Initialization of points.
+[2015-12-13T06:47:36Z, INFO] Initialization of COSTED_CATEGORIES.
+[2015-12-13T06:47:36Z, INFO] Initialization of nCategories.
+[2015-12-13T06:47:36Z, INFO] Initialization of PERFORMANCE_MEASUREMENTS.
+[2015-12-13T06:47:36Z, INFO] Initialization of POINTS.
+[2015-12-13T06:47:36Z, INFO] Initialization of pointAchievedForTarget.
+[2015-12-13T06:47:36Z, INFO] Initialization of overdue.
+[2015-12-13T06:47:36Z, INFO] Initialization of nWaitingPatientsOverDue.
+[2015-12-13T06:47:36Z, INFO] Initialization of ontime.
+[2015-12-13T06:47:36Z, INFO] Initialization of nWaitingPatientsOnTime.
+[2015-12-13T06:47:36Z, INFO] Initialization of cat1.
+[2015-12-13T06:47:36Z, INFO] Initialization of cat1TreatedLeftovers.
+[2015-12-13T06:47:36Z, INFO] Initialization of cat1WaitListLeftovers.
+[2015-12-13T06:47:36Z, INFO] Initialization of durationExpr.
+[2015-12-13T06:47:36Z, INFO] Initialization of durationWorkload.
+[2015-12-13T06:47:36Z, INFO] Initialization of bedExpr.
+[2015-12-13T06:47:36Z, INFO] Initialization of bedWorkload.
+[2015-12-13T06:47:36Z, INFO] Initialization of imbalanceExpr.
+[2015-12-13T06:47:36Z, INFO] Initialization of workloadImbalance.
+[2015-12-13T06:47:36Z, INFO] Initialization of minPoints.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatientsOnTime.
+[2015-12-13T06:47:36Z, INFO] Initialization of CATEGORIES.
+[2015-12-13T06:47:36Z, INFO] Initialization of firstMeasurementPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatientsOnTimePerPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatientsOverDue.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatientsOverDuePerPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of objM.
+[2015-12-13T06:47:36Z, INFO] Initialization of PAST_PERIODS.
+[2015-12-13T06:47:36Z, INFO] Initialization of nInitialPatients.
+[2015-12-13T06:47:36Z, INFO] Initialization of nArrivingPatients.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatients.
+[2015-12-13T06:47:36Z, INFO] Initialization of sessionLength.
+[2015-12-13T06:47:36Z, INFO] Initialization of nAllocatedSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of allowEmptySessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of bedStayPeriodsAfterSurgery.
+[2015-12-13T06:47:36Z, INFO] Initialization of SINCE_SURGERY.
+[2015-12-13T06:47:36Z, INFO] Initialization of nWorkingDays.
+[2015-12-13T06:47:36Z, INFO] Initialization of nICUPatientsPerDay.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTotalOTSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of nDeletedSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of nAddedSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of BASE_PLAN_CONSTRAINT_START_PERIODS.
+[2015-12-13T06:47:36Z, INFO] Initialization of maxAdditions.
+[2015-12-13T06:47:36Z, INFO] Initialization of maxDeletions.
+[2015-12-13T06:47:36Z, INFO] Initialization of maxTotalSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of allowCat1Violation.
+[2015-12-13T06:47:36Z, INFO] Initialization of nWaitingPatientsOverDueAtPeriodStart.
+[2015-12-13T06:47:36Z, INFO] Initialization of PERIODS_INTEGER.
+[2015-12-13T06:47:36Z, INFO] Initialization of integerTreatedPatients.
+[2015-12-13T06:47:36Z, INFO] Initialization of icu.
+[2015-12-13T06:47:36Z, INFO] Initialization of TIcu.
+[2015-12-13T06:47:36Z, INFO] Initialization of beds.
+[2015-12-13T06:47:36Z, INFO] Initialization of TBeds.
+[2015-12-13T06:47:36Z, INFO] Initialization of runName.
+[2015-12-13T06:47:36Z, INFO] Initialization of gap.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTotalChanges.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNAddedSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of maxChanges.
+[2015-12-13T06:47:36Z, INFO] Initialization of timeLimit.
+[2015-12-13T06:47:36Z, INFO] Initialization of bedStayCategories.
+[2015-12-13T06:47:36Z, INFO] Initialization of TBedStayCategories.
+[2015-12-13T06:47:36Z, INFO] Initialization of TPointAchievedForTarget.
+[2015-12-13T06:47:36Z, INFO] Initialization of TPatientOutputData.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTreatedPatients.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNPatientsTreatedResult.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNDeletedSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNAllocatedSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of TDepartmentNames.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTreatedPatientsOverDuePerPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTreatedPatientsOnTimePerPeriod.
+[2015-12-13T06:47:36Z, INFO] Initialization of PERIODS_PLUS.
+[2015-12-13T06:47:36Z, INFO] Initialization of PERIODS_LEFT.
+[2015-12-13T06:47:36Z, INFO] Initialization of wiesEstimate.
+[2015-12-13T06:47:36Z, INFO] Initialization of TWiesEstimate.
+[2015-12-13T06:47:36Z, INFO] Initialization of departmentNames.
+[2015-12-13T06:47:36Z, INFO] Initialization of surgeriesByName.
+[2015-12-13T06:47:36Z, INFO] Initialization of TSurgeriesByName.
+[2015-12-13T06:47:36Z, INFO] Initialization of bedsByName.
+[2015-12-13T06:47:36Z, INFO] Initialization of TBedsByName.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTotalChanges.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTotalChanges__1CyclesValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TPointAchievedForTarget__0CostedCategoriesValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTreatedPatientsOverDuePerPeriod__1PeriodsValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTreatedPatientsOnTimePerPeriod__1PeriodsValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TPatientOutputDataBySurgery.
+[2015-12-13T06:47:36Z, INFO] Initialization of TPointAchievedForTarget__2PointsValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TPointAchievedForTarget__1NullValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TPatientOutputDataBySurgery_period_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNDeletedSessions__1CyclesValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNAllocatedSessions__1CyclesValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of nPatientsTreatedOverDue.
+[2015-12-13T06:47:36Z, INFO] Initialization of nPatientsWithDaysLeft.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatientsByName.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTreatedPatientsByName.
+[2015-12-13T06:47:36Z, INFO] Initialization of bedsStatusByCategories.
+[2015-12-13T06:47:36Z, INFO] Initialization of TBedsStatusByCategories.
+[2015-12-13T06:47:36Z, INFO] Initialization of patientOutputData.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatients_result.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNTreatedPatients__1PeriodsValue_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of nPatientsTreatedResult.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNPatientsTreatedResult_period_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of nDeletedSessions_result.
+[2015-12-13T06:47:36Z, INFO] Initialization of nAddedSessions_result.
+[2015-12-13T06:47:36Z, INFO] Initialization of nAllocatedSessions_result.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatientsOverDuePerPeriod_result.
+[2015-12-13T06:47:36Z, INFO] Initialization of nTreatedPatientsOnTimePerPeriod_result.
+[2015-12-13T06:47:36Z, INFO] Initialization of pointAchievedForTarget_result.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNAllocatedSessionsByNames.
+[2015-12-13T06:47:36Z, INFO] Initialization of TBasePlanByName_period_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of TNAllocatedSessionsByNames_period_range.
+[2015-12-13T06:47:36Z, INFO] Initialization of nAllocatedSessionsByNames.
+[2015-12-13T06:47:36Z, INFO] Initialization of nPatientsTreatedWithDaysLeft.
+[2015-12-13T06:47:36Z, INFO] Initialization of nPatientsTreatedOnTime.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctUrgencyCat1WaitList.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctUrgencyCat1Treatment.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctFixTreatedPatients.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctFixAllocatedSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctSpecAvailability.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctMaxSessionsForOTs.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctICUAvailability.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctBedAvailability.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctMinPerformancePoints.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctWorkloadImbalance2.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctWorkloadImbalance1.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctDurationWorkload.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctBedWorkload.
+[2015-12-13T06:47:36Z, INFO] Initialization of objectiveConstraints_onTime.
+[2015-12-13T06:47:36Z, INFO] Initialization of objectiveConstraints_overDue.
+[2015-12-13T06:47:36Z, INFO] Initialization of objectiveConstraints_setPoints.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctLinkSurgeryTypeToSurgeySession.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctMaxSessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctMaxDeletions.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctMaxAdditions.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctEliminateEmptySessions.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctMaxSessionsForSurgeryDepartment.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctLinkAllocatedSessionsToBasePlan.
+[2015-12-13T06:47:36Z, INFO] Initialization of ctIntegerTreat.
+[2015-12-13T06:47:40Z, WARN] Effective number of workers to be used for solve has been updated to: '10' (original value was: '0')
+[2015-12-13T06:47:40Z, INFO] Tried aggregator 3 times.
+[2015-12-13T06:47:40Z, INFO] MIP Presolve eliminated 17337 rows and 17829 columns.
+[2015-12-13T06:47:40Z, INFO] MIP Presolve modified 796 coefficients.
+[2015-12-13T06:47:40Z, INFO] Aggregator did 4256 substitutions.
+[2015-12-13T06:47:40Z, INFO] Reduced MIP has 3600 rows, 5888 columns, and 37534 nonzeros.
+[2015-12-13T06:47:40Z, INFO] Reduced MIP has 177 binaries, 1907 generals, 0 SOSs, and 0 indicators.
+[2015-12-13T06:47:40Z, INFO] Presolve time = 0.19 sec. (132.01 ticks)
+[2015-12-13T06:47:40Z, INFO] Probing fixed 0 vars, tightened 2 bounds.
+[2015-12-13T06:47:40Z, INFO] Probing time = 0.04 sec. (1.91 ticks)
+[2015-12-13T06:47:40Z, INFO] Tried aggregator 1 time.
+[2015-12-13T06:47:40Z, INFO] Reduced MIP has 3600 rows, 5888 columns, and 37534 nonzeros.
+[2015-12-13T06:47:40Z, INFO] Reduced MIP has 188 binaries, 2770 generals, 0 SOSs, and 0 indicators.
+[2015-12-13T06:47:40Z, INFO] Presolve time = 0.03 sec. (13.36 ticks)
+[2015-12-13T06:47:40Z, INFO] Probing time = 0.05 sec. (1.58 ticks)
+[2015-12-13T06:47:40Z, INFO] Cover probing fixed 0 vars, tightened 2 bounds.
+[2015-12-13T06:47:40Z, INFO] Clique table members: 19.
+[2015-12-13T06:47:40Z, INFO] MIP emphasis: balance optimality and feasibility.
+[2015-12-13T06:47:40Z, INFO] MIP search method: dynamic search.
+[2015-12-13T06:47:40Z, INFO] Parallel mode: deterministic, using up to 10 threads.
+[2015-12-13T06:47:41Z, INFO] Root relaxation solution time = 0.40 sec. (312.61 ticks)
+[2015-12-13T06:47:41Z, INFO]         Nodes                                         Cuts/
+[2015-12-13T06:47:41Z, INFO]    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+[2015-12-13T06:47:41Z, INFO] *     0+    0                        18426.0000     -234.0000           101.27%
+[2015-12-13T06:47:41Z, INFO] *     0+    0                        13542.0000     -234.0000           101.73%
+[2015-12-13T06:47:41Z, INFO] *     0+    0                        11040.0000     -234.0000           102.12%
+[2015-12-13T06:47:41Z, INFO] *     0+    0                         9564.0000     -234.0000           102.45%
+[2015-12-13T06:47:41Z, INFO] *     0+    0                         8556.0000     -234.0000           102.73%
+[2015-12-13T06:47:41Z, INFO] *     0+    0                         8034.0000     -234.0000           102.91%
+[2015-12-13T06:47:41Z, INFO] *     0+    0                         7620.0000     -234.0000           103.07%
+[2015-12-13T06:47:41Z, INFO] *     0+    0                         7242.0000     -234.0000           103.23%
+[2015-12-13T06:47:41Z, INFO] *     0+    0                         7224.0000     -234.0000           103.24%
+[2015-12-13T06:47:41Z, INFO]       0     0     3148.0873   562     7224.0000     3148.0873       25   56.42%
+[2015-12-13T06:47:41Z, INFO] Initialization of finalGap.
+[2015-12-13T06:47:41Z, INFO] Initialization of TFinalGap.
+[2015-12-13T06:47:41Z, INFO] Initialization of icuUsage.
+[2015-12-13T06:47:41Z, INFO] Initialization of totalIcuUsage.
+[2015-12-13T06:47:41Z, INFO] Initialization of availableIcu.
+[2015-12-13T06:47:41Z, INFO] Initialization of totalBedUsage.
+[2015-12-13T06:47:41Z, INFO] Initialization of bedUsage.
+[2015-12-13T06:47:41Z, INFO] Initialization of availableBed.
+[2015-12-13T06:47:42Z, INFO] Initialization of schedule.
+[2015-12-13T06:47:42Z, INFO] Initialization of Tschedule.
+[2015-12-13T06:47:42Z, INFO] Initialization of dayName.
+[2015-12-13T06:47:42Z, INFO] Initialization of scheduleWithPatient.
+[2015-12-13T06:47:42Z, INFO] Initialization of TschedulePatient.
+[2015-12-13T06:47:42Z, INFO] Initialization of TtreatedPatientElement.
+[2015-12-13T06:47:51Z, WARN] 1124:0-1124:0 att7318582732356944675.tmp/model.mod: Not a model element "incomingOverDueSurgery", use 'var' to declare local scripting variables.
+[2015-12-13T06:47:51Z, INFO] Initialization of waitListTotal.
+[2015-12-13T06:47:51Z, INFO] Initialization of Twaitlist.
+[2015-12-13T06:47:51Z, INFO] Initialization of waitListOverdue.
+[2015-12-13T06:47:51Z, INFO] Initialization of patientsRes.
+[2015-12-13T06:47:51Z, INFO] Initialization of Tpatients.
+[2015-12-13T06:47:53Z, INFO] Initialization of strategy.
+[2015-12-13T06:47:53Z, INFO] Initialization of TintParameter.
+[2015-12-13T06:47:53Z, INFO] Initialization of targetsRes.
+[2015-12-13T06:47:53Z, INFO] Initialization of Ttargets.
+[2015-12-13T06:47:53Z, INFO] Initialization of icuAvailRes.
+[2015-12-13T06:47:53Z, INFO] Initialization of Ticu.
+[2015-12-13T06:47:53Z, INFO] Initialization of icuTotalRes.
+[2015-12-13T06:47:53Z, INFO] Initialization of icuRes.
+[2015-12-13T06:47:53Z, INFO] Initialization of TicuWithDep.
+[2015-12-13T06:47:53Z, INFO] Initialization of bedAvailRes.
+[2015-12-13T06:47:53Z, INFO] Initialization of Tbed.
+[2015-12-13T06:47:53Z, INFO] Initialization of bedTotalRes.
+[2015-12-13T06:47:53Z, INFO] Initialization of bedRes.
+[2015-12-13T06:47:53Z, INFO] Initialization of TbedWithDep.
+[2015-12-13T06:47:53Z, INFO] Initialization of sessions.
+[2015-12-13T06:47:53Z, INFO] Initialization of TsessionDepartment.
+[2015-12-13T06:47:53Z, INFO] Initialization of totalSessions.
+[2015-12-13T06:47:53Z, INFO] Initialization of deptSessionsAlloc.
+[2015-12-13T06:47:53Z, INFO] Initialization of sessionsTotal.
+[2015-12-13T06:47:53Z, INFO] Initialization of Tsessions.
+[2015-12-13T06:47:53Z, INFO] Initialization of sessionsTheatres.
+[2015-12-13T06:47:53Z, INFO] Initialization of totalSessionsAlloc.
+[2015-12-13T06:47:53Z, INFO] Initialization of surgeryResults.
+[2015-12-13T06:47:53Z, INFO] Initialization of TsurgeryResults.
+[2015-12-13T06:47:53Z, INFO] Initialization of schedule_surgery_types.
+[2015-12-13T06:47:53Z, INFO] Initialization of TsurgeryType.
+[2015-12-13T06:47:54Z, INFO] Initialization of deptSessions.
+[2015-12-13T06:47:54Z, INFO] Initialization of nTreated.
+[2015-12-13T06:47:54Z, INFO] Initialization of patientOutputDataBySurgery.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'icuUsage' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalIcuUsage' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'availableIcu' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalBedUsage' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'bedUsage' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'availableBed' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'dayName' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalSessions' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'deptSessionsAlloc' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'INTEGER' in post-processing is not supported for output data on the Cloud. OPL element: 'totalSessionsAlloc' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'deptSessions' will not be exported.
+[2015-12-13T06:47:54Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'nTreated' will not be exported.
+[2015-12-13T06:47:54Z, INFO] *     0+    0                         6898.0000     3148.0873            54.36%
+[2015-12-13T06:47:54Z, INFO] Initialization of finalGap.
+[2015-12-13T06:47:54Z, INFO] Initialization of icuUsage.
+[2015-12-13T06:47:54Z, INFO] Initialization of totalIcuUsage.
+[2015-12-13T06:47:54Z, INFO] Initialization of availableIcu.
+[2015-12-13T06:47:54Z, INFO] Initialization of totalBedUsage.
+[2015-12-13T06:47:54Z, INFO] Initialization of bedUsage.
+[2015-12-13T06:47:55Z, INFO] Initialization of availableBed.
+[2015-12-13T06:47:56Z, INFO] Initialization of schedule.
+[2015-12-13T06:47:56Z, INFO] Initialization of Tschedule.
+[2015-12-13T06:47:56Z, INFO] Initialization of dayName.
+[2015-12-13T06:47:56Z, INFO] Initialization of scheduleWithPatient.
+[2015-12-13T06:47:56Z, INFO] Initialization of TschedulePatient.
+[2015-12-13T06:47:56Z, INFO] Initialization of TtreatedPatientElement.
+[2015-12-13T06:48:05Z, INFO] Initialization of waitListTotal.
+[2015-12-13T06:48:05Z, INFO] Initialization of Twaitlist.
+[2015-12-13T06:48:05Z, INFO] Initialization of waitListOverdue.
+[2015-12-13T06:48:05Z, INFO] Initialization of patientsRes.
+[2015-12-13T06:48:05Z, INFO] Initialization of Tpatients.
+[2015-12-13T06:48:07Z, INFO] Initialization of strategy.
+[2015-12-13T06:48:07Z, INFO] Initialization of TintParameter.
+[2015-12-13T06:48:07Z, INFO] Initialization of targetsRes.
+[2015-12-13T06:48:07Z, INFO] Initialization of Ttargets.
+[2015-12-13T06:48:07Z, INFO] Initialization of icuAvailRes.
+[2015-12-13T06:48:07Z, INFO] Initialization of Ticu.
+[2015-12-13T06:48:07Z, INFO] Initialization of icuTotalRes.
+[2015-12-13T06:48:07Z, INFO] Initialization of icuRes.
+[2015-12-13T06:48:07Z, INFO] Initialization of TicuWithDep.
+[2015-12-13T06:48:07Z, INFO] Initialization of bedAvailRes.
+[2015-12-13T06:48:07Z, INFO] Initialization of Tbed.
+[2015-12-13T06:48:07Z, INFO] Initialization of bedTotalRes.
+[2015-12-13T06:48:07Z, INFO] Initialization of bedRes.
+[2015-12-13T06:48:07Z, INFO] Initialization of TbedWithDep.
+[2015-12-13T06:48:07Z, INFO] Initialization of sessions.
+[2015-12-13T06:48:07Z, INFO] Initialization of TsessionDepartment.
+[2015-12-13T06:48:07Z, INFO] Initialization of totalSessions.
+[2015-12-13T06:48:07Z, INFO] Initialization of deptSessionsAlloc.
+[2015-12-13T06:48:07Z, INFO] Initialization of sessionsTotal.
+[2015-12-13T06:48:07Z, INFO] Initialization of Tsessions.
+[2015-12-13T06:48:07Z, INFO] Initialization of sessionsTheatres.
+[2015-12-13T06:48:07Z, INFO] Initialization of totalSessionsAlloc.
+[2015-12-13T06:48:07Z, INFO] Initialization of surgeryResults.
+[2015-12-13T06:48:07Z, INFO] Initialization of TsurgeryResults.
+[2015-12-13T06:48:07Z, INFO] Initialization of schedule_surgery_types.
+[2015-12-13T06:48:07Z, INFO] Initialization of TsurgeryType.
+[2015-12-13T06:48:07Z, INFO] Initialization of deptSessions.
+[2015-12-13T06:48:07Z, INFO] Initialization of nTreated.
+[2015-12-13T06:48:07Z, INFO] Initialization of patientOutputDataBySurgery.
+[2015-12-13T06:48:07Z, INFO] Initialization of TFinalGap.
+[2015-12-13T06:48:07Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'icuUsage' will not be exported.
+[2015-12-13T06:48:07Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalIcuUsage' will not be exported.
+[2015-12-13T06:48:07Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'availableIcu' will not be exported.
+[2015-12-13T06:48:07Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalBedUsage' will not be exported.
+[2015-12-13T06:48:07Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'bedUsage' will not be exported.
+[2015-12-13T06:48:07Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'availableBed' will not be exported.
+[2015-12-13T06:48:07Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'dayName' will not be exported.
+[2015-12-13T06:48:08Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalSessions' will not be exported.
+[2015-12-13T06:48:08Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'deptSessionsAlloc' will not be exported.
+[2015-12-13T06:48:08Z, WARN] OPL type: 'INTEGER' in post-processing is not supported for output data on the Cloud. OPL element: 'totalSessionsAlloc' will not be exported.
+[2015-12-13T06:48:08Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'deptSessions' will not be exported.
+[2015-12-13T06:48:08Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'nTreated' will not be exported.
+[2015-12-13T06:48:08Z, INFO] Implied bound cuts applied:  6
+[2015-12-13T06:48:08Z, INFO] Mixed integer rounding cuts applied:  65
+[2015-12-13T06:48:08Z, INFO] Zero-half cuts applied:  31
+[2015-12-13T06:48:08Z, INFO] Multi commodity flow cuts applied:  2
+[2015-12-13T06:48:08Z, INFO] Lift and project cuts applied:  4
+[2015-12-13T06:48:08Z, INFO] Gomory fractional cuts applied:  60
+[2015-12-13T06:48:08Z, INFO] Root node processing (before b&c):
+[2015-12-13T06:48:08Z, INFO]   Real time             =   27.98 sec. (873.09 ticks)
+[2015-12-13T06:48:08Z, INFO] Parallel b&c, 10 threads:
+[2015-12-13T06:48:08Z, INFO]   Real time             =    0.00 sec. (0.00 ticks)
+[2015-12-13T06:48:08Z, INFO]   Sync time (average)   =    0.00 sec.
+[2015-12-13T06:48:08Z, INFO]   Wait time (average)   =    0.00 sec.
+[2015-12-13T06:48:08Z, INFO]                           ------------
+[2015-12-13T06:48:08Z, INFO] Total (root+branch&cut) =   27.98 sec. (873.09 ticks)
+[2015-12-13T06:48:08Z, INFO] Initialization of finalGap.
+[2015-12-13T06:48:08Z, INFO] Initialization of icuUsage.
+[2015-12-13T06:48:08Z, INFO] Initialization of totalIcuUsage.
+[2015-12-13T06:48:08Z, INFO] Initialization of availableIcu.
+[2015-12-13T06:48:08Z, INFO] Initialization of totalBedUsage.
+[2015-12-13T06:48:08Z, INFO] Initialization of bedUsage.
+[2015-12-13T06:48:09Z, INFO] Initialization of availableBed.
+[2015-12-13T06:48:10Z, INFO] Initialization of schedule.
+[2015-12-13T06:48:10Z, INFO] Initialization of Tschedule.
+[2015-12-13T06:48:10Z, INFO] Initialization of dayName.
+[2015-12-13T06:48:10Z, INFO] Initialization of scheduleWithPatient.
+[2015-12-13T06:48:10Z, INFO] Initialization of TschedulePatient.
+[2015-12-13T06:48:10Z, INFO] Initialization of TtreatedPatientElement.
+[2015-12-13T06:48:18Z, INFO] Initialization of waitListTotal.
+[2015-12-13T06:48:18Z, INFO] Initialization of Twaitlist.
+[2015-12-13T06:48:18Z, INFO] Initialization of waitListOverdue.
+[2015-12-13T06:48:18Z, INFO] Initialization of patientsRes.
+[2015-12-13T06:48:18Z, INFO] Initialization of Tpatients.
+[2015-12-13T06:48:20Z, INFO] Initialization of strategy.
+[2015-12-13T06:48:20Z, INFO] Initialization of TintParameter.
+[2015-12-13T06:48:20Z, INFO] Initialization of targetsRes.
+[2015-12-13T06:48:20Z, INFO] Initialization of Ttargets.
+[2015-12-13T06:48:20Z, INFO] Initialization of icuAvailRes.
+[2015-12-13T06:48:20Z, INFO] Initialization of Ticu.
+[2015-12-13T06:48:20Z, INFO] Initialization of icuTotalRes.
+[2015-12-13T06:48:20Z, INFO] Initialization of icuRes.
+[2015-12-13T06:48:20Z, INFO] Initialization of TicuWithDep.
+[2015-12-13T06:48:20Z, INFO] Initialization of bedAvailRes.
+[2015-12-13T06:48:20Z, INFO] Initialization of Tbed.
+[2015-12-13T06:48:20Z, INFO] Initialization of bedTotalRes.
+[2015-12-13T06:48:20Z, INFO] Initialization of bedRes.
+[2015-12-13T06:48:20Z, INFO] Initialization of TbedWithDep.
+[2015-12-13T06:48:20Z, INFO] Initialization of sessions.
+[2015-12-13T06:48:20Z, INFO] Initialization of TsessionDepartment.
+[2015-12-13T06:48:20Z, INFO] Initialization of totalSessions.
+[2015-12-13T06:48:20Z, INFO] Initialization of deptSessionsAlloc.
+[2015-12-13T06:48:20Z, INFO] Initialization of sessionsTotal.
+[2015-12-13T06:48:20Z, INFO] Initialization of Tsessions.
+[2015-12-13T06:48:20Z, INFO] Initialization of sessionsTheatres.
+[2015-12-13T06:48:20Z, INFO] Initialization of totalSessionsAlloc.
+[2015-12-13T06:48:20Z, INFO] Initialization of surgeryResults.
+[2015-12-13T06:48:20Z, INFO] Initialization of TsurgeryResults.
+[2015-12-13T06:48:21Z, INFO] Initialization of schedule_surgery_types.
+[2015-12-13T06:48:21Z, INFO] Initialization of TsurgeryType.
+[2015-12-13T06:48:21Z, INFO] Initialization of deptSessions.
+[2015-12-13T06:48:21Z, INFO] Initialization of nTreated.
+[2015-12-13T06:48:21Z, INFO] Initialization of patientOutputDataBySurgery.
+[2015-12-13T06:48:21Z, INFO] Initialization of TFinalGap.
+[2015-12-13T06:48:21Z, INFO] Initialization of finalGap.
+[2015-12-13T06:48:21Z, INFO] Initialization of icuUsage.
+[2015-12-13T06:48:21Z, INFO] Initialization of totalIcuUsage.
+[2015-12-13T06:48:21Z, INFO] Initialization of availableIcu.
+[2015-12-13T06:48:21Z, INFO] Initialization of totalBedUsage.
+[2015-12-13T06:48:21Z, INFO] Initialization of bedUsage.
+[2015-12-13T06:48:22Z, INFO] Initialization of availableBed.
+[2015-12-13T06:48:23Z, INFO] Initialization of schedule.
+[2015-12-13T06:48:23Z, INFO] Initialization of Tschedule.
+[2015-12-13T06:48:23Z, INFO] Initialization of dayName.
+[2015-12-13T06:48:23Z, INFO] Initialization of scheduleWithPatient.
+[2015-12-13T06:48:23Z, INFO] Initialization of TschedulePatient.
+[2015-12-13T06:48:23Z, INFO] Initialization of TtreatedPatientElement.
+[2015-12-13T06:48:31Z, INFO] Initialization of waitListTotal.
+[2015-12-13T06:48:31Z, INFO] Initialization of Twaitlist.
+[2015-12-13T06:48:31Z, INFO] Initialization of waitListOverdue.
+[2015-12-13T06:48:31Z, INFO] Initialization of patientsRes.
+[2015-12-13T06:48:31Z, INFO] Initialization of Tpatients.
+[2015-12-13T06:48:34Z, INFO] Initialization of strategy.
+[2015-12-13T06:48:34Z, INFO] Initialization of TintParameter.
+[2015-12-13T06:48:34Z, INFO] Initialization of targetsRes.
+[2015-12-13T06:48:34Z, INFO] Initialization of Ttargets.
+[2015-12-13T06:48:34Z, INFO] Initialization of icuAvailRes.
+[2015-12-13T06:48:34Z, INFO] Initialization of Ticu.
+[2015-12-13T06:48:34Z, INFO] Initialization of icuTotalRes.
+[2015-12-13T06:48:34Z, INFO] Initialization of icuRes.
+[2015-12-13T06:48:34Z, INFO] Initialization of TicuWithDep.
+[2015-12-13T06:48:34Z, INFO] Initialization of bedAvailRes.
+[2015-12-13T06:48:34Z, INFO] Initialization of Tbed.
+[2015-12-13T06:48:34Z, INFO] Initialization of bedTotalRes.
+[2015-12-13T06:48:34Z, INFO] Initialization of bedRes.
+[2015-12-13T06:48:34Z, INFO] Initialization of TbedWithDep.
+[2015-12-13T06:48:34Z, INFO] Initialization of sessions.
+[2015-12-13T06:48:34Z, INFO] Initialization of TsessionDepartment.
+[2015-12-13T06:48:34Z, INFO] Initialization of totalSessions.
+[2015-12-13T06:48:34Z, INFO] Initialization of deptSessionsAlloc.
+[2015-12-13T06:48:34Z, INFO] Initialization of sessionsTotal.
+[2015-12-13T06:48:34Z, INFO] Initialization of Tsessions.
+[2015-12-13T06:48:34Z, INFO] Initialization of sessionsTheatres.
+[2015-12-13T06:48:34Z, INFO] Initialization of totalSessionsAlloc.
+[2015-12-13T06:48:34Z, INFO] Initialization of surgeryResults.
+[2015-12-13T06:48:34Z, INFO] Initialization of TsurgeryResults.
+[2015-12-13T06:48:34Z, INFO] Initialization of schedule_surgery_types.
+[2015-12-13T06:48:34Z, INFO] Initialization of TsurgeryType.
+[2015-12-13T06:48:34Z, INFO] Initialization of deptSessions.
+[2015-12-13T06:48:34Z, INFO] Initialization of nTreated.
+[2015-12-13T06:48:34Z, INFO] Initialization of patientOutputDataBySurgery.
+[2015-12-13T06:48:34Z, INFO] Initialization of TFinalGap.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'icuUsage' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalIcuUsage' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'availableIcu' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalBedUsage' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'bedUsage' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'availableBed' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'dayName' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'totalSessions' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'deptSessionsAlloc' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'INTEGER' in post-processing is not supported for output data on the Cloud. OPL element: 'totalSessionsAlloc' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'deptSessions' will not be exported.
+[2015-12-13T06:48:34Z, WARN] OPL type: 'ARRAY' in post-processing is not supported for output data on the Cloud. OPL element: 'nTreated' will not be exported.
+[2015-12-13T06:48:34Z, INFO] Total time spent in post processing: 52061 msecs.
+[2015-12-13T06:48:34Z, INFO] Solve finished with status: OPTIMAL_SOLUTION.

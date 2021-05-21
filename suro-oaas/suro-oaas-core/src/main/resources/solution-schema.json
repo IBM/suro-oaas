@@ -1,0 +1,535 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "finalGap": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "value"
+      ]
+    },
+    "schedule": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "week",
+          "day",
+          "medicalUnitId",
+          "allocatedSessions",
+          "allocatedSessionsBase"
+        ],
+        "properties": {
+          "week": {
+            "type": "string",
+            "minLength": 1
+          },
+          "day": {
+            "type": "string",
+            "minLength": 1
+          },
+          "medicalUnitId": {
+            "type": "number"
+          },
+          "allocatedSessions": {
+            "type": "number"
+          },
+          "allocatedSessionsBase": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "scheduleWithPatient": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "week",
+          "day",
+          "medicalUnitId",
+          "allocatedSessions",
+          "allocatedSessionsBase",
+          "treatedPatient.surgeryType",
+          "treatedPatient.isOverdue",
+          "treatedPatient.daysUntilOverdue"
+        ],
+        "properties": {
+          "week": {
+            "type": "string",
+            "minLength": 1
+          },
+          "day": {
+            "type": "string",
+            "minLength": 1
+          },
+          "medicalUnitId": {
+            "type": "number"
+          },
+          "allocatedSessions": {
+            "type": "number"
+          },
+          "allocatedSessionsBase": {
+            "type": "number"
+          },
+          "treatedPatient.surgeryType": {
+            "type": "string",
+            "minLength": 1
+          },
+          "treatedPatient.isOverdue": {
+            "type": "string",
+            "minLength": 1
+          },
+          "treatedPatient.daysUntilOverdue": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "waitListTotal": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "unitCode",
+          "surgery",
+          "cat",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "unitCode": {
+            "type": "number"
+          },
+          "surgery": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cat": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "waitListOverdue": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "unitCode",
+          "surgery",
+          "cat",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "unitCode": {
+            "type": "number"
+          },
+          "surgery": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cat": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "patientsRes": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "waiting",
+          "incoming",
+          "treated",
+          "stillWaiting",
+          "waitingOverdue",
+          "incomingOverdue",
+          "treatedOverdue",
+          "stillWaitingOverdue"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "waiting": {
+            "type": "number"
+          },
+          "incoming": {
+            "type": "number"
+          },
+          "treated": {
+            "type": "number"
+          },
+          "stillWaiting": {
+            "type": "number"
+          },
+          "waitingOverdue": {
+            "type": "number"
+          },
+          "incomingOverdue": {
+            "type": "number"
+          },
+          "treatedOverdue": {
+            "type": "number"
+          },
+          "stillWaitingOverdue": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "strategy": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "value",
+          "meaning"
+        ],
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "targetsRes": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "targetType",
+          "timePeriod",
+          "targetValue",
+          "currentValue"
+        ],
+        "properties": {
+          "targetType": {
+            "type": "number"
+          },
+          "timePeriod": {
+            "type": "number"
+          },
+          "targetValue": {
+            "type": "number"
+          },
+          "currentValue": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "icuAvailRes": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "icuTotalRes": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "icuRes": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "name",
+          "period",
+          "value"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "period": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "bedAvailRes": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "bedTotalRes": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "bedRes": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "name",
+          "period",
+          "value"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "period": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "sessions": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "department",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "department": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "sessionsTotal": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "sessionsTheatres": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "surgeryResults": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "period",
+          "surgery",
+          "cat",
+          "value"
+        ],
+        "properties": {
+          "period": {
+            "type": "number"
+          },
+          "surgery": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cat": {
+            "type": "number"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "schedule_surgery_types": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "required": [
+          "clusterName",
+          "medicalUnitID",
+          "urgencyCategory",
+          "duration",
+          "lengthOfStay",
+          "icuRequirementProbability"
+        ],
+        "properties": {
+          "clusterName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "medicalUnitID": {
+            "type": "number"
+          },
+          "urgencyCategory": {
+            "type": "number"
+          },
+          "duration": {
+            "type": "number"
+          },
+          "lengthOfStay": {
+            "type": "number"
+          },
+          "icuRequirementProbability": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "patientOutputDataBySurgery": {
+      "type": "array",
+      "items": {
+        "required": [],
+        "properties": {}
+      }
+    }
+  },
+  "required": [
+    "finalGap",
+    "schedule",
+    "scheduleWithPatient",
+    "waitListTotal",
+    "waitListOverdue",
+    "patientsRes",
+    "strategy",
+    "targetsRes",
+    "icuAvailRes",
+    "icuTotalRes",
+    "icuRes",
+    "bedAvailRes",
+    "bedTotalRes",
+    "bedRes",
+    "sessions",
+    "sessionsTotal",
+    "sessionsTheatres",
+    "surgeryResults",
+    "schedule_surgery_types",
+    "patientOutputDataBySurgery"
+  ]
+}

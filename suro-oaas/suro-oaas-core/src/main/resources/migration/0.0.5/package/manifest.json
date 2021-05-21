@@ -1,0 +1,15 @@
+{
+	"version"		:	"0.0.5",
+	"model"			:	{
+		"path"		:	"model.json",
+		"attachments"	:	[
+			"attachments/script.mod"
+		]
+	"templates"		:	"templates.json",
+	"dataset"		:	{
+		"path" 			:	"dataset.json",
+		"attachments"	:	[
+			"attachments/data.dat"
+		]
+	}
+}

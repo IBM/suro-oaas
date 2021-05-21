@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ibm.au.optim.suro</groupId>
+	<artifactId>suro-oaas-redmine</artifactId>
+	<version>${suro-oaas.version}</version>
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>com.ibm.au.optim.suro</groupId>
+		<artifactId>suro-oaas-parent</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../suro-oaas-parent/pom.xml</relativePath>
+	</parent>
+
+	<properties>
+		<httpclient.version>4.3.1</httpclient.version>
+	</properties>
+
+	<name>Surgical Unit Resource Optimisation - Redmine Bindings</name>
+	<description>This project contains the bindings that required to interact with the Redmine issue management system.</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-test</artifactId>
+			<version>${suro-oaas.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-model</artifactId>
+			<version>${suro-oaas.version}</version>
+		</dependency>		
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${httpclient.version}</version>
+		</dependency>
+	</dependencies>
+
+	<url>https://github.ibm.com/aur/suro-oaas</url>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<systemProperties>
+						<property>
+							<name>javax.net.debug</name>
+							<value>ssl,handshake,verbose</value>
+						</property>
+                        <property>
+                            <name>ssl.debug</name>
+                            <value>true</value>
+                        </property>
+					</systemProperties>
+					<argLine>-Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.showdatetime=true -Dorg.apache.commons.logging.simplelog.log.org.apache.http=DEBUG</argLine>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

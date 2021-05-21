@@ -1,0 +1,158 @@
+{
+  "fileName": "patients.csv",
+  "mappingType": "complex",
+  "sources": [
+    {
+      "row": {
+        "entryKeys": [
+          "waiting"
+        ],
+        "labels": [
+          "Waiting"
+        ]
+      },
+      "solutionKey": "patientsRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "incoming"
+        ],
+        "labels": [
+          "Incoming"
+        ]
+      },
+      "solutionKey": "patientsRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "treated"
+        ],
+        "labels": [
+          "Treated"
+        ]
+      },
+      "solutionKey": "patientsRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "stillWaiting"
+        ],
+        "labels": [
+          "Still Waiting"
+        ]
+      },
+      "solutionKey": "patientsRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "incomingOverdue"
+        ],
+        "labels": [
+          "Incoming Overdue"
+        ]
+      },
+      "solutionKey": "patientsRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "waitingOverdue"
+        ],
+        "labels": [
+          "Waiting Overdue"
+        ]
+      },
+      "solutionKey": "patientsRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "treatedOverdue"
+        ],
+        "labels": [
+          "Treated Overdue"
+        ]
+      },
+      "solutionKey": "patientsRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "stillWaitingOverdue"
+        ],
+        "labels": [
+          "Overdue Still Waiting"
+        ]
+      },
+      "solutionKey": "patientsRes",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      }
+    }
+  ]
+}

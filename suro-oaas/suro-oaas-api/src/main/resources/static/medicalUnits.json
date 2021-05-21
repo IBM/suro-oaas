@@ -1,0 +1,68 @@
+[
+    {
+        "id": 11,
+        "maxSessions": 99,
+        "name": "Cardiac Surgery",
+        "code": "CAS"
+    },
+    {
+        "id": 12,
+        "maxSessions": 50,
+        "name": "Cardiology",
+        "code": "CAR"
+    },
+    {
+        "id": 13,
+        "maxSessions": 50,
+        "name": "Dental Unit",
+        "code": "DEN"
+    },
+    {
+        "id": 15,
+        "maxSessions": 50,
+        "name": "Gastroenterology",
+        "code": "GAS"
+    },
+    {
+        "id": 16,
+        "maxSessions": 90,
+        "name": "General Surgery",
+        "code": "GNS"
+    },
+    {
+        "id": 18,
+        "maxSessions": 50,
+        "name": "Neurosurgery",
+        "code": "NUE"
+    },
+    {
+        "id": 19,
+        "maxSessions": 70,
+        "name": "Opthalmology",
+        "code": "OPT"
+    },
+    {
+        "id": 20,
+        "maxSessions": 90,
+        "name": "Orthopaedic - General",
+        "code": "ORT"
+    },
+    {
+        "id": 21,
+        "maxSessions": 90,
+        "name": "Otolaryngology",
+        "code": "OLR"
+    },
+    {
+        "id": 22,
+        "maxSessions": 90,
+        "name": "Plastic Surgery",
+        "code": "PLS"
+    },
+    {
+        "id": 23,
+        "maxSessions": 70,
+        "name": "Urology",
+        "code": "URO"
+    }
+]

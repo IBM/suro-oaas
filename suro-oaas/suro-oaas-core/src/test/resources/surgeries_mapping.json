@@ -1,0 +1,32 @@
+{
+  "fileName": "surgeries.csv",
+  "mappingType": "complex",
+  "sources": [
+    {
+      "row": {
+        "entryKeys": [
+          "surgery",
+          "cat"
+        ],
+        "labels": [
+          "Surgery Type",
+          "Urgency Category"
+        ]
+      },
+      "solutionKey": "surgeryResults",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    }
+  ]
+}

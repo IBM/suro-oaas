@@ -1,0 +1,58 @@
+@import "../variables";
+
+#view-dashboard {
+  h2 {
+    color: @brandColor;
+    font-size: 28px;
+  }
+
+
+  .card {
+
+    .section-title {
+      background-color: #fff;
+      margin-left: -11px;
+      margin-right: -11px;
+      padding: 5px 15px;
+
+      font-size: 16px;
+      color: @blueText;
+      letter-spacing: 0.7px;
+      cursor: pointer;
+    }
+
+    .section-title.active {
+      background-color: #e5e5e5;
+      color: #296181;
+    }
+    .section-title.active.edit {
+      background-color: #fff;
+    }
+
+    .section-body {
+      padding: 15px;
+
+
+      // general delete icon in the top right of the current section
+      .fa-trash {
+        color: #F44336;
+        cursor: pointer;
+        padding: 7px 10px;
+        border: 1px solid #efefef;
+        border-radius: 50px;
+        font-size: 24px;
+      }
+      .fa-trash:hover {
+        background: #efefef;
+      }
+
+      // placeholder diff for a line containing label and input
+      .div-placeholder {
+        min-height: 40px;
+      }
+
+    }
+
+
+  }
+}

@@ -1,0 +1,219 @@
+Surgical Resource Optimization (SURO) - REST Services Module
+============================================================
+
+This project contains a Java web application providing a simple REST API into the IBM Research Surgical Unit Resource Optimization scheduling application. This application contains the
+core logic of and it is designed to support pluggable implementations of:
+
+1. the backing storage for the application entities.
+2. the optimization engine to relay to execute the strategies defined in the application.
+
+Specific implementations of these components are configured at runtime without the need to recompile the source code of the application. Moreover the application is also designed to be
+deployed in multiple environment quite seamlessly and with not changes to the source or the packaging.
+
+
+Setup and Requirements
+======================
+
+## Environment
+
+
+The application is built with Maven and it is based on Java, therefore it would require the following:
+
+1. [Java SE 1.7 SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+2. [Apache Maven](https://maven.apache.org)
+
+Moreover, as it does require a proper configuration for accessing the [IBM Research - Australia Artifact Repository](https://mrlartifacts.sl.cloud9.ibm.com). Please ensure that both your
+Java and Maven environment are properly setup as defined in the documentation:
+
+1. [SSL configuration for Java](https://mrlartifacts.sl.cloud9.ibm.com/ssl.shtml)
+2. [Configuration for Maven](https://mrlartifacts.sl.cloud9.ibm.com/repository.shtml)
+
+
+## Project Specific
+
+Specifically, to this module is designed to run in Java Servlet Container that supports the following JSR specifications:
+
+1. [JSR-311](https://jcp.org/en/jsr/detail?id=311) (Java REST APIs)
+2. [JSR-299](https://jcp.org/en/jsr/detail?id=299) or [JSR-346](https://jcp.org/en/jsr/detail?id=346) (Content Dependency Injection for Java EE)]
+3. [JSR-356](https://jcp.org/en/jsr/detail?id=356) (Websocket APIs)
+
+The application has been tested on the [IBM WebSphere Liberty Profile](https://developer.ibm.com/wasdev/websphere-liberty/) application server (both versions 8.5.* and 9), but does not use any specific feature of the server, except for the configuration of the packaging module and the setup of the configuration settings.
+
+
+Project Layout
+==============
+
+The project layout follows the standard layout of a [Apache Maven Web Application](http://maven.apache.org/archetypes/maven-archetype-webapp/):
+
+1. [src/main](../../tree/master/suro-oaas-api/src/main): contains the source folder for the application logic, including resources, java classes, and web application files.
+2. [src/test](../../tree/master/suro-oaas-api/src/test): contains the testing logic.
+3. [pom.xml](../../tree/master/suro-oaas-api/pom.xml): contians the bill of material for this project and specifies all the dependencies and plugins required by this project.
+ 
+In addition to this standard configuration, the project has also an additional folder which is [server](server). This will contain the packaged server that can be deployed directly onto a WebSphere Liberty Profile web application server and therefore Bluemix.
+
+
+Build
+=====
+
+## Simple Build
+
+The SURO web application uses Apache Maven for builds and packaging.  To build the SURO web application war, simply run:
+
+    $ mvn clean package
+
+The packaged WAR file is copied into the `server/apps` folder for easy deployment into WLP.
+
+    
+Alternatively, if you want to build and install the artifact locally:
+
+    $ mvn clean install
+    
+This command will have the same effect of the previous command but will also install the artifact into the local maven repository cache.
+
+## Bundling Build
+
+This module also enable to execute a more complex build which also embeds the web front-end into the web application. To enable such feature simply issue:
+
+    $ mvn -P bundle package
+
+Or alternatively:
+
+    $ mvn -P bundle install
+    
+The effect of this command is the following:
+
+1. the source code is compiled and tested.
+2. while packaging WAR file containing the logic of the module a copy of the web front end is retrieved from the Artifact Repository, unpacked and copied in to the root folder of the package.
+3. the resulting folder tree is then packaged and copied into the `server/apps` folder.
+
+This enable to have both the front-end and the REST services packaged into a single WAR for ease of deployment. The default configuration of the static front-end is already setup to
+have the bindings required to map the endpoints of the websocket connections and of the REST API request to the path exposed by this application. Therefore, no changes are required.
+
+
+Deploy
+======
+
+The module supports multiple types of deployment. The most common cases are discussed in this section.
+
+## Deployment into the Artifact Repository
+
+Given that Maven is configured with the appropriate credentials to deploy the artifact generated by this module simply issue the following command:
+
+    $ mvn deploy
+    
+If the project has been already built, it will deploy the artifact otherwise it will trigger the build. 
+
+To deploy the artifact with the UI embedded into it issue the following command:
+
+    $ mvn -P bundle clean install deploy
+
+This ensures that the deploy process will be deploying the version of the WAr with the embedded user interface.
+
+## WebSphere Liberty Profile (WLP) Server Packaging
+
+Once the artifact generated by the module has been packaged a copy of it is copied into the `server/apps` folder. The `server` directory contains the default server configuration required to provision on WebSphere Liberty Profile 8 and 9. It can be directly copied into a WLP installation under the __<WLP Install Path>/usr/servers__ folders with a name of choice. The `server` folder can also be directly pushed to Bluemix, via the associated `manifest.yml` file located in the root directory of the project.
+
+### Deployment to Local WLP Installation
+    
+The set of commands below will copy the server configuration and all the other artifacts and configuration settings required by the application to run:
+
+    $ cp server/server.xml <WLP Install Path>/usr/servers/<WLP Server Name>/
+    $ cp server/server.env <WLP Install Path>/usr/servers/<WLP Server Name>/
+    $ cp server/source.init <WLP Install Path>/usr/servers/<WLP Server Name>/
+    $ cp server/source.properties <WLP Install Path>/usr/servers/<WLP Server Name>/
+    $ cp server/apps/* <WLP Install Path>/user/servers/<WLP Server Name>/apps/
+
+The `server.xml` file declares some of the WLP features that are required for the applicaiton to run. These features are not installed by default and need to be installed by the command line. Here are the commands required to activate the features:
+
+    $ <WLP Install Path>/bin/featureManager install websocket-1.1
+    $ <WLP Install Path>/bin/featureManager install cdi-1.0
+
+The JAX-RS feature (REST API) should be installed by default. If that is not present here is the command that will install the feature:
+
+    $ <WLP Install Path>/bin/featureManager install jaxrs-1.1
+
+## Bluemix Deployment
+
+The application can be deployed into a IBM Bluemix application container using WLP 8 or 9.  The project repository contains a custom `server.xml` to enable the necessary libraries in the Liberty application server.  ([More information on running custom Liberty configurations in Bluemix](https://www.ng.bluemix.net/docs/#starters/liberty/index.html#optionsforpushinglibertyapplications))
+
+1. Create a new **Liberty for Java** web app in Bluemix.
+2. Create a Cloudant database, name it __couchdb__ and connect it to the web application. This is required to store the application entities.
+3. Modify the `manifest.yml` in the project root to update application name, host, and other important details
+4. Configure the Bluemix API connection.
+5. Deploy application on Bluemix.
+
+The last two steps of the process are performed
+
+    $ cf api <BlueMix API URL>
+    $ cf login -u <username> -o <organization>
+    $ cf push
+
+__NOTE__: now the security persistence has been ported from MongoDB to CouchDb therefore there is no more need to use MongoDB in the deployment. If you still want to keep
+separate the authentication persistence layer then also do the following before step 3 of the previous list:
+
+1. Create a MongoDB database, name it __store__ and connect it to the web application. This is required to manage the security of the application.
+
+Configuration
+=============
+
+The configuration of the application is controlled primarily through the `server/source.properties` file, which is a simple Java properties file that exposes all the configuration parameters that application needs. This is divided into sections:
+
+## Runtime Components
+
+These settings control the implementation of the different components that the REST services use:
+
+1. `com.ibm.au.optim.suro.model.store.TemplateRepository` defines the specific implementation of strategy repository to use, and it is set to `com.ibm.au.optim.suro.model.store.impl.couch.CouchDbTemplate`.
+2. `com.ibm.au.optim.suro.model.store.RunRepository` defines the specific implementation of run repository to use, and it is set to `com.ibm.au.optim.suro.model.store.impl.couch.CouchDbRunRepository`.
+3. `com.ibm.au.optim.suro.model.store.OptimizationResultRepository` defines the specific implementation of optimization results repository to use, and it is set to `com.ibm.au.optim.suro.model.store.impl.couch.CouchDbOptimizationResultRepository`.
+4. TODO defines the specific implementation of optimization engine to use, and it is set to TODO.
+
+These configuration settings do not need to be changed, unless different implementations of these components are require.
+
+## Security Configuration
+
+__NOTE:_ the instructions in this section are only needed if we want to rely on the security layer persisted on a MongoDB instance. The current codebase and setup utilises CouchDB for the security and does not require any additional configuration and setup beyond the one that is expressed above in the CouchDb section__.
+
+These settings control the configuration of the repository that contains the security settings. The current configuration uses MongoDB and the default configuration set for the security is found into the resource file `src/main/resources/store/mongo-store-setup.js`. This file creates the security collection that will contain the users and the rules to be applied to the
+endpoint according user roles.
+
+1. `com.ibm.au.vizanalytics.data.store.DataStore` defines the specific implementation of data store that is used by the security. This is set to `com.ibm.au.vizanalytics.data.store.impl.mongo.MongoDataStore`.
+2. `store.uri` defines the URI of the MongoDB database and defaults to `mongodb://localhost:27017`.
+3. `store.db` defines the name of the database to connect to and the default db is `suro-oaas`.
+4. `store.user` defines the name of the user to use to connect to the datbaase an defaults to `suro`.
+5. `store.pwd` defines the password for the user and defaults to `0pt1m1s@t10n`.
+
+These settings are in line with the user that is defined in the script that initializes the database.
+
+## DOcloud API
+
+To obtain a DOcloud API Trial Key, go to <https://developer.ibm.com/docloud/docs/api-key/>
+
+1. `oaas.api.url` -  DOcloud API URL
+2. `oaas.authentication.token` - DOcloud API key
+
+__NOTE: There is no default entry for the authentication token please supply an authentication token before running the application, otherwise the application will not be able to schedule jobs.__
+
+## Couch DB
+
+The SURO application works with CouchDB install using the [Ektorp Java API](https://github.com/helun/Ektorp). 
+ 
+1. `couchdb.url` - CouchDB base URL (default: http://localhost:5984)
+2. `couchdb.username` - CouchDB username (default:  null)
+3. `couchdb.password` - CouchDB password (default:  null)
+4. `couchdb.database` - CouchDB default database (default: null), set to `suro`.
+
+
+## Notes on Bluemix Deployment
+
+When deploying to Bluemix or CloudFoundry. Some of these settings are better retrieved from the environment variable __VCAP_SERVICES__. The packaged web application is already designed to check for the existence of this environment variable and override some of the configurations above. In particular, it overrides transparently the settings `store.*` and `couchdb.*` if the services are named as indicated in the __Bluemix Deployment__ section (__store__ and __couchdb__).
+
+The Bluemix or CloudFoundry application runtime, need to have the following environment variable set:
+
+    CF_MAPPINGS={"couchdb":"your-couchdb-service-name"}
+    
+or for a mixed deployment based on MongoDB and CouchDb:
+
+    CF_MAPPINGS={"store":"your-mongo-service-name","couchdb":"your-couchdb-service-name"}
+
+This environment variable will remap all the request for parameters `store.*` and `couchdb.*` to the corresponding `credentials` section of the specified services. As an
+example a value for `store.uri` will be supplied with `<your-mongo-service>.credentials.uri` in the __VCAP_SERVICES__ environment variable bound to the application.

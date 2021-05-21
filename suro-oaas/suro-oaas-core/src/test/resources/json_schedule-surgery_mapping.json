@@ -1,0 +1,23 @@
+{
+  "fileName": "schedule-surgery-types.json",
+  "mappingType": "json-category",
+  "sources": [
+    {
+      "solutionKey": "schedule_surgery_types",
+      "row": {
+        "entryKeys": [
+          "clusterName"
+        ]
+      },
+      "value": {
+        "keys": [
+          "medicalUnitID",
+          "urgencyCategory",
+          "duration",
+          "lengthOfStay",
+          "icuRequirementProbability"
+        ]
+      }
+    }
+  ]
+}

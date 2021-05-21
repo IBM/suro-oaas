@@ -1,0 +1,64 @@
+@import "../variables";
+
+#view-departments {
+
+  button {
+    margin-top: 15px;
+  }
+
+  #dep-new-container {
+    margin-top: 15px;
+    #dep-max-sessions-new {
+      width: ~"calc(100% - 50px)";
+    }
+    #dep-new-button {
+      width: 40px;
+      padding: 0px;
+    }
+  }
+
+
+  .department:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  .department {
+
+    margin: 0px -15px;
+    padding: 10px 15px;
+
+    // the spacer between departments
+    .department-spacer {
+      border-bottom: 2px dashed #ccc;
+    }
+
+    // the list of specialists with the X to delete
+    .chip {
+      margin-top: 10px;
+
+      .delete-spec {
+        cursor: pointer;
+
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 100;
+
+        padding-right: 5px;
+      }
+    }
+
+
+    // adding a new specialist
+    .new-specialist {
+      input {
+        margin-right: 10px;
+        width: ~"calc(100% - 40px)";
+      }
+      button {
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 0px 5px;
+        width: 30px;
+      }
+    }
+  }
+}

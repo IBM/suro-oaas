@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<!-- decide where to log the files to (read profiles) -->
+	<if condition='property("LOG_PROFILE").equals("BLUEMIX")'>
+		<then>
+			<property name="LOG_FOLDER_BASE" value="../../../../../"/>
+		</then>
+		<else>
+			<property name="LOG_FOLDER_BASE" value="./"/>
+		</else>
+	</if>
+
+	<!-- Only debug messages from suro packages -->
+	<logger name="com.ibm.au.optim" level="DEBUG">
+		<if condition='property("LOG_PROFILE").equals("BLUEMIX")'>
+			<then>
+				<appender-ref ref="DEBUG-BLUEMIX"/>
+				<appender-ref ref="DEBUG"/>
+			</then>
+			<else>
+				<appender-ref ref="DEBUG"/>
+			</else>
+		</if>
+	</logger>
+
+	<!-- Logger for the API access security (routes / login) -->
+	<logger name="com.ibm.au.jaws.web.security" level="DEBUG">
+		<appender-ref ref="STORESECURITY"/>
+	</logger>
+	<logger name="org.ektorp" level="DEBUG">
+		<appender-ref ref="COUCHDB"/>
+	</logger>
+
+	<!-- Appender for the API access security (login / route access check) -->
+	<appender name="COUCHDB" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_FOLDER_BASE}logs/couchdb.log</file>
+		<filter class="com.ibm.au.optim.suro.api.util.logging.ThresholdLoggerFilter">
+			<logger>org.ektorp</logger>
+			<level>DEBUG</level>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/archive/couchdb-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>5MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Appender for the API access security (login / route access check) -->
+	<appender name="STORESECURITY" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_FOLDER_BASE}logs/access-security.log</file>
+		<filter class="com.ibm.au.optim.suro.api.util.logging.LevelLoggerFilter">
+			<logger>com.ibm.au.vizanalytics.web.security</logger>
+			<level>DEBUG</level>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/archive/access-security-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>5MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Console appender for standard out -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<!--we want to remove all the logs that are produced by CPLEX, because they'll be logged separately -->
+		<filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+			<evaluator class="com.ibm.au.optim.suro.api.util.logging.RunEventEvaluator" />	
+			<onMatch>DENY</onMatch>
+			<onMismatch>ACCEPT</onMismatch>
+		</filter>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Error log entries -->
+	<appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_FOLDER_BASE}logs/error.log</file>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>ERROR</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/archive/error_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>5MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Error log entries in BlueMix are logged to StdErr -->
+	<appender name="ERROR-BLUEMIX" class="ch.qos.logback.core.ConsoleAppender">
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>ERROR</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<target>System.err</target>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="DEBUG-BLUEMIX" class="ch.qos.logback.core.ConsoleAppender">
+		<filter class="com.ibm.au.optim.suro.api.util.logging.LevelLoggerFilter">
+			<logger>com.ibm.au.optim</logger>
+			<level>DEBUG</level>
+		</filter>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Debug logs (only com.ibm) -->
+	<appender name="DEBUG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_FOLDER_BASE}logs/debug.log</file>
+		<filter class="com.ibm.au.optim.suro.api.util.logging.LevelLoggerFilter">
+			<logger>com.ibm.au.optim</logger>
+			<level>DEBUG</level>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/archive/debug_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>5MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- All info log -->
+	<appender name="INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_FOLDER_BASE}logs/info.log</file>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>INFO</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/archive/info_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>5MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>30</maxHistory>
+
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Warning logs -->
+	<appender name="WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_FOLDER_BASE}logs/warn.log</file>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>WARN</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/archive/warn_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>5MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="RUNS" class="ch.qos.logback.classic.sift.SiftingAppender">
+		<filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+			<evaluator class="com.ibm.au.optim.suro.api.util.logging.RunEventEvaluator" />	
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<discriminator class="com.ibm.au.optim.suro.api.util.logging.RunLogDiscriminator">
+			<checkMarker>false</checkMarker>
+		</discriminator>
+		<sift>
+			<appender name="run-${runId}" class="ch.qos.logback.core.FileAppender">
+				<file>${LOG_FOLDER_BASE}logs/runs/run-${runId}.log</file>
+				<append>true</append>
+				<layout class="ch.qos.logback.classic.PatternLayout">
+					<pattern>%msg%n</pattern>
+				</layout>
+			</appender>
+		</sift>
+	</appender>
+
+	<!-- add all the different appenders to all messages above and including info -->
+	<root level="info">
+		<!-- no package filter / only filter level -->
+		<appender-ref ref="STDOUT"/>
+		<if condition='property("LOG_PROFILE").equals("BLUEMIX")'>
+			<then>
+				<appender-ref ref="ERROR-BLUEMIX"/>
+				<appender-ref ref="DEBUG-BLUEMIX"/>
+				<appender-ref ref="ERROR"/>
+				<appender-ref ref="DEBUG"/>
+			</then>
+			<else>
+				<appender-ref ref="ERROR"/>
+				<appender-ref ref="DEBUG"/>
+			</else>
+		</if>
+		<appender-ref ref="INFO"/>
+		<appender-ref ref="WARN"/>
+
+		<!-- package specific loggers -->
+		<appender-ref ref="STORESECURITY"/>
+		<appender-ref ref="COUCHDB"/>
+		
+		<appender-ref ref="RUNS"/>
+
+	</root>
+
+</configuration>

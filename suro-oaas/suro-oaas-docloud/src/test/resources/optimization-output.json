@@ -1,0 +1,503 @@
+[
+  {
+    "fileName": "beds.csv",
+    "mappingType": "complex",
+    "sources": [
+      {
+        "row": {
+          "labels": [
+            "available"
+          ]
+        },
+        "solutionKey": "bedAvailRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      },
+      {
+        "row": {
+          "labels": [
+            "totalUsed"
+          ]
+        },
+        "solutionKey": "bedTotalRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "name"
+          ]
+        },
+        "solutionKey": "bedRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "fileName": "icu.csv",
+    "mappingType": "complex",
+    "sources": [
+      {
+        "row": {
+          "labels": [
+            "available"
+          ]
+        },
+        "solutionKey": "icuAvailRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      },
+      {
+        "row": {
+          "labels": [
+            "totalUsed"
+          ]
+        },
+        "solutionKey": "icuTotalRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "name"
+          ]
+        },
+        "solutionKey": "icuRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "fileName": "patients.csv",
+    "mappingType": "complex",
+    "sources": [
+      {
+        "row": {
+          "entryKeys": [
+            "waiting"
+          ],
+          "labels": [
+            "Waiting"
+          ]
+        },
+        "solutionKey": "patientsRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "incoming"
+          ],
+          "labels": [
+            "Incoming"
+          ]
+        },
+        "solutionKey": "patientsRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "treated"
+          ],
+          "labels": [
+            "Treated"
+          ]
+        },
+        "solutionKey": "patientsRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "stillWaiting"
+          ],
+          "labels": [
+            "Still Waiting"
+          ]
+        },
+        "solutionKey": "patientsRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "incomingOverdue"
+          ],
+          "labels": [
+            "Incoming Overdue"
+          ]
+        },
+        "solutionKey": "patientsRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "waitingOverdue"
+          ],
+          "labels": [
+            "Waiting Overdue"
+          ]
+        },
+        "solutionKey": "patientsRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "treatedOverdue"
+          ],
+          "labels": [
+            "Treated Overdue"
+          ]
+        },
+        "solutionKey": "patientsRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "stillWaitingOverdue"
+          ],
+          "labels": [
+            "Overdue Still Waiting"
+          ]
+        },
+        "solutionKey": "patientsRes",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "fileName": "sessions.csv",
+    "mappingType": "complex",
+    "sources": [
+      {
+        "row": {
+          "labels": [
+            "total theatres"
+          ]
+        },
+        "solutionKey": "sessionsTheatres",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      },
+      {
+        "row": {
+          "labels": [
+            "total sessions"
+          ]
+        },
+        "solutionKey": "sessionsTotal",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      },
+      {
+        "row": {
+          "entryKeys": [
+            "department"
+          ]
+        },
+        "solutionKey": "sessions",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "fileName": "surgeries.csv",
+    "mappingType": "complex",
+    "sources": [
+      {
+        "row": {
+          "entryKeys": [
+            "surgery",
+            "cat"
+          ],
+          "labels": [
+            "Surgery Type",
+            "Urgency Category"
+          ]
+        },
+        "solutionKey": "surgeryResults",
+        "column": {
+          "labels": [
+            "Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "fileName": "targets.csv",
+    "mappingType": "key-to-column",
+    "sources": [
+      {
+        "solutionKey": "targetsRes"
+      }
+    ]
+  },
+  {
+    "fileName": "waitlist.csv",
+    "mappingType": "complex-append",
+    "sources": [
+      {
+        "solutionKey": "waitListTotal",
+        "column": {
+          "labels": [
+            "Total Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "row": {
+          "entryKeys": [
+            "unitCode",
+            "surgery",
+            "cat"
+          ],
+          "labels": [
+            "Unit Code",
+            "Surgery Type",
+            "Urgency Category"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      },
+      {
+        "solutionKey": "waitListOverdue",
+        "column": {
+          "labels": [
+            "Overdue Period"
+          ],
+          "entryKeys": [
+            "period"
+          ]
+        },
+        "row": {
+          "entryKeys": [
+            "unitCode",
+            "surgery",
+            "cat"
+          ],
+          "labels": [
+            "Unit Code",
+            "Surgery Type",
+            "Urgency Category"
+          ]
+        },
+        "value": {
+          "keys": [
+            "value"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "fileName": "schedule.json",
+    "mappingType": "transformer",
+    "transformer": "ScheduleTransformer",
+    "sources": [
+      {
+        "solutionKey": "schedule"
+      }
+    ]
+  },
+  {
+    "fileName": "schedule-surgery-types.json",
+    "mappingType": "json-category",
+    "sources": [
+      {
+        "solutionKey": "schedule_surgery_types",
+        "row": {
+          "entryKeys": [
+            "clusterName"
+          ]
+        },
+        "value": {
+          "keys": [
+            "medicalUnitID",
+            "urgencyCategory",
+            "duration",
+            "lengthOfStay",
+            "icuRequirementProbability"
+          ]
+        }
+      }
+    ]
+  }
+]

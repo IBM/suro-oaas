@@ -1,0 +1,223 @@
+[
+  {
+    "label"			:	"Maximize the performance of the hospital",
+    "description"	: 	"This template can be used to set the relative weights of different goals and also to change the available resources within the hospital",
+
+    "parameters"	:	[{
+
+    	"name"		:	"inputWeightOverdue",
+    	"value"		:	9,
+    	"fixed"		:	false
+       
+       },{
+
+    	"name"		:	"inputWeightOntime",
+    	"value"		:	0,
+    	"fixed"		:	false
+       
+       },{
+
+       	"name"		:	"inputPerPeriodWaitlistPatientPenalty",
+       	"value"		:	1,
+       	"fixed"		:	true
+	
+	   },{
+
+       	"name"		:	"inputExtraNormalBeds",
+       	"value"		:	0,
+       	"fixed"		:	false
+              
+	   },{
+
+       	"name"		:	"inputExtraIcuBeds",
+       	"value"		:	0,
+       	"fixed"		:	false
+              
+    }]
+  },
+  {
+  	"label"			:	"Optimize hospital performance, overdue patients and waiting list",
+  	"description"	: 	"This template maximizes the number of performance points achieved, and minimizes the total number of overdue patients at the end of last period and patients left on the waiting list. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+
+    "parameters"	:	[{
+
+    	"name"		:	"inputPerformancePointBonus",
+    	"value"		:	100000,
+    	"fixed"		:	false
+
+       },{
+
+    	"name"		:	"inputWeightOverdue",
+    	"value"		:	9,
+    	"fixed"		:	true
+       
+       },{
+
+       	"name"		:	"inputLastPeriodOverduePatientPenalty",
+       	"value"		:	1,
+       	"fixed"		:	false
+	
+	   },{
+
+	   	 "name"		:	"inputPerPeriodWaitlistPatientPenalty",
+       	"value"		:	1,
+       	"fixed"		:	true
+	
+	   },{
+
+       	"name"		:	"inputExtraNormalBeds",
+       	"value"		:	0,
+       	"fixed"		:	false
+              
+	   },{
+
+       	"name"		:	"inputExtraIcuBeds",
+       	"value"		:	0,
+       	"fixed"		:	false
+              
+    }]
+  },
+  {
+  	"label"			:	"Optimize overdue patients, waiting list and the hospital performance",
+    "description"	: 	"This templates minimizes the total number of overdue patients at the end of last period and patients left on the waiting list and maximizes the number of performance points achieved. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+
+    "parameters"	:	[{
+
+    	"name"		:	"inputPerformancePointBonus",
+    	"value"		:	1,
+    	"fixed"		:	true
+
+       },{
+
+    	"name"		:	"inputWeightOverdue",
+    	"value"		:	990,
+    	"fixed"		:	true
+       
+       },{
+
+       	"name"		:	"inputLastPeriodOverduePatientPenalty",
+       	"value"		:	1,
+       	"fixed"		:	false
+	
+	   },{
+
+	   	 "name"		:	"inputPerPeriodWaitlistPatientPenalty",
+       	"value"		:	10,
+       	"fixed"		:	true
+	
+	   },{
+
+       	"name"		:	"inputExtraNormalBeds",
+       	"value"		:	0,
+       	"fixed"		:	false
+              
+	   },{
+
+       	"name"		:	"inputExtraIcuBeds",
+       	"value"		:	0,
+       	"fixed"		:	false
+              
+    }]  	
+  },
+  {
+  	"label"			:	"Optimize the hospital performance, overdue patients, waiting list and initial overdue patients in urgency category 1",
+    "description"	: 	"This template maximizes the number of performance points achieved, and minimizes the initial overdue patients in urgency category 1, the total number of overdue patients at the end of last period and patients left on the waiting list. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+
+    "parameters"	:	[{
+
+    	"name"		:	"inputPerformancePointBonus",
+    	"value"		:	100000,
+    	"fixed"		:	true
+
+       },{
+
+    	"name"		:	"inputWeightOverdue",
+    	"value"		:	9,
+    	"fixed"		:	true
+       
+       },{
+
+       	"name"		:	"inputLastPeriodOverduePatientPenalty",
+       	"value"		:	0,
+       	"fixed"		:	false
+	
+	   },{
+
+	   	"name"		:	"inputPerPeriodWaitlistPatientPenalty",
+       	"value"		:	1,
+       	"fixed"		:	true
+	
+	   },{
+
+	   	"name"		:	"inputUrgencyCategory1PatientPenalty",
+       	"value"		:	100000,
+       	"fixed"		:	true
+	
+	   },{
+
+       	"name"		:	"inputExtraNormalBeds",
+       	"value"		:	0,
+       	"fixed"		:	false
+              
+	   },{
+
+       	"name"		:	"inputExtraIcuBeds",
+       	"value"		:	0,
+       	"fixed"		:	false
+              
+    }] 
+  },{
+    
+    "label"			:	"Flexible (free form)",
+    "description"	: 	"This template enables you to play with all the available parameters of the model so that you can create runs by having full controls on all the aspects of the model.",
+
+	 "parameters"	:	[{
+
+		"name"			: 	"inputWeightOverdue",
+        "value"			:	1,
+        "fixed"			:	false
+
+      },{
+        
+        "name"			: 	"inputWeightOntime",
+        "value"			:	1,
+        "fixed"			:	false
+
+      },{
+        
+        "name"			: 	"inputExtraNormalBeds",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+        
+        "name"			: 	"inputExtraIcuBeds",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+
+        "name"			: 	"inputPerformancePointBonus",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+        
+        "name"			: 	"inputLastPeriodOverduePatientPenalty",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+
+        "name"			: 	"inputPerPeriodWaitlistPatientPenalty",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+
+        "name"			: 	"inputUrgencyCategory1PatientPenalty",
+        "value"			: 	1,
+        "fixed"			:	false
+    }]
+  }
+]

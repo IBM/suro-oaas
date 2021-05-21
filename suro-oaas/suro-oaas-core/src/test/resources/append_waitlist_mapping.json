@@ -1,0 +1,62 @@
+{
+  "fileName": "waitlist.csv",
+  "mappingType": "complex-append",
+  "sources": [
+    {
+      "solutionKey": "waitListTotal",
+      "column": {
+        "labels": [
+          "Total Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "row": {
+        "entryKeys": [
+          "unitCode",
+          "surgery",
+          "cat"
+        ],
+        "labels": [
+          "Unit Code",
+          "Surgery Type",
+          "Urgency Category"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    },
+    {
+      "solutionKey": "waitListOverdue",
+      "column": {
+        "labels": [
+          "Overdue Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "row": {
+        "entryKeys": [
+          "unitCode",
+          "surgery",
+          "cat"
+        ],
+        "labels": [
+          "Unit Code",
+          "Surgery Type",
+          "Urgency Category"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+
+@import "../../../../variables";
+
+#view-slider{
+}
+
+.sliderKPI{
+
+  margin-top: 13px;
+
+  .textSliderTarget{
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #3B3B3B;
+    display: block;
+  }
+
+
+  .mainSlide{
+    width: 100%;
+    height: 16px;
+    background-color: #e7eaea;
+    position: relative;
+
+    .fillSlide{
+      height: 100%;
+      z-index: 1;
+    }
+    .indicator{
+      position: absolute;
+      top: -5px;
+      height: 31px;
+      width: 3px;
+      background-color: #a0abb9;
+
+
+    }
+
+  }
+  .disabledSlider {
+    .fillSlide{
+     background-color: #e7eaea;
+    }
+
+
+
+  }
+}

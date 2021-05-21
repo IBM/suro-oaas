@@ -1,0 +1,171 @@
+{
+  "name": "Victoria/Australia",
+  "intervalType": "Quarterly",
+  "firstIntervalStart": 1451606400,
+  "urgencyCategories": [
+    {
+      "label": "Cat 1",
+      "maxWaitListStay": 30,
+      "minPointsRequired": 1,
+      "possiblePoints": 1,
+      "kpiTargets": [
+        {
+          "interval": 1,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 1.0
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 1.0
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 1.0
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Cat 2",
+      "maxWaitListStay": 90,
+      "minPointsRequired": 0,
+      "possiblePoints": 3,
+      "kpiTargets": [
+        {
+          "interval": 1,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.65
+        },
+        {
+          "interval": 1,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.7
+        },
+        {
+          "interval": 1,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.75
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.65
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.7
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.75
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.7
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.75
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.8
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.7
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.75
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.8
+        }
+      ]
+    },
+    {
+      "label": "Cat 3",
+      "maxWaitListStay": 365,
+      "minPointsRequired": 0,
+      "possiblePoints": 3,
+      "kpiTargets": [
+        {
+          "interval": 1,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.83
+        },
+        {
+          "interval": 1,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.88
+        },
+        {
+          "interval": 1,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.93
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.83
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.88
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.93
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.845
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.895
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.945
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.845
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.895
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.945
+        }
+      ]
+    }
+  ]
+}

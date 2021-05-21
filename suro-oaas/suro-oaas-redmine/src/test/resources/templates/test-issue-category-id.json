@@ -1,0 +1,5 @@
+{
+	"1" 	: { "tracker_id" :  1, "category_id" : 11 },
+	"2"		: { "tracker_id" :  2, "category_id" : 22 },
+	"3"		: { "tracker_id" :  3, "category_id" : 33 }
+}

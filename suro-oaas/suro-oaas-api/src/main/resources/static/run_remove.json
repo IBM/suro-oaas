@@ -1,0 +1,11 @@
+{
+		"id": "2001",
+		"strategyId": "2",
+		"dateRun": "January 30, 2014",
+		"resultsPath": "resources/data/optimizationResults/strategy2/2001/",
+		"data": {
+			"inputPerformancePointBonus": 100000,
+			"inputLastPeriodOverduePatientPenalty": 10,
+			"inputPerPeriodWaitlistPatientPenalty": 1
+		}
+}

@@ -1,0 +1,152 @@
+<template name="overview">
+	<div id="view-overview">
+		<div class="row">
+			<div class="container">
+
+				<div class="row" style="height: 70px">
+
+				</div>
+				<div class="row">
+					<div class="col s12 titleStatus">
+						<span class="flow-text">Status of your hospital</span>
+					</div>
+					<div class="col s6 basePlanContainer" >
+						<div class="card-panel infoCard">
+							<div class="flow-text">
+								<div class="titleMediumBoldSmall">Base Plan
+								</div>
+								<div id="base-plan-session-chart">{{renderBasePlanSessionChart}}</div>
+							</div>
+						</div>
+					</div>
+					<div class="col s3">
+						<div class="card-panel infoCard">
+							<div>
+								<div class="titleMediumBoldSmall bold">Demand
+								</div>
+									<span class="titleMediumBold infoCardFirstRow">
+										{{totalWaitlist}}
+
+									</span>
+								<div class=" titleMediumBoldSmall">Total Number
+
+								</div>
+								<span class="titleMediumBold">
+									{{overdueWaitList}}
+
+								</span>
+								<div class=" titleMediumBoldSmall">Overdue Patients
+
+								</div>
+
+							</div>
+
+						</div>
+
+
+					</div>
+					<div class="col s3 resourcesContainer">
+						<div class="card-panel infoCard">
+							<div class="titleMediumBoldSmall bold" >Available Resources
+							</div>
+							<span class="titleMediumBold infoCardFirstRow">
+								{{resourcesWards}}
+
+							</span>
+
+							<span class=" titleMediumBoldSmall">Ward Beds
+
+							</span>
+
+							<span class="titleMediumBold">
+								{{resourcesICUbeds}}
+							</span>
+							<div class=" titleMediumBoldSmall">ICU beds
+
+
+							</div>
+								<span class="titleMediumBold">
+									{{resourcesTeathres}}
+
+								</span>
+							<div class=" titleMediumBoldSmall">Theatres
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row bottomRowGrey">
+
+			<div class="container">
+
+
+				<div class="col s4 defaultCard">
+					<div class="planningCard card-panel ">
+						<div class="card-title" style="background-color: #1cb3a0">
+							<div class="col s10">
+								Default Optimal Plan
+
+							</div>
+							<div class="col s2">
+								<i class="fa fa-bar-chart" aria-hidden="true"></i>
+
+							</div>
+
+						</div>
+						<div class="flow-text infoText ">
+							Minimise the waitlist patient at the end of four weeks period with respect to only small
+							changes to the base plan and current available surgery resources.
+						</div>
+					</div>
+				</div>
+
+				<div class="col s4 modal-trigger" data-target="maxPerformance">
+					<div class="planningCard card-panel">
+						<div class="card-title">
+							<div class="col s10">
+								Maximise Performance
+							</div>
+							<div class="col s2">
+								<i class="fa fa-list" aria-hidden="true"></i>
+							</div>
+
+						</div>
+						<div class="flow-text infoText">
+							Maximise the performance of the hospital by setting multiple goals
+							(minimise the waitlist or/and overdue at the end of four weeks period) with respect to only small
+							changes to the base plan and available extra surgery resources.
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col s4 modal-trigger " data-target="tunePerformance">
+					<div class="planningCard card-panel ">
+						<div class="card-title">
+							<div class="col s10">
+								Fine Tune Optimisation
+							</div>
+							<div class="col s2">
+								<i class="fa fa-list" aria-hidden="true"></i>
+
+							</div>
+
+						</div>
+						<div class="flow-text infoText ">
+							Maximise multiple goals in the hospital with respect to all available parameters. This scenario is designed for advanced and complex analytics.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Trigger -->
+
+	<!-- Modal Structure -->
+
+
+</template>

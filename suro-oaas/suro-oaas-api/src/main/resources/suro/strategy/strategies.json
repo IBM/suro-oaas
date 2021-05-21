@@ -1,0 +1,103 @@
+[
+	{
+		"id" : "1",
+		"title": "Maximize the performance of the hospital based on government targets",
+		"description": "Hospital performance is measured according to a number of KPIs.",
+		"assumptions": [
+			{ "item": "All patients with urgency category 1 are treated on time" }
+		], 
+		"criteria": [
+		],
+		"approxProcessingDuration": 4,
+		"isRunning": false,
+		"resultsPathRoot": "resources/data/optimizationResults/strategy1/",
+		"editorTemplate": "optimizationStrategyConstraints1",
+		"runs": [
+			{ 
+				"id": "1001", 
+				"strategyId": "1", 
+				"dateRun": "January 20, 2014", 
+				"resultsPath": "resources/data/optimizationResults/strategy1/1001/",
+				"data": {
+				}
+			}
+		]
+	},
+	{
+		"id" : "2",
+		"title": "Optimize hospital performance, overdue patients and waiting list",
+		"description": "In this strategy, maximize the number of performance points achieved, and minimize the total number of overdue patients at the end of last period and patients left on the waiting list. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+		"assumptions": [
+		], 
+		"criteria": [
+			{ 
+				"name": "Performance bonus point",
+			  	"type": "number",
+			  	"defaultValue": "1000" 
+			}
+		],
+		"approxProcessingDuration": 8,
+		"isRunning": false,
+		"resultsPathRoot": "resources/data/optimizationResults/strategy2/",
+		"editorTemplate": "optimizationStrategyConstraints2",
+		"runs": [
+			{ 
+				"id": "2001", 
+				"strategyId": "2", 
+				"dateRun": "January 30, 2014", 
+				"resultsPath": "resources/data/optimizationResults/strategy2/2001/",
+				"data": {
+					"inputPerformancePointBonus": 100000,
+					"inputLastPeriodOverduePatientPenalty": 10,
+					"inputPerPeriodWaitlistPatientPenalty": 1
+				}
+			}
+		]
+	},
+	{
+		"id" : "3",
+		"title": "Optimize overdue patients, waiting list and the hospital performance",
+		"description": "In this strategy, minimize the total number of overdue patients at the end of last period and patients left on the waiting list and maximize the number of performance points achieved. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+		"assumptions": [
+		], 
+		"approxProcessingDuration": 14,
+		"isRunning": false,
+		"resultsPathRoot": "resources/data/optimizationResults/strategy3/",
+		"editorTemplate": "optimizationStrategyConstraints3",
+		"runs": [
+		{ 
+				"id": "3001", 
+				"strategyId": "3", 
+				"dateRun": "Jul 1, 2014", 
+				"resultsPath": "resources/data/optimizationResults/strategy3/3001/",
+				"data": {
+					"inputPerformancePointBonus": 100000,
+					"inputLastPeriodOverduePatientPenalty": 10,
+					"inputPerPeriodWaitlistPatientPenalty": 1
+				}
+			}
+		]
+	},
+	{
+		"id" : "4",
+		"title": "Optimize the hospital performance, overdue patients, waiting list and initial overdue patients in urgency category 1",
+		"description": "In this strategy, maximize the number of performance points achieved, and minimize the initial overdue patients in urgency category 1, the total number of overdue patients at the end of last period and patients left on the waiting list. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+		"assumptions": [
+		], 
+		"approxProcessingDuration": 14,
+		"isRunning": false,
+		"resultsPathRoot": "resources/data/optimizationResults/strategy4/",
+		"editorTemplate": "optimizationStrategyConstraints4",
+		"runs": [		{ 
+				"id": "4001", 
+				"strategyId": "4", 
+				"dateRun": "Jul 1, 2014", 
+				"resultsPath": "resources/data/optimizationResults/strategy4/4001/",
+				"data": {
+					"inputPerformancePointBonus": 100000,
+					"inputLastPeriodOverduePatientPenalty": 10,
+					"inputPerPeriodWaitlistPatientPenalty": 1
+				}
+			}]
+	}	
+]

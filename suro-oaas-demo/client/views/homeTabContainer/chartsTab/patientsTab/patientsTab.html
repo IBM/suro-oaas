@@ -1,0 +1,106 @@
+<template name="patientsTab">
+    <div id="view-patientsTab">
+        <div class="row">
+
+
+        </div>
+        <div class="row">
+            {{> patientsChart}}
+
+        </div>
+		<div class="col s12 m12 l12 filters" style="padding-right: 15px">
+			<!--div class="col s4">
+
+			</div-->
+			<div class="col s4" style="margin-right: 60px">
+				<ul class="tabs tabsListPatients">
+					<li class="tab col s6">
+						<a class="active" data-view="treated">Treated</a>
+					</li>
+					<li class="tab col s6">
+						<a data-view="waitlist">Waitlist</a>
+					</li>
+				</ul>
+			</div>
+
+
+			<!-- Dropdown Trigger -->
+			<a class="dropdown-button btn departmentDropdown" href="#" data-activates="timeDropdown">Status
+				<i class="fa fa-caret-down pull-right"></i>
+			</a>
+			<!-- Dropdown Structure -->
+
+			<ul id="timeDropdown" class="dropdown-content" >
+				<li>
+					<input type="checkbox" id="overdue" data-status="overdue" checked="checked" />
+					<label for="overdue">Overdue</label>
+				</li>
+				<li>
+					<input type="checkbox" id="onTime" data-status="onTime" checked="checked" />
+					<label for="onTime">On time</label>
+				</li>
+			</ul>
+
+			<!-- Dropdown Trigger -->
+			<a class="dropdown-button btn departmentDropdown" href="#" data-activates="departmentDropdown">Department
+				<i class="fa fa-caret-down pull-right"></i>
+			</a>
+			<!-- Dropdown Structure -->
+			<ul id="departmentDropdown" class="dropdown-content" >
+				{{#each hospitalDepartments}}
+					<li>
+						<input type="checkbox" id="department-filter-{{id}}" data-department-name="{{name}}" data-filter="department" />
+						<label for="department-filter-{{id}}">{{name}}</label>
+					</li>
+				{{/each}}
+			</ul>
+			<!-- Dropdown Trigger -->
+			<a class="dropdown-button btn categoryDropdown" href="#" data-activates="categoryDropdown">Category
+				<i class="fa fa-caret-down pull-right"></i>
+			</a>
+			<!-- Dropdown Structure -->
+			<ul id="categoryDropdown" class="dropdown-content" >
+				<li>
+					<input type="checkbox" data-category-id="1" id="category1" />
+					<label for="category1">Category 1</label>
+				</li>
+				<li>
+					<input type="checkbox" data-category-id="2" id="category2" />
+					<label for="category2">Category 2</label>
+				</li>
+				<li>
+					<input type="checkbox" data-category-id="3" id="category3" />
+					<label for="category3">Category 3</label>
+				</li>
+			</ul>
+
+
+			<!-- if this needs to be aligned to the right side, it should be positioned absolute (right: 0px; top: 0px;) -->
+
+			<!-- Dropdown Trigger -->
+			<a class="dropdown-button btn categoryDropdown" href="#" data-activates="explodeDropdown">Breakdown
+				<i class="fa fa-caret-down pull-right"></i>
+			</a>
+			<!-- Dropdown Structure -->
+			<ul id="explodeDropdown" class="dropdown-content" >
+				<li>
+					<input class="with-gap" name="groupExplode" data-explode="status" type="radio" id="explode1" />
+					<label for="explode1">Overdue vs<br/> In Time</label>
+				</li>
+				<li>
+					<input class="with-gap" name="groupExplode" data-explode="department" type="radio" id="explode2" />
+					<label for="explode2">By Department</label>
+				</li>
+				<li>
+					<input class="with-gap" name="groupExplode" data-explode="category" type="radio" id="explode3" />
+					<label for="explode3">By Category</label>
+				</li>
+				<li>
+					<input class="with-gap" name="groupExplode" data-explode="" type="radio" id="explode4" checked="checked" />
+					<label for="explode4">Aggregated</label>
+				</li>
+			</ul>
+		</div>
+
+    </div>
+</template>

@@ -1,0 +1,365 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ibm.au.optim.suro</groupId>
+	<artifactId>suro-oaas-api</artifactId>
+	<packaging>war</packaging>
+	<version>${suro-oaas.version}</version>
+	<name>Surgical Unit Resource Optimization - REST Services</name>
+
+	<parent>
+		<groupId>com.ibm.au.optim.suro</groupId>
+		<artifactId>suro-oaas-parent</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../suro-oaas-parent/pom.xml</relativePath>
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<skipTests>false</skipTests>
+
+		<!-- Library versions -->
+		<commons-fileupload.version>1.2.2</commons-fileupload.version>
+		<commons-io.version>2.4</commons-io.version>
+		<logback.version>1.1.3</logback.version>
+
+		<jsr311-api.version>1.1.1</jsr311-api.version>
+		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+		<cdi-api.version>1.2</cdi-api.version>
+
+		<swagger-annotations.version>1.3.1</swagger-annotations.version>
+
+		<swagger.api.basePath>/api</swagger.api.basePath>
+
+		<swagger-maven-plugin.version>2.0</swagger-maven-plugin.version>
+		<maven-antrun-plugin.version>1.8</maven-antrun-plugin.version>
+		<maven-war-plugin.version>2.6</maven-war-plugin.version>
+		<maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
+		<maven-assembly-plugin.version></maven-assembly-plugin.version>
+		<maven-failsafe-plugin.version>2.18.1</maven-failsafe-plugin.version>
+
+		<viz-analytics.version>1.0.1-SNAPSHOT</viz-analytics.version>
+	</properties>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>${commons-fileupload.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+		</dependency>
+
+
+		<!-- SURO Dependencies -->
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-model</artifactId>
+			<version>${suro-oaas.version}</version>
+		</dependency>
+		<!-- SURO core -->
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-core</artifactId>
+			<version>${suro-oaas.version}</version>
+		</dependency>
+		<!-- Binding for CouchDB -->
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-couch</artifactId>
+			<version>${suro-oaas.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- Binding for DOcloud -->
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-docloud</artifactId>
+			<version>${suro-oaas.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- Binding for Redmine -->
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-redmine</artifactId>
+			<version>${suro-oaas.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+
+
+		<!-- JAX-RS and Servlet Support -->
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>jsr311-api</artifactId>
+			<version>${jsr311-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- required for test -->
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.12</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${javax.servlet-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.enterprise</groupId>
+			<artifactId>cdi-api</artifactId>
+			<version>${cdi-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+
+		<!-- Swagger Annotation Support -->
+		<dependency>
+			<groupId>com.wordnik</groupId>
+			<artifactId>swagger-annotations</artifactId>
+			<version>${swagger-annotations.version}</version>
+		</dependency>
+
+		<!-- Websocket Support -->
+		<dependency>
+			<groupId>javax.websocket</groupId>
+			<artifactId>javax.websocket-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<!-- Binding for SLF4J Logging -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${logback.version}</version>
+		</dependency>
+
+		<!-- Viz Analytics Libraries -->
+		<dependency>
+			<groupId>com.ibm.au.jaws.data</groupId>
+			<artifactId>jaws-data-core</artifactId>
+			<version>${jaws.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.fasterxml.jackson.core</groupId>
+					<artifactId>jackson-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.fasterxml.jackson.core</groupId>
+					<artifactId>jackson-databind</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.fasterxml.jackson.core</groupId>
+					<artifactId>jackson-annotations</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.au.jaws.web</groupId>
+			<artifactId>jaws-web-core</artifactId>
+			<version>${jaws.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.au.jaws.web</groupId>
+			<artifactId>jaws-web-wink</artifactId>
+			<version>${jaws.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.au.jaws.web</groupId>
+			<artifactId>jaws-web-cloudfoundry</artifactId>
+			<version>${jaws.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+
+
+
+
+	</dependencies>
+	<build>
+		<finalName>suro-oaas-api</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>${maven-war-plugin.version}</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>${maven-failsafe-plugin.version}</version>
+				<configuration>
+					<skipTests>${skipTests}</skipTests>
+				</configuration>
+			</plugin>
+
+			<!-- expose source.properties as artifact -->
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.7</version>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<!-- here the phase you need -->
+						<phase>validate</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/target</outputDirectory>
+							<resources>
+								<resource>
+									<directory>${basedir}/server</directory>
+									<includes>
+										<include>source.properties</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+
+			<!-- swagger -->
+			<plugin>
+				<groupId>com.github.kongchen</groupId>
+				<artifactId>swagger-maven-plugin</artifactId>
+				<version>${swagger-maven-plugin.version}</version>
+				<configuration>
+					<apiSources>
+						<apiSource>
+							<locations>com.ibm.au.optim.suro</locations>
+							<apiVersion>v1</apiVersion>
+							<basePath>${swagger.api.basePath}</basePath>
+							<outputTemplate>${basedir}/src/main/resources/mustache/markdown.mustache</outputTemplate>
+							<outputPath>${project.build.directory}/${project.build.finalName}/services/api.html</outputPath>
+							<swaggerDirectory>${project.build.directory}/${project.build.finalName}/services/</swaggerDirectory>
+						</apiSource>
+					</apiSources>
+				</configuration>
+				<executions>
+					<!-- This is not a problem only m2e complains, but not maven -->
+					<execution>
+						<phase>compile</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>javax.servlet</groupId>
+						<artifactId>javax.servlet-api</artifactId>
+						<version>${javax.servlet-api.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>${maven-antrun-plugin.version}</version>
+				<executions>
+					<execution>
+						<!-- This is to put into the war the swagger UI and bind it properly 
+							to the documentation generated by swagger-maven-plugin -->
+						<id>packageHTML</id>
+						<phase>prepare-package</phase>
+						<configuration>
+							<target>
+								<echo message="Adding Swagger UI to the WAR" />
+								<copy
+									toDir="${project.build.directory}/${project.build.finalName}/apidocs">
+									<fileset dir="${basedir}/src/main/resources/swagger"
+										includes="**/*" />
+								</copy>
+								<echo message="Deleting mustache api specification file..." />
+								<delete>
+									<fileset
+										dir="${project.build.directory}/${project.build.finalName}/services/"
+										includes="*.html" />
+								</delete>
+								<echo message="Injecting the API endpoint information into the Swagger Specification..." />
+								<java classname="com.ibm.au.jaws.web.security.tools.swagger.SwaggerApiFixup" fork="true">
+									<classpath>
+										<path refid="maven.compile.classpath" />
+									</classpath>
+									<arg value="${project.build.directory}/${project.build.finalName}/services/service.json" />
+								</java>
+							</target>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+					<execution>
+						<!-- This is to put into the war the swagger UI and bind it properly 
+							to the documentation generated by swagger-maven-plugin -->
+						<id>copy-war-to-server-package</id>
+						<phase>package</phase>
+						<configuration>
+							<target>
+								<echo message="Copying WAR to Liberty package" />
+								<copy
+									file="${project.build.directory}/${project.build.finalName}.war"
+									tofile="${basedir}/server/apps/${project.build.finalName}.war">
+								</copy>
+							</target>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											com.github.kongchen
+										</groupId>
+										<artifactId>
+											swagger-maven-plugin
+										</artifactId>
+										<versionRange>
+											[2.0,)
+										</versionRange>
+										<goals>
+											<goal>generate</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<url>https://github.ibm.com/aur/suro-oaas</url>
+	<description>This project contains the implementation of the REST API that provide access to the capability of SURO. This is project POM is designed either to build the services and package them in standalone mode or to also include an simple web interface for &quot;a single-war deployment&quot;.</description>
+</project>

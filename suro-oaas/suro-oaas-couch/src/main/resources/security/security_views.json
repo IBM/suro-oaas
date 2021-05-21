@@ -1,0 +1,26 @@
+{
+	"docName" 	: "CouchDbSecurityManager",
+	"views"		: {
+		"by_type" : {
+			"map" : "function(doc) { if (doc.cdbSecurity && doc.type) { emit(doc.type, doc._id) } }"
+		},
+		"by_regex" : {
+			"map" : "function(doc) { if (doc.cdbSecurity && doc.type && doc.type == 'rule' && doc.endpoint && doc.endpoint.indexOf('r:') == 0) { emit(doc.endpoint, doc._id) } }"
+		},
+		"by_endpoint" : {
+			"map" : "function(doc) { if (doc.cdbSecurity && doc.type && doc.type == 'rule' && doc.endpoint) { emit(doc.endpoint, doc._id) } }"
+		},
+		"by_username" : {
+			"map" : "function(doc) { if (doc.cdbSecurity && doc.type && doc.type == 'user' && doc.name) { emit(doc.name, doc._id) } }"
+		},
+		"by_token" : {
+			"map" : "function(doc) { if (doc.cdbSecurity && doc.type && doc.type == 'session' && doc.token) { emit(doc.token, doc._id) } }"
+		},
+		"by_security_tag" : {
+			"map" : "function(doc) { if (doc.cdbSecurity) { emit(doc._id, doc._id) } }"
+		},
+		"by_security_defaults" : {
+			"map" : "function(doc) { if (doc.cdbSecurity && doc.type && (doc.type == 'rule' || doc.type == 'property')) {  emit(doc._id, doc._id )} }"
+		}
+	}
+}

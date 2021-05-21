@@ -1,0 +1,108 @@
+<template name="kpis">
+	<div id="view-kpis">
+
+		<div class="row">
+			<div class="col s12 card">
+				<div class="section-title">KPIs</div>
+				<div class="section-body" style="display: none;">
+
+					<p class="note">
+						Configure your performance points based on the government provided figures. The
+						figures below have been pre-populated, please review/edit and confirm their validity.
+					</p>
+
+
+					<label>Region</label>
+					<div class="block">
+						<input type="radio" disabled="disabled" class="with-gap" name="region" id="region-victoria" checked="{{equals 'Victoria/Australia' hospital.regionId}}" value="Victoria/Australia"/>
+						<label for="region-victoria">Victoria/Australia</label>
+					</div>
+
+					{{#with enrichedCategories categories}}
+
+						<div class="row block">
+							<div class="col s12">
+								<h3>Admission Limits</h3>
+							</div>
+							{{#each this}}
+								<div class="col s4">
+									<label for="maxwait-cat-{{id}}">Days to Admission {{label}}</label>
+									<input type="number" disabled="disabled" name="maxwait-cat" id="maxwait-cat-{{id}}" data-id="{{id}}" data-label="{{label}}" value="{{daysToAdmission}}"/>
+								</div>
+							{{/each}}
+						</div>
+
+						<div class="row">
+							{{#each this}}
+								<div class="category-container col s{{uiTotalWidth}}" data-min-points-required="{{minPointsRequired}}" data-category-id="{{id}}">
+									<h3>Urgency {{label}}</h3>
+
+									<div class="row">
+										{{#each periods}}
+											<div class="col s6 category-period" data-period="{{period}}">
+												<h4>Period {{period}}</h4>
+
+												<div class="row">
+													<div class="col s8 relative">
+														<label for="cat-target-{{../id}}-{{period}}">Target</label>
+														<input type="number" disabled="disabled" id="cat-target-{{../id}}-{{period}}" value="{{targetPercentage}}"/>
+														<div class="input-data appendix target-appendix">%</div>
+													</div>
+													<div class="col s4">
+														<label for="cat-points-{{../id}}-{{period}}">Points</label>
+														<input type="number" disabled="disabled" id="cat-points-{{../id}}-{{period}}" value="{{possiblePoints}}"/>
+													</div>
+
+													{{#unless isEmpty pointRanges}}
+														<div class="col s12">
+															<label>% Below Target</label>
+														</div>
+
+														{{#each pointRanges}}
+															<div class="point-range">
+																{{#if fromBelowTarget}}
+																	<div class="col s4 relative">
+																		<input type="number" name="kpi-from-below-target" class="disabled" disabled="disabled" value="{{fromBelowTarget}}"/>
+																		<div class="input-data appendix">%</div>
+																		<div class="input-data">to</div>
+																	</div>
+																	<div class="col s4 relative">
+																		<input type="number" name="kpi-below-target" disabled="disabled" value="{{belowTarget}}"/>
+																		<div class="input-data appendix">%</div>
+																	</div>
+																{{else}}
+																	<div class="col s8 relative">
+																		<input type="number" name="kpi-below-target" disabled="disabled" value="{{belowTarget}}"/>
+																		<div class="input-data appendix">%</div>
+																	</div>
+																{{/if}}
+
+																<div class="col s4">
+																	<input type="number" name="kpi-points" disabled="disabled" class="disabled" value="{{points}}" data-points="{{points}}"/>
+																</div>
+															</div>
+														{{/each}}
+													{{/unless}}
+												</div>
+											</div>
+										{{/each}}
+									</div>
+								</div>
+							{{/each}}
+						</div>
+
+					{{/with}}
+
+					<div class="row">
+						<div class="col s12 right">
+							<button class="btn toggle edit-button">Edit</button>
+							<button class="btn toggle" style="display: none;" id="save-kpis">Save</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</template>

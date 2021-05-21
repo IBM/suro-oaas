@@ -1,0 +1,424 @@
+{
+	"label" 		: 	"test model",
+	"default"		:	true,
+	"description"	:	"this model is used for the purpose of testing.",
+	
+		"objectives"	: [{
+
+        "name"			: 	"Profit",
+        "label"			: 	"Maximise Profit",
+        "description"	: 	"Maximise the expected WIES income from the patients treated"
+      
+      },{
+
+      	"name"			:	"points",
+        "label"			: 	"Maximise Points",
+        "description"	: 	"Maximise the number of on time performance points using the government structure"
+      
+      },{
+
+        "name"			: 	"overdue",
+        "label"			: 	"Minimise Final Overdue",
+        "description"	: 	"Minimise the total number of overdue patients on the waiting list at the end of the time horizon"
+
+      },{
+
+        "name"			: 	"totalList",
+        "label"			: 	"Minimise Final Waiting List",
+        "description"	: 	"Minimise the total number of people on the waiting list at the end of the time horizon"
+
+      },{
+
+        "name"			: 	"cat1",
+        "label"			: 	"Category 1",
+        "description"	: 	"Minimise the number of days of category 1 patients waiting overdue during the entire time horizon"
+
+      },{
+
+        "name"			: 	"duration",
+        "label"			: 	"Surgery Time Left",
+        "description"	:	"Minimise the amount of surgery time left on the waiting list at the end of the time horizon, measured in how many weeks of full time surgery would be required to manage that much surgery time"
+
+      },{
+
+        "name"			: 	"beds",
+        "label"			: 	"Ward Nights Left",
+        "description"	: 	"Minimise the number of required nights of stay on the ward left on the waiting list at the end of the time horizon, measured in how many weeks of complete bed usage would be required to manage that many nights"
+      
+      },{
+
+        "name"			: 	"imbalance",
+        "label"			: 	"Workload imbalance",
+        "description"	: 	"Minimise the difference between the remaining surgery time and the remaining ward nights, measured in consistent units of weeks"
+
+      }
+	],
+
+	"parameters"	:	[{
+
+		"name"			: 	"inputWeightOverdue",
+        "label"			: 	"Overdue Waiting List",
+        "description"	: 	"Penalise the number of overdue patients still on the waiting list at the end of period. In general, there is a higher penalty for the overdue patients than on-time.",
+        "type"			: 	"INT",
+        "range"			: 	[0, 10],
+        "value"			:	0,
+        "objective"		:	"overdue"
+
+      },{
+        
+        "name"			: 	"inputWeightOntime",
+        "label"			: 	"On-time Waiting List",
+        "description"	: 	"Penalise the number of patients left on the waiting list and still on-time at the end of period.",
+        "type"			: 	"INT",
+        "range"			: 	[0, 10],
+        "value"			:	0
+
+      },{
+        
+        "name"			: 	"inputExtraNormalBeds",
+        "label"			:	"Extra Ward Beds",
+        "description"	: 	"The number of additional ward beds per day",
+        "type"			: 	"INT",
+        "range"			: 	[0, 500],
+        "value"			:	0
+      
+      },{
+        
+        "name"			: 	"inputExtraIcuBeds",
+        "label"			: 	"Extra ICU Beds",
+        "description"	: 	"The number of additional ICU beds per day",
+        "type"			: 	"INT",
+        "range"			: 	[0, 50],
+        "value"			:	0
+      
+      },{
+
+        "name"			: 	"inputPerformancePointBonus",
+        "label"			: 	"Performance Point Bonus",
+        "description"	: 	"The bonus for each point in performance",
+        "type"			: 	"INT",
+        "range"			: 	[0, 100000],
+        "value"			:	0,
+        "objective"		:	"points"
+      
+      },{
+        
+        "name"			: 	"inputLastPeriodOverduePatientPenalty",
+        "label"			: 	"Last Period Overdue Patient Penalty",
+        "description"	: 	"The penalty for the overdue patient on the last period",
+        "type"			: 	"INT",
+        "range"			: 	[0, 100],
+        "value"			:	0
+      
+      },{
+
+        "name"			: 	"inputPerPeriodWaitlistPatientPenalty",
+        "label"			: 	"Per Period Waitlist Patient Penalty",
+        "description"	: 	"The penalty for the patients on the waiting list for each period.",
+        "type"			: 	"INT",
+        "range"			: 	[0, 10],
+        "value"			:	0,
+        "objective"		:	"totalList"
+      
+      },{
+
+        "name"			: 	"inputUrgencyCategory1PatientPenalty",
+        "label"			:	"Urgency Category 1 Overdue Patient Penalty",
+        "description"	: 	"The penalty for initial overdue patients for urgency category 1",
+        "type"			:	"INT",
+        "range"			: 	[0, 100000],
+        "value"			: 	0,
+        "objective"		:	"cat1"
+    }],
+    
+    "outputMappings": [{
+
+        "mappingType"	: 	"complex",
+        "fileName"		: 	"beds.csv",
+        "sources"		: 	[{
+
+            "solutionKey"		: 	"bedAvailRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "available" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "labels": [ "available" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+          
+          },{
+
+            "solutionKey"		: 	"bedTotalRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "totalUsed" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "labels": [ "totalUsed" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+          },
+          {
+            "solutionKey"		: 	"bedRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowEntryKeys"		: 	[ "name" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	:	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "entryKeys": [ "name" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+          }
+        ]
+    
+    },{
+
+        "mappingType"	: 	"complex",
+        "fileName"		: 	"icu.csv",
+        "sources" 		: 	[{
+
+            "solutionKey"		: 	"icuAvailRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "available" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "labels": [ "available" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+
+          },{
+
+            "solutionKey"		: 	"icuTotalRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "totalUsed" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "labels": [ "totalUsed" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+          
+          },{
+
+            "solutionKey"		: 	"icuRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowEntryKeys"		: 	[ "name" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "entryKeys": [ "name" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+        }]
+
+    },{
+
+        "mappingType"	: 	"complex",
+        "fileName"		: 	"patients.csv",
+        "sources"		: 	[{
+
+            "solutionKey"		: 	"patientsRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Waiting" ],
+            "rowEntryKeys"		: 	[ "waiting" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "row"				: 	{ "entryKeys": [ "waiting" ], "labels": [ "Waiting" ] }
+          
+          },{
+
+            "solutionKey"		: 	"patientsRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Incoming" ],
+            "rowEntryKeys"		: 	[ "incoming" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "row"				: 	{ "entryKeys": [ "incoming" ], "labels": [ "Incoming" ] }
+          
+          },{
+            
+            "solutionKey"		: 	"patientsRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Treated" ],
+            "rowEntryKeys"		: 	[ "treated" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "row"				: 	{ "entryKeys": [ "treated" ], "labels": [ "Treated" ] }
+          
+          },{
+          
+            "solutionKey"		: 	"patientsRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Still Waiting" ],
+            "rowEntryKeys"		: 	[ "stillWaiting" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "row"				: 	{ "entryKeys": [ "stillWaiting" ], "labels": [ "Still Waiting" ] }
+          
+          },{
+          
+            "solutionKey"		: 	"patientsRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Overdue Incoming" ],
+            "rowEntryKeys"		: 	[ "incomingOverdue" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "row"				: 	{ "entryKeys": [ "incomingOverdue" ], "labels": [ "Overdue Incoming" ] }
+          
+          },{
+          
+            "solutionKey"		: 	"patientsRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Overdue Waiting" ],
+            "rowEntryKeys"		: 	[ "waitingOverdue" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "row"				: 	{ "entryKeys": [ "waitingOverdue" ], "labels": [ "Overdue Waiting" ] }
+          
+          },{
+
+            "solutionKey"		: 	"patientsRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Overdue Treated" ],
+            "rowEntryKeys"		: 	[ "treatedOverdue" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "row"				: 	{ "entryKeys": [ "treatedOverdue" ], "labels": [ "Overdue Treated" ] }
+          
+          },{
+
+            "solutionKey"		: 	"patientsRes",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Overdue Still Waiting" ],
+            "rowEntryKeys"		: 	[ "stillWaitingOverdue" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "row"				: 	{ "entryKeys": [ "stillWaitingOverdue" ], "labels": [ "Overdue Still Waiting" ] }
+        }]
+        
+      },{
+
+
+        "mappingType"	: 	"complex",
+        "fileName"		: 	"sessions.csv",
+        "sources"		: 	[{
+
+            "solutionKey"		: 	"sessionsTheatres",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "total theatres" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	:	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "labels": [ "total theatres" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+          
+          },{
+
+            "solutionKey"		: 	"sessionsTotal",
+            "column"			: 	{ "entryKeys" : [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "total sessions" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "labels": [ "total sessions" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+          
+          },{
+            
+            "solutionKey"		: 	"sessions",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowEntryKeys"		: 	[ "department" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "entryKeys": [ "department" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+        }]
+
+      },{
+        
+        "mappingType"	: 	"complex",
+        "fileName"		: 	"surgeries.csv",
+        "sources"		: 	[{
+
+            "solutionKey"		: 	"surgeryResults",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "period" ] },
+            "rowLabels"			: 	[ "Surgery Type", "Urgency Category" ],
+            "rowEntryKeys"		: 	[ "surgery", "cat" ],
+            "columnLabels"		: 	[ "period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "entryKeys": [ "surgery", "cat" ], "labels": [ "Surgery Type", "Urgency Category" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+        }]
+
+      },{
+
+        "mappingType"	: 	"key-to-column",
+        "fileName"		: 	"targets.csv",
+        "sources"		: 	[{
+        
+            "solutionKey"		: 	"targetsRes"
+        
+        }]
+
+      },{
+
+        "mappingType"	: 	"complex-append",
+        "fileName"		: 	"waitlist.csv",
+        "sources"		: 	[{
+            
+            "solutionKey"		: 	"waitListTotal",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "total period" ] },
+            "rowLabels"			: 	[ "Unit Code", "Surgery Type", "Urgency Category" ],
+            "rowEntryKeys"		: 	[ "unitCode", "surgery", "cat" ],
+            "columnLabels"		: 	[ "total period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "entryKeys": [ "unitCode", "surgery", "cat" ], "labels": [ "Unit Code", "Surgery Type", "Urgency Category" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+          
+          },{
+
+            "solutionKey"		: 	"waitListOverdue",
+            "column"			: 	{ "entryKeys": [ "period" ], "labels": [ "overdue period" ] },
+            "rowLabels"			: 	[ "Unit Code", "Surgery Type", "Urgency Category" ],
+            "rowEntryKeys"		: 	[ "unitCode", "surgery", "cat" ],
+            "columnLabels"		: 	[ "overdue period" ],
+            "columnEntryKeys"	: 	[ "period" ],
+            "valueKeys"			: 	[ "value" ],
+            "row"				: 	{ "entryKeys": [ "unitCode", "surgery", "cat" ], "labels": [ "Unit Code", "Surgery Type", "Urgency Category" ] },
+            "value"				: 	{ "keys": [ "value" ] }
+        }]
+
+      },{
+        
+        "mappingType"	: 	"transformer",
+        "transformer"	: 	"ScheduleTransformer",
+        "fileName"		: 	"schedule.json",
+        "sources"		: 	[{
+            
+            "solutionKey": "schedule"
+        }]
+
+      },{
+
+        "mappingType"		: 	"json-category",
+        "fileName"			: 	"schedule-surgery-types.json",
+        "sources"			: 	[{
+
+            "solutionKey"		: 	"schedule_surgery_types",
+            "rowEntryKeys"		: 	[ "clusterName" ],
+            "valueKeys"			: 	[ "medicalUnitID", "urgencyCategory", "duration", "lengthOfStay", "icuRequirementProbability" ],
+            "row"				: 	{ "entryKeys": [ "clusterName" ] },
+            "value"				: 	{ "keys": [ "medicalUnitID", "urgencyCategory", "duration", "lengthOfStay", "icuRequirementProbability" ] }
+        }]
+    }],
+	
+	"attachments"	:	[{
+		"name"			:	"script.mod",
+		"contentType"	:	"text/plain",
+		"contentLength"	:	0
+	},{
+		"name"			:	"model.ops",
+		"contentType"	:	"text/plain",
+		"contentLength"	:	0
+	
+	}]
+}

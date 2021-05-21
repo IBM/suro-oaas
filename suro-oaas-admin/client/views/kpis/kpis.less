@@ -1,0 +1,50 @@
+@import "../variables";
+
+#view-kpis {
+
+  p.note {
+    border-left: 3px solid #efefef;
+    padding: 10px;
+  }
+
+  .block {
+    padding-top: 10px;
+    display: block;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+
+  h3 {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+
+  div.relative {
+    position: relative;
+
+    .input-data {
+      position: absolute;
+      top: 11px;
+      right: -7px;
+      color: #aaa;
+    }
+    .appendix {
+      right: 22px;
+    }
+    .target-appendix {
+      top: 33px;
+    }
+  }
+
+  div.category-period:hover {
+    background: #f3f3f3;
+  }
+  div.category-container:hover h3 {
+    color: #439ecd;
+    font-weight: 400;
+  }
+}

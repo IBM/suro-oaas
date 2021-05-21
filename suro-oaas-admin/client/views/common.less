@@ -1,0 +1,277 @@
+@import "variables";
+
+@font-face {
+  font-family: Roboto;
+  src: url('/font/Roboto/Roboto-Light.ttf') format('truetype'),
+  url('/font/Roboto/Roboto-Regular.ttf') format('truetype'),
+  url('/font/Roboto/Roboto-Black.ttf') format('truetype')
+}
+
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #FCFCFC;
+}
+
+
+
+
+
+
+html{
+  font-family: HelveticaNeue-Light;
+  color:@mainText;
+
+}
+/*
+ * Use this for form labels of required fields: <label>My Label <span class="required"></span></label> - this will
+ * render a red asterisk next to the label.
+ */
+.required:after {
+  padding-left: 5px;
+  color: #f00;
+  font-weight: bold;
+  content: '*';
+}
+
+/* Use on any element */
+.right {
+  text-align: right;
+}
+/* Use on any element */
+.center {
+  text-align: center;
+}
+/* Use on any element */
+.full-width {
+  width: 100%;
+}
+
+/*
+ * This is intended to be used for bootstrap col-??-? classes (layout). By default all col-* classes of bootstrap add
+ * a 15px padding left and right. This overwrites this padding
+ */
+.col-no-padding, .no-padding {
+  padding-left: 0px;// !important;
+  padding-right: 0px; //!important;
+}
+
+/*
+ * This can be used for div's that need to be vertical aligned. Please be aware that display: table changes the
+ * behaviour of sub-elements as well.
+ */
+div.middle {
+  display: table;
+  vertical-align: middle;
+}
+
+/*
+ * Can be used as an alternative to button.btn-danger
+ */
+button.error {
+  background-color: #A00;
+  color: #fff;
+}
+/*
+ * Generic error class to change the text color to red.
+ */
+div.error, span.error, p.error {
+  color: #f00;
+}
+
+
+/*
+ * Draws a 15x15 px square with a border. The background color should be determined by other classes.
+ * E.g. <span class="square square-red"> and then .square-red just specifies the background-color: #a00;
+ */
+.square {
+  padding-left: 15px;
+  margin-right: 5px;
+  height: 15px;
+  border: 1px solid #ccc;
+}
+
+
+/*
+ * Form elements: show a red border around form elements with an error class.
+ */
+textarea.error,input.error,select.error {
+  border: 1px solid #f00;
+}
+
+/*
+ * Add this class to a DOM object where you change CSS properties via events and want the transition to be smooth.
+ */
+.ease {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+
+/*
+ *  Transition effects
+ * These effects are added to the router to an area known as mainContent where the yield happens and we want a less hard transition
+ */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+}
+
+#main{
+ padding: 0px;
+}
+#main > .container{
+  max-width: 100%;
+}
+
+
+
+
+
+.title{
+  font-size: 36px;
+  color: #414141;
+  letter-spacing: 0.2px;
+  line-height: 42px;
+}
+
+.navigation{
+  font-size: 24px;
+  color: #0C83B2;
+  letter-spacing: 1px;
+  line-height: 42px;
+}
+
+.itemText{
+  font-size: 22px;
+  color: #414141;
+  letter-spacing: 0.84px;
+  line-height: 42px;
+}
+
+.smallText{
+  font-family: HelveticaNeue-Medium;
+  font-size: 14px;
+  color: @lightTexT;
+  letter-spacing: 1px;
+  line-height: 14px;
+
+}
+
+.headerGeneric{
+  font-family: HelveticaNeue-Medium;
+  font-size: 16px;
+  color: @lightTexT;
+  letter-spacing: 1px;
+  line-height: 14px;
+
+
+}
+
+
+
+
+
+li.tab a{
+  color:@lightTexT !important;
+  font-size: 18px;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+/*li.tab .active{
+  color:@blueText !important;
+}*/
+
+
+
+
+li.tab a:hover{
+  opacity: 0.8 !important;
+}
+.tabs .indicator{
+  background-color:@blueText !important;
+}
+
+.btn{
+  background-color: @blueText;
+
+}
+
+
+.btn:hover{
+  color:white !important;
+  background-color: @blueText;
+
+}
+
+.btn:active{
+  //opacity: 0.7;
+  //ackground-color: red;
+}
+
+
+
+a:hover{
+  color: @blueText !important;
+  font-weight: 200;
+  //opacity: 0.7;
+}
+
+
+#sidenav-overlay{
+  display: none;
+//  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+input:not([type]):disabled + label, input:not([type])[readonly="readonly"] + label, input[type=text]:disabled + label, input[type=text][readonly="readonly"] + label, input[type=password]:disabled + label, input[type=password][readonly="readonly"] + label, input[type=email]:disabled + label, input[type=email][readonly="readonly"] + label, input[type=url]:disabled + label, input[type=url][readonly="readonly"] + label, input[type=time]:disabled + label, input[type=time][readonly="readonly"] + label, input[type=date]:disabled + label, input[type=date][readonly="readonly"] + label, input[type=datetime-local]:disabled + label, input[type=datetime-local][readonly="readonly"] + label, input[type=tel]:disabled + label, input[type=tel][readonly="readonly"] + label, input[type=number]:disabled + label, input[type=number][readonly="readonly"] + label, input[type=search]:disabled + label, input[type=search][readonly="readonly"] + label, textarea.materialize-textarea:disabled + label, textarea.materialize-textarea[readonly="readonly"] + label {
+  color: rgba(0, 0, 0, 0.40) !important;
+}
+
+.lean-overlay{
+  display: none !important;
+}
+
+.red{
+  background-color: #F54F4B !important;
+}
+
+

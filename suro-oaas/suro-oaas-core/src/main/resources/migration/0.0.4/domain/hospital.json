@@ -1,0 +1,272 @@
+{
+  "name": "MRL Clinic for the Mentally Challenged",
+  "regionId": "Victoria/Australia",
+  "icuBedCount": 8,
+  "theatreSessionsPerDay": 2,
+  "sessionDuration": 4,
+  "theatreCount": 8,
+  "urgencyCategories": [
+    {
+      "label": "Cat 1",
+      "maxWaitListStay": 30,
+      "minPointsRequired": 1,
+      "possiblePoints": 1,
+      "kpiTargets": [
+        {
+          "interval": 1,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 1.0
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 1.0
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 1.0
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Cat 2",
+      "maxWaitListStay": 90,
+      "minPointsRequired": 0,
+      "possiblePoints": 3,
+      "kpiTargets": [
+        {
+          "interval": 1,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.65
+        },
+        {
+          "interval": 1,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.7
+        },
+        {
+          "interval": 1,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.75
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.65
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.7
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.75
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.7
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.75
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.8
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.7
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.75
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.8
+        }
+      ]
+    },
+    {
+      "label": "Cat 3",
+      "maxWaitListStay": 365,
+      "minPointsRequired": 0,
+      "possiblePoints": 3,
+      "kpiTargets": [
+        {
+          "interval": 1,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.83
+        },
+        {
+          "interval": 1,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.88
+        },
+        {
+          "interval": 1,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.93
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.83
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.88
+        },
+        {
+          "interval": 2,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.93
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.845
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.895
+        },
+        {
+          "interval": 3,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.945
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 1,
+          "requiredOnTimePerformance": 0.845
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 2,
+          "requiredOnTimePerformance": 0.895
+        },
+        {
+          "interval": 4,
+          "numberOfPoints": 3,
+          "requiredOnTimePerformance": 0.945
+        }
+      ]
+    }
+  ],
+  "specialistTypes": [
+    {
+      "departmentName": "Cardiac Surgery",
+      "label": "Specialist for CS"
+    },
+    {
+      "departmentName": "Cardiology",
+      "label": "Specialist for C"
+    },
+    {
+      "departmentName": "Dental Unit",
+      "label": "Specialist for DU"
+    },
+    {
+      "departmentName": "Gastroenterology",
+      "label": "Specialist for G"
+    },
+    {
+      "departmentName": "General Surgery",
+      "label": "Specialist for GS"
+    },
+    {
+      "departmentName": "Neurosurgery",
+      "label": "Specialist for NS"
+    },
+    {
+      "departmentName": "Ophthalmology",
+      "label": "Specialist for O"
+    },
+    {
+      "departmentName": "Orthopaedic - General",
+      "label": "Specialist for OG"
+    },
+    {
+      "departmentName": "Otolaryngology",
+      "label": "Specialist for OT"
+    },
+    {
+      "departmentName": "Plastic Surgery",
+      "label": "Specialist for PS"
+    },
+    {
+      "departmentName": "Urology",
+      "label": "Specialist for U"
+    }
+  ],
+  "departments": [
+    {
+      "name": "Cardiac Surgery",
+      "maxSimultaneousSessions": 4
+    },
+    {
+      "name": "Cardiology",
+      "maxSimultaneousSessions": 2
+    },
+    {
+      "name": "Dental Unit",
+      "maxSimultaneousSessions": 2
+    },
+    {
+      "name": "Gastroenterology",
+      "maxSimultaneousSessions": 2
+    },
+    {
+      "name": "General Surgery",
+      "maxSimultaneousSessions": 4
+    },
+    {
+      "name": "Neurosurgery",
+      "maxSimultaneousSessions": 3
+    },
+    {
+      "name": "Ophthalmology",
+      "maxSimultaneousSessions": 2
+    },
+    {
+      "name": "Orthopaedic - General",
+      "maxSimultaneousSessions": 4
+    },
+    {
+      "name": "Otolaryngology",
+      "maxSimultaneousSessions": 3
+    },
+    {
+      "name": "Plastic Surgery",
+      "maxSimultaneousSessions": 4
+    },
+    {
+      "name": "Urology",
+      "maxSimultaneousSessions": 2
+    }
+  ],
+  "wards": [
+    {
+      "name": "General Ward",
+      "bedsCount": 20
+    }
+  ]
+}

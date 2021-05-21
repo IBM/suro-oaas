@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<display-name>SURO API Application</display-name>
+
+	
+	
+	<listener>
+		<display-name>Components Setup</display-name>
+		<listener-class>com.ibm.au.jaws.web.core.runtime.impl.ServiceContextListener</listener-class>
+	</listener>
+
+   <!-- 
+    	================================================================================================================
+    	SECURITY SETTINGS
+    	
+    	These settings control the access to the API in a completely transparent manner. They implement security via the
+    	SecurityFilter class, which examines all the requests and validates them against a security provider. 
+    	
+    	This configuration uses the same DataStore implementation that supports the API and maintains all the information
+    	within a security collection. Because the security filter gets plugged in before the servlet it will be responsible
+    	for creating the data store instance and inject it into the context.
+     -->
+    
+    <!-- Security Filter configuration settings -->
+    <filter>
+        <filter-name>SecurityFilter</filter-name>
+        <filter-class>com.ibm.au.jaws.web.security.SecurityFilter</filter-class>
+        <init-param>
+            <param-name>com.ibm.au.jaws.web.security.SecurityManager</param-name>
+            <param-value>com.ibm.au.optim.suro.couch.security.CouchDbSecurityManager</param-value>
+        </init-param>
+    </filter>
+	<!-- end of configuration settings -->
+	
+	<filter>
+		<display-name>ApiOriginFilter</display-name>
+		<filter-name>ApiOriginFilter</filter-name>
+		<filter-class>com.ibm.au.optim.suro.api.util.ApiOriginFilter</filter-class>
+		<async-supported>false</async-supported>
+	</filter>
+	<filter>
+		<display-name>ApiTimerFilter</display-name>
+		<filter-name>ApiTimerFilter</filter-name>
+		<filter-class>com.ibm.au.optim.suro.api.util.ApiTimerFilter</filter-class>
+		<async-supported>false</async-supported>
+	</filter>
+	
+		
+	<filter-mapping>
+		<filter-name>SecurityFilter</filter-name>
+		<url-pattern>/api/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>ApiOriginFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>ApiTimerFilter</filter-name>
+		<url-pattern>/api/*</url-pattern>
+	</filter-mapping>
+    
+    
+    <!--  StoreSecurityManager configuration settings -->
+    <!--  Shared instance of the DataStore: if not null use this otherwise create and share. -->
+    <!--
+    <context-param>
+        <param-name>security:storeInstance</param-name>
+        <param-value>dataStore</param-value>
+    </context-param>
+    -->
+    
+    <!-- 
+    	  Implementation of the DataStore to create: full class type followed by :<data-store-parameters-prefix> 
+    	  
+    	  NOTE: this configuration overrides the com.ibm.au.vizanalytics.data.store.DataStore parameter settings.
+    	        The security filter will use this parameter to create the component. Therefore as long as the
+    	        security settings will be enabled, that parameter will not have effect. 
+    	        
+    	        All the other parameters for configuring the properties of the data store are instead picked up 
+    	        from the configuration parameters below, because the 'store' parameter prefix points the security
+    	        filter to those configuration items in the web.xml.
+
+    <context-param>
+        <param-name>security:storeType</param-name>
+        <param-value>com.ibm.au.jaws.data.store.impl.mongo.MongoDataStore:store</param-value>
+    </context-param>
+    -->
+    <!-- 
+    
+    	END SECURITY SETTINGS.
+        ==========================================================================================================
+     -->
+
+    
+</web-app>

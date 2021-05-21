@@ -1,0 +1,16 @@
+<template name="loadingSolution">
+    <div id="view-loadingSolution">
+        <div class="row center">
+			{{#if isRunSelected}}
+				<h4>The current solution is being calculated.</h4>
+			{{else}}
+				<h4>Please select a scenario from the menu.</h4>
+			{{/if}}
+
+        </div>
+        <div class="row center">
+            <i class="fa fa-spin fa-cog fa-4x" aria-hidden="true"></i>
+        </div>
+
+    </div>
+</template>

@@ -1,0 +1,9 @@
+{
+  "fileName": "targets.csv",
+  "mappingType": "key-to-column",
+  "sources": [
+    {
+      "solutionKey": "targetsRes"
+    }
+  ]
+}

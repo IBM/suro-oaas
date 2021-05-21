@@ -1,0 +1,14 @@
+[
+	{
+		"id" : "1",
+		"title": "Maximize the performance of the hospital based on government targets",
+		"description": "Hospital performance is measured according to a number of KPIs.",
+		"assumptions": [], 
+		"criteria": [],
+		"approxProcessingDuration": 4,
+		"isRunning": false,
+		"resultsPathRoot": "resources/data/optimizationResults/strategy1/",
+		"editorTemplate": "editTemplateEmptyOptimizationStrategyRun",
+		"runs": []
+	}
+]

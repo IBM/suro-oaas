@@ -1,0 +1,104 @@
+@import "../variables";
+@import "../common";
+
+#view-header {
+  height: 98px;
+  line-height: 80px;
+  background-color: white;
+
+  .dropDownColumn{
+    width: 98px;
+    border-right: 2px solid #e0e0e0;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .dropDownColumnActive{
+    background-color: @veryDarkBlue;
+    .arrowDownButton{
+      color: white;
+
+    }
+  }
+
+  .dropDownColumn:hover{
+    background-color: @veryDarkBlue;
+    .arrowDownButton{
+      color: white;
+
+    }
+  }
+
+
+  .fa-caret-down{
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+  }
+  .rotate{
+    opacity: 1;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg) ;
+    -o-transform:  rotate(180deg);
+    transform:  rotate(180deg);
+    z-index: 1000;
+  }
+
+
+  a {
+    margin-top: 20px;
+    .navigation;
+    color:black;
+  }
+  #logout {
+    cursor: pointer;
+  }
+
+  .fa-bars {
+    border: 2px solid #F54F4B;
+    padding: 8px 8px 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    .red
+  }
+
+  .titleMedium{
+    color: @darkGrey;
+    font-size: 39.6px;
+    font-face: Helvetica;
+    character: 1px;
+    line: 45.1px (1.1);
+  }
+  .suroTitle{
+    color: #1E3648 !important;
+    font-size: 24px;
+    line-height:98px;
+    color:black;
+
+  }
+  .header-menu {
+    .suroTitle;
+    color: @darkGrey;
+    padding-right: 15px;
+    cursor: pointer;
+  }
+
+
+  .arrowDownButton{
+    font-size: 30px;
+    line-height: 98px;
+    font-weight: 900;
+    color: @veryDarkBlue;
+  }
+
+  .ibmLogo{
+    margin-left: 15px;
+    font-weight: 500;
+  }
+
+
+}

@@ -1,0 +1,23 @@
+<template name="setupTab">
+    <div id="view-setupTab" style="    padding-top: 20px;">
+        <!-- Dropdown Trigger -->
+        <!-- Dropdown Trigger -->
+        <a class='dropdown-button btn strategyDropdown col s12' style="margin-bottom: 50px" href='#' data-activates='strategyDropdown'>{{tabTitle}}
+        </a>
+        <!-- Dropdown Structure -->
+        <ul id='strategyDropdown' class='dropdown-content'  >
+            {{#each myStrategies}}
+				{{> liStrategy}}
+            {{/each}}
+        </ul>
+
+
+
+        {{#if showSetup}}
+            {{> genericSetupBox}}
+        {{/if}}
+
+
+
+    </div>
+</template>

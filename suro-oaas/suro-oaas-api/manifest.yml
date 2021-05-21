@@ -1,0 +1,7 @@
+---
+applications:
+- name: suro-test
+  memory: 512M
+  path: server/
+  host: suro-test
+  domain: mybluemix.net

@@ -1,0 +1,1 @@
+Moved to https://mrltrack.res.ibm.com:10445/projects/suro/wiki/Business_Objects

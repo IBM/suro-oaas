@@ -1,0 +1,26 @@
+{
+	"id": "2",
+	"title": "Optimize hospital performance, overdue patients and waiting list",
+	"description": "In this strategy, maximize the number of performance points achieved, and minimize the total number of overdue patients at the end of last period and patients left on the waiting list. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+	"assumptions": [],
+	"criteria": [{
+		"name": "Performance bonus point",
+		"type": "number",
+		"defaultValue": "1000"
+	}],
+	"approxProcessingDuration": 8,
+	"isRunning": false,
+	"resultsPathRoot": "resources/data/optimizationResults/strategy2/",
+	"editorTemplate": "optimizationStrategyConstraints2",
+	"runs": [{
+		"id": "2001",
+		"strategyId": "2",
+		"dateRun": "January 30, 2014",
+		"resultsPath": "resources/data/optimizationResults/strategy2/2001/",
+		"data": {
+			"inputPerformancePointBonus": 100000,
+			"inputLastPeriodOverduePatientPenalty": 10,
+			"inputPerPeriodWaitlistPatientPenalty": 1
+		}
+	}]
+}

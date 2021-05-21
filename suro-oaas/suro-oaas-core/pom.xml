@@ -1,0 +1,104 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ibm.au.optim.suro</groupId>
+	<artifactId>suro-oaas-core</artifactId>
+	<name>Surgical Unit Resource Optimisation - Core Logic</name>
+	<description>This project contains the definition and implementation of the entities for the core logic processing for SURO. These components are needed by the API for controlling the execution of optimisation jobs against different back-end.</description>
+
+	<properties>
+		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+		<jsr311-api.version>1.1.1</jsr311-api.version>
+		<oaas-client.version>1.0-STABLE-b257</oaas-client.version>
+		<commons-io.version>2.0.1</commons-io.version>
+
+		<antlr-runtime.version>4.0</antlr-runtime.version>
+	</properties>
+
+	<parent>
+		<groupId>com.ibm.au.optim.suro</groupId>
+		<artifactId>suro-oaas-parent</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../suro-oaas-parent/pom.xml</relativePath>
+	</parent>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.antlr</groupId>
+				<artifactId>antlr4-maven-plugin</artifactId>
+				<version>4.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>antlr4</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.antlr</groupId>
+			<artifactId>antlr4-runtime</artifactId>
+			<version>${antlr-runtime.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-model</artifactId>
+			<version>${suro-oaas.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-test</artifactId>
+			<version>${suro-oaas.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.optim.oaas</groupId>
+			<artifactId>api_java_client</artifactId>
+			<version>${oaas-client.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${javax.servlet-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>jsr311-api</artifactId>
+			<version>${jsr311-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.4.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>2.0.31-beta</version>
+		</dependency>
+	</dependencies>
+
+
+	<version>${suro-oaas.version}</version>
+	<url>https://github.ibm.com/aur/suro-oaas</url>
+</project>

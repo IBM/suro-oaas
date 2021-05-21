@@ -1,0 +1,196 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.ibm.au.optim.suro</groupId>
+	<artifactId>suro-oaas-parent</artifactId>
+	<version>0.0.5-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Surgical Unit Resource Optimization - Parent POM</name>
+
+
+	<description>
+		This project is the parent pom that control the common aspects of the build of the Surgical Unit Resource
+		Optimisation (SURO) project. It contains all the other components of the project as dependent modules.
+		The collective build can be controlled by this project.
+	</description>
+
+	<url>https://github.ibm.com/aur/suro-oaas</url>
+
+	<properties>
+		<!-- Version of the set of libraries defining the solution, this is upgraded 
+			collectively -->
+		<suro-oaas.version>0.0.5-SNAPSHOT</suro-oaas.version>
+
+		<!-- Version of the common libraries used across the modules. -->
+		<jaws.version>0.0.1</jaws.version>
+		<junit.version>4.12</junit.version>
+		<slf4j.version>1.7.12</slf4j.version>
+
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<arl.repo.url>https://na.artifactory.swg-devops.com/artifactory</arl.repo.url>
+
+		<!-- sonar integration -->
+		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
+		<sonar.language>java</sonar.language>
+
+		
+		<maven-compiler-plugin.version>3.3</maven-compiler-plugin.version>
+		<maven-surefire-plugin.version>2.19</maven-surefire-plugin.version>
+		
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>aur-java-release-local</id>
+			<name>ARL - Release</name>
+			<url>${arl.repo.url}/aur-java-release-local</url>
+			<layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>aur-java-release-locale</id>
+			<name>ARL - Release</name>
+			<url>${arl.repo.url}/aur-java-release-local/</url>
+		</repository>
+		<snapshotRepository>
+			<id>aur-java-release-local</id>
+			<name>ARL - Snapshots</name>
+			<url>${arl.repo.url}/aur-java-release-local/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<dependencies>
+		<!-- conditionals in logback configuration -->
+		<dependency>
+			<groupId>org.codehaus.janino</groupId>
+			<artifactId>janino</artifactId>
+			<version>2.7.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Unit test code coverage -->
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.7.4.201502262128</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+
+	<profiles>
+		<!-- Jenkins profile to aggregate the Jacoco code coverage data from all modules into one file -->
+		<profile>
+			<id>jenkins</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.jacoco</groupId>
+						<artifactId>jacoco-maven-plugin</artifactId>
+						<version>0.7.4.201502262128</version>
+						<executions>
+							<execution>
+								<id>default-prepare-agent</id>
+								<goals>
+									<goal>prepare-agent</goal>
+								</goals>
+							</execution>
+							<execution>
+								<id>default-report</id>
+								<phase>prepare-package</phase>
+								<goals>
+									<goal>report</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<destFile>${sonar.jacoco.reportPath}</destFile>
+							<append>true</append>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<inherited>true</inherited>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<trimStackTrace>false</trimStackTrace>
+				</configuration>
+			</plugin>
+			<!-- store Jacoco coverage data in each module and generate reports (Jenkins overwrites this with a profile
+			-->
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.7.4.201502262128</version>
+				<executions>
+					<execution>
+						<id>default-prepare-agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>default-report</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<destFile>target/jacoco.exec</destFile>
+					<append>true</append>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<modules>
+		<module>../suro-oaas-api</module>
+		<module>../suro-oaas-couch</module>
+		<module>../suro-oaas-docloud</module>
+		<module>../suro-oaas-model</module>
+		<module>../suro-oaas-core</module>
+		<module>../suro-oaas-redmine</module>
+		<module>../suro-oaas-test</module>
+	</modules>
+</project>

@@ -1,0 +1,252 @@
+database "strategies": no data
+database "runs": all entries seem to have no logEntries and no data
+{
+  "_id": "0086c95c92a8cbe569710977ade5e811",
+  "_rev": "1-7c6fa818dd9a29949337338652f8b8f3",
+  "cdbType": "com.ibm.au.optim.oaas.suro.model.Run",
+  "strategyId": "1",
+  "jobId": "job.500402370.1430196742479.67",
+  "state": "created",
+  "dateRun": "2015/04/28 14:52:17",
+  "logEntries": [],
+  "data": {}
+}
+
+
+
+
+########################################################################################################
+#######################################  		database "suro":		################################
+########################################################################################################
+
+Optimization Result:
+--------------------------------------------------------------------------------------------------------
+{
+  "_id": "00e6fab1f3295c3712e7ec3ea32f9751",
+  "_rev": "1-113bec5088aec8fe5997b5285c0b729e",
+  "cdbOptimResult": "OptimResult",
+  "bestBound": 0,
+  "bestInteger": 0,
+  "gap": 0
+}
+
+
+{
+  "_id": "016b5195227c0a16e5ea2f1eca333b50",
+  "_rev": "19-1a56dbe7d58b651955e03ee06c0a5142",
+  "cdbOptimResult": "OptimResult",
+  "runId": "9d1731362c3ab349457fd89f9ccbf2b3",
+  "entries": [
+    {
+      "time": 1438138943213,
+      "node": 5646,
+      "otherCheck": true,
+      "nodesLeft": 5014,
+      "objective": null,
+      "iinf": null,
+      "bestInteger": 2804,
+      "bestBound": 2627.7477,
+      "totalIterations": null,
+      "gap": 6.29,
+      "rawLine": null,
+      "isSolution": true
+    },
+    {
+      "time": 1438138943301,
+      "node": 6046,
+      "otherCheck": true,
+      "nodesLeft": 5364,
+      "objective": null,
+      "iinf": null,
+      "bestInteger": 2797,
+      "bestBound": 2627.7477,
+      "totalIterations": null,
+      "gap": 6.05,
+      "rawLine": null,
+      "isSolution": true
+    },
+    {
+      "time": 1438138943301,
+      "node": 6356,
+      "otherCheck": true,
+      "nodesLeft": 5636,
+      "objective": null,
+      "iinf": null,
+      "bestInteger": 2705,
+      "bestBound": 2627.7477,
+      "totalIterations": null,
+      "gap": 2.86,
+      "rawLine": null,
+      "isSolution": true
+   	},
+   	...
+  ],
+  "bestBound": 0,
+  "bestInteger": 0,
+  "gap": 1.09
+}
+
+Strategy:
+--------------------------------------------------------------------------------------------------------
+{
+  "_id": "1",
+  "_rev": "4-53d7569d5141d7bd8adeb846d92006b2",
+  "cdbStrategy": "Strategy",
+  "title": "Maximize the performance of the hospital",
+  "description": "This strategy can be used to set the relative weights of different goals and also to change the available resources within the hospital ",
+  "assumptions": [],
+  "criteria": [],
+  "isRunning": false,
+  "resultsPathRoot": "resources/data/optimizationResults/strategy1/",
+  "editorTemplate": "optimizationStrategyConstraints1",
+  "running": false,
+  "approxProcessingDuration": 4
+},
+{
+  "_id": "2",
+  "_rev": "1-437a5b60ca56e04cd2cbd30fed4a2c4b",
+  "cdbStrategy": "Strategy",
+  "title": "Optimize hospital performance, overdue patients and waiting list",
+  "description": "In this strategy, maximize the number of performance points achieved, and minimize the total number of overdue patients at the end of last period and patients left on the waiting list. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+  "assumptions": [],
+  "criteria": [
+    {
+      "name": "Performance bonus point",
+      "type": "number",
+      "defaultValue": "1000"
+    }
+  ],
+  "isRunning": false,
+  "resultsPathRoot": "resources/data/optimizationResults/strategy2/",
+  "editorTemplate": "optimizationStrategyConstraints2",
+  "running": false,
+  "approxProcessingDuration": 8
+},
+{
+  "_id": "3",
+  "_rev": "1-9bca42e445f60b62b38a2a0e257e65a9",
+  "cdbStrategy": "Strategy",
+  "title": "Optimize overdue patients, waiting list and the hospital performance",
+  "description": "In this strategy, minimize the total number of overdue patients at the end of last period and patients left on the waiting list and maximize the number of performance points achieved. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+  "assumptions": [],
+  "criteria": [],
+  "isRunning": false,
+  "resultsPathRoot": "resources/data/optimizationResults/strategy3/",
+  "editorTemplate": "optimizationStrategyConstraints3",
+  "running": false,
+  "approxProcessingDuration": 14
+},
+{
+  "_id": "4",
+  "_rev": "1-7872ac0b8712b1d6454bf0330e341354",
+  "cdbStrategy": "Strategy",
+  "title": "Optimize the hospital performance, overdue patients, waiting list and initial overdue patients in urgency category 1",
+  "description": "In this strategy, maximize the number of performance points achieved, and minimize the initial overdue patients in urgency category 1, the total number of overdue patients at the end of last period and patients left on the waiting list. The order of KPIs and their bonus and penalty are very critical for the optimization outcome.",
+  "assumptions": [],
+  "criteria": [],
+  "isRunning": false,
+  "resultsPathRoot": "resources/data/optimizationResults/strategy4/",
+  "editorTemplate": "optimizationStrategyConstraints4",
+  "running": false,
+  "approxProcessingDuration": 14
+}
+
+
+Run:
+--------------------------------------------------------------------------------------------------------
++++++++++++++ Strategy 1
+{
+  "_id": "05470a1e2301b8ebb36a4180ef312e5f",
+  "_rev": "5-376081fe9e3a650c3b069d08f7960eca",
+  "cdbRun": "Run",
+  "strategyId": "1",
+  "jobId": "job.500543509.1441639360550.65",
+  "state": "FAILED",
+  "dateRun": 1441639359447,
+  "solveStatus": "UNKNOWN",
+  "exceptionType": "InvalidClientIdException",
+  "exceptionMessage": "Client ID api_1f85051b-332b-4b85-a5a5-869742f2ac13 is invalid",
+  "runTime": 0,
+  "finalGap": 1,
+  "hasSolution": false,
+  "finished": true,
+  "data": {
+    "inputExtraNormalBeds": "",
+    "maxRuntime": "10",
+    "inputWeightOntime": "",
+    "inputExtraIcuBeds": "",
+    "optimalityBoundary": "99.5",
+    "inputWeightOverdue": ""
+  }
+}
++++++++++++++ Strategy 2
+{
+  "_id": "0499417e25b25ec7f71376dde04c9107",
+  "_rev": "17-86b8c2d05f9122c5401001d6c5ae072a",
+  "cdbRun": "Run",
+  "strategyId": "2",
+  "jobId": "job.500543509.1437982310871.21",
+  "state": "PROCESSED",
+  "dateRun": 1437982309780,
+  "solveStatus": "OPTIMAL_SOLUTION",
+  "runTime": 634543,
+  "finalGap": 0.008281,
+  "hasSolution": true,
+  "finished": true,
+  "data": {
+    "inputPerformancePointBonus": "",
+    "inputPerPeriodWaitlistPatientPenalty": "",
+    "maxRuntime": "10",
+    "inputLastPeriodOverduePatientPenalty": "",
+    "optimalityBoundary": "99.5"
+  },
+  "_attachments": {
+    "log.txt": {
+      "content_type": "plain/text",
+      "revpos": 5,
+      "digest": "md5-Vvqa+wFX1OoRRuSQL5hI1w==",
+      "length": 185535,
+      "stub": true
+    },
+    "solution.json": {
+      "content_type": "application/json",
+      "revpos": 6,
+      "digest": "md5-UitcFkiOW2auIJr6TZZeLg==",
+      "length": 1446935,
+      "stub": true
+    },
+  }
+}
++++++++++++++ Strategy 3
+{
+  "_id": "9418dc98138e81d69166f7d0760cd610",
+  "_rev": "17-b6ef6daf16233f1ccbdc8b28f8b9b3db",
+  "cdbRun": "Run",
+  "strategyId": "3",
+  "jobId": "job.500543509.1440562247276.80",
+  "state": "PROCESSED",
+  "dateRun": 1440562245761,
+  "solveStatus": "OPTIMAL_SOLUTION",
+  "runTime": 633533,
+  "finalGap": 0.008847,
+  "hasSolution": true,
+  "finished": true,
+  "data": {
+    "inputPerformancePointBonus": "",
+    "inputPerPeriodWaitlistPatientPenalty": "",
+    "maxRuntime": "10",
+    "inputLastPeriodOverduePatientPenalty": "",
+    "optimalityBoundary": "99.5"
+  },
+  "_attachments": {
+    "log.txt": {
+      "content_type": "plain/text",
+      "revpos": 5,
+      "digest": "md5-jz9ywBf9Trni3ap4mrjqjA==",
+      "length": 190074,
+      "stub": true
+    },
+	...
+  }
+}
+

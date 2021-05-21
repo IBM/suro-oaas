@@ -1,0 +1,37 @@
+<template name="admin">
+
+	<div id="view-admin">
+		<div class="container">
+			<a href="/">Back to Demo App</a>
+
+			<h3>Runs</h3>
+
+			<div class="row head">
+				<div class="col s4">Title</div>
+				<div class="col s2">Solution</div>
+				<div class="col s2">Runtime</div>
+				<div class="col s3">Max runtime / Min Gap</div>
+			</div>
+
+			{{#each runs}}
+				<div class="row run" data-run-id="{{_id}}">
+
+					<div class="col s4">
+						{{label}}<br/>
+						<span class="date">{{formatDateDefault startTime}}</span>
+					</div>
+					<div class="col s2">{{displayOptimality finalGap}}%</div>
+					<div class="col s2">{{displayRuntime runTime}}</div>
+					<div class="col s3">{{maxRunTime}}min / {{displayOptimality minGap}}%</div>
+					<div class="col s1">
+						<span class="fa fa-trash" title="Delete Run"></span>
+					</div>
+				</div>
+			{{/each}}
+		</div>
+
+	</div>
+
+
+
+</template>

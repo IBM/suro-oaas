@@ -1,0 +1,5 @@
+[
+
+	{ "type" : "rule", "endpoint": "r:^/strategies(.*)", "verbs" : { "GET" : [ "users" ] , "POST" : [ "users" ], "PUT" : [ "users" ],  "DELETE": [ "users" ] } },
+	{ "type" : "rule", "endpoint": "r:^/hospital(.*)", "verbs" : { "GET" : [ "users" ] , "POST" : [ "users" ], "PUT" : [ "users" ],  "DELETE": [ "users" ] } }
+]

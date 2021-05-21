@@ -1,0 +1,9 @@
+{
+	"label"			:	"test run",
+	"description"	:	"this is a test run that will be filled with parameters for the purpose of testing.",
+	"maxRunTime"	:	3,
+	"minGap"		:	0.005,
+	"parameters" 	: 	[
+	
+	] 
+}

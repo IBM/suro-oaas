@@ -1,0 +1,52 @@
+<template name="patientsChart">
+    <div id="view-patientsChart">
+
+		{{#if solutionAvailable}}
+
+
+			<div class="col s12">
+				<div id="patient-chart">{{renderPatientChart}}</div>
+			</div>
+
+
+			<div class="col s12 table-data">
+
+				<a href="#" id="expand-patient-data">
+					<span>Show Table Data</span>
+					<span style="display: none;">Hide Table Data</span>
+				</a>
+
+				<table class="striped" id="patient-data" style="display: none;">
+					<thead>
+						<tr>
+							<th></th>
+							{{#each for 1 4}}
+								{{#if weekdaysOnly}}
+									{{#each weekday}}
+										<th>{{short}}</th>
+									{{/each}}
+								{{else}}
+									{{#each day}}
+										<th>{{short}}</th>
+									{{/each}}
+								{{/if}}
+							{{/each}}
+						</tr>
+					</thead>
+					<tbody>
+					{{#each tableViewChartData}}
+						<tr>
+							<td title="{{id}}">{{id}}</td>
+							{{#each values}}
+								<td>{{value}}</td>
+							{{/each}}
+						</tr>
+					{{/each}}
+					</tbody>
+				</table>
+			</div>
+
+		{{/if}}
+
+    </div>
+</template>

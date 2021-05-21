@@ -1,0 +1,91 @@
+@import "../../variables";
+
+.view-runCard {
+  .divContainerLi{
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #b5b5b6;
+  }
+
+  .cardTitle{
+    color:white !important;
+    font-size: 19px;
+    //padding-left: 20px;
+    font-family: Helvetica;
+  }
+
+
+  cursor: pointer;
+  li {
+
+    width: 100% !important;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px!important;
+    margin-right: 0px;
+    height: 66px;
+    line-height: 27px;
+    color: white !important;
+    .topLi{
+      margin-bottom: 0px;
+      margin-top: 5px;
+    }
+    .bottomLi{
+
+      height: 32px;
+      line-height: 15px;
+
+    };
+    div{
+      padding-right: 5px;
+      padding-left: 5px;
+    };
+    a {
+
+    }
+
+  }
+
+
+  li a:active {
+    background-color: rgba(43,117,104, 70);
+  }
+
+  .activeCard {
+    background-color: rgba(43,117,104, 70);
+
+    div.date {
+      color: #ccc;
+    }
+  }
+
+
+  div.date {
+    color: #b5b5b6;
+    font-family: Helvetica;
+    font-size: 16px;
+  }
+  div.minutes{
+    font-family: Helvetica;
+    font-size: 16px;
+  }
+
+
+  li:hover,li:active {
+    background-color: #2b7568;
+    div.date {
+      //color: #2b7568;
+    }
+  }
+
+}
+
+.view-runCard:hover{
+  background-color: #2b7568;
+
+
+}
+

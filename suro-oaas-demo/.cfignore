@@ -1,0 +1,5 @@
+.meteor/local
+private/orion
+assembly
+target
+node_modules

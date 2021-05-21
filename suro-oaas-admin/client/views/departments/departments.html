@@ -1,0 +1,74 @@
+<template name="departments">
+	<div id="view-departments">
+
+		<div class="row">
+			<div class="col s12 card">
+				<div class="section-title">Departments</div>
+				<div class="section-body" style="display: none;">
+					{{#each departments}}
+						<div class="department" data-department-id="{{id}}">
+							<div class="row">
+								<div class="col s6">
+									<label for="dep-name-{{id}}">Department Name</label>
+									<input type="text" value="{{name}}" name="dep-name" id="dep-name-{{id}}" data-validate="true" disabled="disabled"/>
+								</div>
+								<div class="col s4">
+									<label for="dep-max-sessions-{{id}}">Simultaneous Sessions</label>
+									<input type="number" value="{{maxSimultaneousSessions}}" name="dep-sessions" id="dep-max-sessions-{{id}}" data-validate="true" disabled="disabled"/>
+								</div>
+								<div class="col s2 toggle right" style="display: none;">
+									<span class="fa fa-trash" data-department-id="{{id}}"></span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s6 div-placeholder">
+									<div style="display: none;" class="toggle">
+										<label for="dep-new-specialist-{{id}}">New Specialist</label>
+										<div class="new-specialist input-field">
+											<input id="dep-new-specialist-{{id}}" type="text" placeholder="e.g. Specialist for Spine" />
+											<button class="btn prefix" id="add-specialist-button"><span class="fa fa-plus"></span></button>
+										</div>
+									</div>
+								</div>
+								<div class="col s6">
+									<label>Specialists</label><br/>
+									{{#each departmentSpecialist ../hospital.specialistTypes name}}
+										<div class="chip style-scope cards-page"><span style="display: none;" class="toggle delete-spec" data-specialist-id="{{id}}">&times;</span> {{label}}</div>
+									{{/each}}
+								</div>
+							</div>
+
+						</div>
+					{{/each}}
+
+					<div class="row" id="dep-new-container" style="display: none;">
+						<div class="col s6">
+							<label for="dep-name-new">New Department Name</label>
+							<div class="input-field">
+								<input type="text" id="dep-name-new" data-validate="true" disabled="disabled"/>
+							</div>
+						</div>
+						<div class="col s6">
+							<label for="dep-max-sessions-new">Simultaneous Sessions</label>
+							<div class="input-field">
+								<input type="number" id="dep-max-sessions-new" data-validate="true" disabled="disabled"/>
+								<button class="btn" id="dep-new-button">+</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col s6">
+							<button class="btn toggle" id="dep-add-button" style="display: none;">+ Add</button>
+						</div>
+						<div class="col s6 right">
+							<button class="btn toggle edit-button">Edit</button>
+							<button class="btn toggle" style="display: none;" id="save-departments">Save</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</template>

@@ -1,0 +1,40 @@
+@import "../../../variables";
+
+#view-bedsTab {
+  #beds-chart {
+    min-height: 400px;
+    height: 400px;
+
+
+    line.c3-ygrid {
+      stroke: #ddd;
+      stroke-dasharray: 0;
+    }
+    line.c3-ygrid:nth-child(even) {
+      display: none;
+    }
+
+    g.c3-axis-y {
+      path.domain {
+        display: none;
+      }
+      g.tick line {
+        display: none;
+      }
+      g.tick:nth-child(odd) {
+        display: none;
+      }
+    }
+
+    g.c3-axis-x {
+      path.domain, g.tick line {
+        stroke: #aaa;
+      }
+    }
+  }
+
+
+  .table-data {
+    margin-top: 30px;
+  }
+}

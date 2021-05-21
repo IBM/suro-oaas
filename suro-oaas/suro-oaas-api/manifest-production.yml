@@ -1,0 +1,7 @@
+---
+applications:
+- name: suro-oaas
+  memory: 512M
+  path: server/
+  host: suro-oaas
+  domain: mybluemix.net

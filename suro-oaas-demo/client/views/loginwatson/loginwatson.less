@@ -1,0 +1,185 @@
+@import "../variables";
+
+#view-loginwatson {
+  color: black;
+  height: 100%;
+  position: absolute;
+  top:0px;
+  .lastRow{
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .btn{
+    background-color: #4579BB;
+    color: #ECF7FF;
+    font-size: 24px;
+    character: 0.3px;
+    line: 44px (1.6);
+    text-transform: none !important;
+    height: 50px;
+    border-radius: 0px;
+  }
+
+  .row {
+    margin-bottom: 0px;
+    color: black;
+  }
+
+  .ibmLogo {
+    margin-top: 63px;
+    margin-bottom: 63px;
+    height: 38px;
+  }
+
+  .titleLarge {
+    color: #4579BB;
+    font-size: 44px;
+    font-weight: 300;
+    character: 0.4px;
+    line: 57px (1.1);
+  }
+  .subTitle{
+    .titleLarge;
+    font-size: 38px;
+    margin-bottom: 67px;
+  }
+
+  .textBoxes{
+    color: #393F47;
+    font-size: 24px;
+    font-weight: 300;
+    character: 0.3px;
+    line: 44px (1.4)
+  }
+
+
+  .titleMedium{
+    color: #3E444C;
+    font-size: 33px;
+    character: 1px;
+    line: 45.1px (1.1);
+  }
+
+  .container-cols {
+    .col {
+      margin: 0px;
+      padding-left: 0px;
+    }
+
+    span {
+      display: block;
+
+    }
+
+  }
+
+  .rowDisclaimer span{
+    color:#868E98;
+    font-size: 14px;
+    font-family: "Helvetica Neue";
+
+
+  }
+
+
+  #rowFirst {
+    height: 628px;
+    background-color: #D3E9F2;
+
+    span {
+      font-weight: 300;
+      font-size: 60px;
+      color: #4E4E61;
+      letter-spacing: 0.33px;
+      line-height: 42px;
+    }
+  ;
+    .row {
+      text-align: center;
+    }
+    .rowImage {
+      img {
+        height: 117px;
+        margin-top: 110px;
+
+      }
+    }
+    .signInButton {
+      margin-top: 54px;
+      height: 74px;
+      font-weight: 300;
+      font-size: 36px;
+      color: #FFFFFF;
+      letter-spacing: 2.4px;
+      line-height: 74px;
+      border-radius: 6px;
+      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+    }
+  }
+
+
+  .container {
+    min-height: 400px;
+
+    .header-label {
+      margin-top: 50px;
+      width: 400px;
+      text-align: center;
+    }
+
+    #login-form {
+      margin-top: 40px;
+
+      .col-xs-5, .col-xs-2 {
+        padding: 5px;
+      }
+    }
+  }
+
+  #sub-login {
+    .col-xs-4 {
+      text-align: center;
+
+      .fa {
+        color: #999;
+        display: block;
+      }
+
+      h3 {
+        color: @primaryBlue;
+      }
+
+      p {
+        text-align: justify;
+        padding: 15px;
+      }
+    }
+  }
+  .lastRow{
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+.tinted-image {
+  background-image: url("/images/background/plan-predit-suro-hero-image.jpg");
+  background-size: 100% 100%;
+}
+
+@gradient1:rgba(228, 243, 252, 0.86);
+@gradient2:rgba(250, 253, 255, 0.86);
+.backimageOverlay {
+
+  content: '';
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  //background-color: rgba(255, 255, 255,0.86)
+  background: -webkit-linear-gradient(@gradient1, @gradient2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(@gradient1, @gradient2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(@gradient1, @gradient2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(@gradient1, @gradient2);
+}

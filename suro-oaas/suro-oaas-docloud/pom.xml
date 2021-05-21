@@ -1,0 +1,203 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.ibm.au.optim.suro</groupId>
+	<artifactId>suro-oaas-docloud</artifactId>
+	<version>${suro-oaas.version}</version>
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>com.ibm.au.optim.suro</groupId>
+		<artifactId>suro-oaas-parent</artifactId>
+		<version>0.0.5-SNAPSHOT</version>
+		<relativePath>../suro-oaas-parent/pom.xml</relativePath>
+	</parent>
+
+	<name>Surgical Unit Resource Optimization - DOcloud Bindings</name>
+	<url>https://github.ibm.com/aur/suro-oaas</url>
+
+	<repositories>
+		<repository>
+			<id>aur-java-release-local</id>
+			<url>${arl.repo.url}/aur-java-release-local</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>aur-java-release-local</id>
+			<url>${arl.repo.url}/aur-java-release-local</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<oaas-client.version>1.0-STABLE-b257</oaas-client.version>
+		<httpclient.version>4.5.2</httpclient.version>
+		<httpcore.version>4.4.4</httpcore.version>
+		<icu.version>57.1</icu.version>
+		<commons-io.version>2.0.1</commons-io.version>
+        <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+        <jsr311-api.version>1.1.1</jsr311-api.version>
+	</properties>
+
+	<dependencies>
+
+		<!-- dependencies to other SURO modules -->
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-model</artifactId>
+			<version>${suro-oaas.version}</version>
+		</dependency>
+
+		<!-- TODO: do we still need this dependency? -->
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-test</artifactId>
+			<version>${suro-oaas.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ibm.au.optim.suro</groupId>
+			<artifactId>suro-oaas-core</artifactId>
+			<version>${suro-oaas.version}</version>
+		</dependency>
+
+
+		<!-- the client to communicate with DOCloud -->
+		<dependency>
+			<groupId>com.ibm.optim.oaas</groupId>
+			<artifactId>api_java_client</artifactId>
+			<version>${oaas-client.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>icu4j</groupId>
+			<artifactId>icu4j</artifactId>
+			<version>${icu.version}</version>
+		</dependency>
+
+		<!-- HTTP utilities used for the communication with DOCloud -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>${httpcore.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${httpclient.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>${httpclient.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.3</version>
+		</dependency>
+
+		<!-- General dependencies / Utilities -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+		</dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${javax.servlet-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>jsr311-api</artifactId>
+            <version>${jsr311-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+		<!-- for testing the DOCloud communication code, we need the mock server and the DOCloud mock -->
+		<dependency>
+			<groupId>com.ibm.au.optim</groupId>
+			<artifactId>mock-docloud</artifactId>
+			<version>0.0.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mock-server</groupId>
+			<artifactId>mockserver-client-java</artifactId>
+			<version>3.10.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- start the mock server to simulate DOCloud for automated tests -->
+			<plugin>
+				<groupId>org.mock-server</groupId>
+				<artifactId>mockserver-maven-plugin</artifactId>
+				<version>3.10.1</version>
+				<configuration>
+					<serverPort>11337</serverPort>
+					<proxyPort>1090</proxyPort>
+					<logLevel>ERROR</logLevel>
+					<initializationClass>com.ibm.au.optim.oaas.test.MockServer</initializationClass>
+				</configuration>
+				<executions>
+					<execution>
+						<id>process-test-classes</id>
+						<phase>process-test-classes</phase>
+						<goals>
+							<goal>start</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>verify</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>stop</goal>
+						</goals>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>com.ibm.au.optim</groupId>
+						<artifactId>mock-docloud</artifactId>
+						<version>0.0.2</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<!-- was working in suro-oaas-test / now ClassNotFound (StopMockServerTestListener) -->
+			<!--
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<properties>
+						<property>
+							<name>listener</name>
+							<value>org.mockserver.maven.StopMockServerTestListener</value>
+						</property>
+					</properties>
+				</configuration>
+			</plugin>
+			-->
+		</plugins>
+	</build>
+	<description>This project defines the DOCloud bindings for the scheduling back-end entities defined in the suro-oaas-model project and suro-oaas-core project.</description>
+</project>

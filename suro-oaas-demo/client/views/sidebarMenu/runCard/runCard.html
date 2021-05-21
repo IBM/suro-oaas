@@ -1,0 +1,19 @@
+<template name="runCard">
+    <div class="view-runCard {{cardDescription}}" >
+        <li data-run-id="{{id}}" class="cardTitle">
+			<div class="divContainerLi">
+				<div class="row col s12 topLi no-padding">
+					<div class="col s9 no no-padding" title="{{label}}" >{{labelShort}}</div>
+					<div class="col s3 no no-padding left">{{target}}%  </div>
+				</div>
+				<div class="col row s12 no-padding bottomLi">
+					<div class=" col s9 no no-padding date">{{formatDate startTime 'DD/MM HH:mm'}}</div>
+					<div class="col s3 no no-padding left minutes">
+						{{calculateRuntime runTime}}
+					</div>
+				</div>
+			</div>
+
+        </li>
+    </div>
+</template>

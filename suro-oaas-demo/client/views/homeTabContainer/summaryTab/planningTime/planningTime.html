@@ -1,0 +1,108 @@
+<template name="planningTime">
+    <div id="view-planningTime">
+        <!--div class="row">
+            <div class="col s8 offset-s4 center">
+                 <span class="textPlanningTime">
+            Planning Time Horizon
+                 </span>
+
+            </div>
+
+        </div-->
+        <div class="row">
+
+            <div class="col col-Category center categoryTitle">
+                Q1
+            </div>
+            <div class="col col-Category center categoryTitle">
+                Q2
+            </div>
+            <div class="col col-Category center categoryTitle">
+                Q3
+            </div>
+            <div class="col col-Category center categoryTitle">
+                Q4
+            </div>
+        </div>
+
+        <div class="row flow-text">Category 1 (Max points 1)</div>
+        <div class="row">
+
+
+            <div class="col col-Category">
+                {{>slider data=slideData cat=1 per=1 dClass='disabledSlider'}}
+            </div>
+
+
+            <div class="col col-Category">
+                {{>slider data=slideData cat=1 per=2}}
+
+            </div>
+            <div class="col col-Category">
+                {{>slider data=slideData cat=1 per=3}}
+            </div>
+            <div class="col col-Category">
+                {{>slider data=slideData cat=1 per=4}}
+             </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col divider-Category" >
+
+            </div>
+        </div>
+
+        <div class="row flow-text">Category 2 (Max points 3)</div>
+        <div class="row">
+            <div class="col col-Category">
+                {{>slider data=slideData cat=2 per=1 dClass='disabledSlider'}}
+            </div>
+
+
+            <div class="col col-Category">
+                {{>slider data=slideData cat=2 per=2}}
+
+            </div>
+            <div class="col col-Category">
+                {{>slider data=slideData cat=2 per=3}}
+            </div>
+            <div class="col col-Category">
+                {{>slider data=slideData cat=2 per=4}}
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col divider-Category" >
+
+            </div>
+        </div>
+        <div class="row flow-text">Category 3 (Max points 3)</div>
+
+
+        <div class="row">
+            <div class="col col-Category">
+                {{>slider data=slideData cat=3 per=1 dClass='disabledSlider'}}
+            </div>
+
+
+            <div class="col col-Category">
+                {{>slider data=slideData cat=3 per=2}}
+
+            </div>
+            <div class="col col-Category">
+                {{>slider data=slideData cat=3 per=3}}
+            </div>
+            <div class="col col-Category">
+                {{>slider data=slideData cat=3 per=4}}
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</template>

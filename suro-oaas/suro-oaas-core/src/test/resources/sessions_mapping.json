@@ -1,0 +1,69 @@
+{
+  "fileName": "sessions.csv",
+  "mappingType": "complex",
+  "sources": [
+    {
+      "row": {
+        "labels": [
+          "total theatres"
+        ]
+      },
+      "solutionKey": "sessionsTheatres",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    },
+    {
+      "row": {
+        "labels": [
+          "total sessions"
+        ]
+      },
+      "solutionKey": "sessionsTotal",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    },
+    {
+      "row": {
+        "entryKeys": [
+          "department"
+        ]
+      },
+      "solutionKey": "sessions",
+      "column": {
+        "labels": [
+          "Period"
+        ],
+        "entryKeys": [
+          "period"
+        ]
+      },
+      "value": {
+        "keys": [
+          "value"
+        ]
+      }
+    }
+  ]
+}

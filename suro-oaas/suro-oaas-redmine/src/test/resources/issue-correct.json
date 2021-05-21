@@ -1,0 +1,9 @@
+{
+	"project_id" 	: 2,
+	"priority_id" 	: 1,
+	"category_id" 	: 2,
+	"tracker_id"	: 4,
+	"status_id"		: 3,
+	"subject"		: "This is a test issue",
+	"description"	: "This is a test description, a bit longer..."	
+}

@@ -1,0 +1,165 @@
+[
+  // From Departments.csv
+  {
+    identifier: "Departments", // internal to the system
+    datVariableName: "DEPARTMENTS", // name of the variable in the .dat file
+    tupleMapping: ['//id', 'name', 'maxSessionsPerPeriod'] // CSV column names in the correct order of the tupels inside the .dat file
+  },
+
+  //From SpecialistInfo.csv
+  {
+    identifier: "SpecialistInfo",
+    datVariableName: 'SPECIALIST_INFO',
+    tupleMapping: ['//id','period','availability']
+  },
+
+  //From WardInfo.csv
+  {
+    identifier: "WardInfo",
+    datVariableName: 'WARD_INFO',
+    tupleMapping: ['//id','period','nBeds']
+  },
+
+  //No value
+  {
+    identifier: "",
+    datVariableName: 'allocatedSessionsFixed',
+    tupleMapping: []
+  },
+
+  //From ArrivingPatientInfo.csv
+  {
+    identifier: "ArrivingPatientInfo",
+    datVariableName: 'arrivingPatientInfo',
+    tupleMapping: ['//ClusterID','ArrivalDay','Record_Count']
+  },
+
+  //From BASE_CONFIG_PARAMS.csv
+  {
+    identifier: "BASE_CONFIG_PARAMS",
+    datVariableName: 'baseConfigParams',
+    tupleMapping: ['//N_PERIODS','SESSION_LENGTH.']
+  },
+
+  //From FIXED_PARAMS.csv
+  {
+    identifier: "FIXED_PARAMS",
+    datVariableName: 'fixedParams',
+    tupleMapping: ['// N_POINTS','N_PERFORMANCE_MEASUREMENTS','BASE_PLAN_CYCLE_LENGTH','N_CATEGORIES.']
+  },
+
+  //From InitialPatientInfo.csv
+  {
+    identifier: "InitialPatientInfo",
+    datVariableName: 'initialPatientInfo',
+    tupleMapping: ['// ClusterID','DaysLeft','Record_Count']
+  },
+
+  //From OBJ_FUN_PARAMS.csv
+  {
+    identifier: "OBJ_FUN_PARAMS",
+    datVariableName: 'objFunParams',
+    tupleMapping: ['// MIN_POINTS','BEDS_PER_WORKLOAD','DURATION_PER_WORKLOAD']
+  },
+
+  //From OPTIMISATION_PARAMS.csv
+  {
+    identifier: "OPTIMISATION_PARAMS",
+    datVariableName: 'optimisationParams',
+    tupleMapping: ['// GAP','MIN_INTEGER_PERIOD','INTEGER_WINDOW_SIZE','TIME_LIMIT']
+  },
+
+  //From ROLLING_TIME_PARAMS.csv
+  {
+    identifier: "ROLLING_TIME_PARAMS",
+    datVariableName: 'rollingTimeParams',
+    tupleMapping: ['// ROLLING_TIME_STEP_SIZE','startPeriod.']
+  },
+
+  //From SCENARIO_PARAMS.csv
+  //The original vaule: <1000 0 12 12 5 "_RunMadeUpHospitalDataFromODMEnterprise" 16 4 0>;
+  //OaaSFirstRun: <1000 0 0 50 20 "_RunMadeUpHospitalDataFromODMEnterprise" 14 4 1>.
+  {
+    identifier: "SCENARIO_PARAMS",
+    datVariableName: 'scenarioParams',
+    tupleMapping: ['// MAX_TOTAL_SESSIONS','ALLOW_EMPTY_SESSIONS','MAX_CHANGES','MAX_ADDITIONS','MAX_DELETIONS','RUN_NAME','N_TOTAL_OTSESSIONS','N_ICUPATIENTS_PER_DAY','ALLOW_CAT_1_VIOLATION.']
+  },
+
+  //From SpecialistIds.csv
+  {
+    identifier: "SpecialistIds",
+    datVariableName: 'specialistIds',
+    tupleMapping: ['// ID.']
+  },
+
+  //From TIMING_PARAMETERS.csv
+  {
+    identifier: "TIMING_PARAMETERS",
+    datVariableName: 'timingParams',
+    tupleMapping: ['// N_TOTAL_PERIODS','N_DAYS_PER_PERIOD']
+  },
+
+  //No value
+  {
+    identifier: "",
+    datVariableName: 'treatedPatientsFixed',
+    tupleMapping: []
+  },
+
+  //From WardIds.csv
+  {
+    identifier: "WardIds",
+    datVariableName: 'wardIds',
+    tupleMapping: ['// ID.']
+  },
+
+  //From BasePlanInfo.csv
+  {
+    identifier: "BasePlanInfo",
+    datVariableName: 'BASE_PLAN_INFO',
+    tupleMapping: ['Base','period','nSessions']
+  },
+
+  //From surgeries.csv
+  {
+    identifier: "surgeries",
+    datVariableName: 'SURGERIES',
+    tupleMapping: ['// ClusterID','SurgeryTypeFinal','UNIT_CODE','Duration','ChangeOverTime','LOS','ICU','Ward','Specialist','CAT','WIES']
+  },
+
+  //From endDayOfPerformanceMeasurement.csv
+  {
+    identifier: "endDayOfPerformanceMeasurement",
+    datVariableName: 'endDayOfPerformanceMeasurement',
+    tupleMapping: ['// MeasurementPeriod','StartDay.']
+  },
+
+  //From fractionForPoint.csv
+  {
+    identifier: "fractionForPoint",
+    datVariableName: 'fractionForPoint',
+    tupleMapping: [['first value in the fourth column','second value in the fourth column','third value in the fourth column'],['next first value','next second value','next third value'],['next three values...']]
+  },
+
+  //From MaxWaitListStay.csv
+  {
+    identifier: "MaxWaitListStay",
+    datVariableName: 'maxWaitListStay',
+    tupleMapping: ['first value in the second column','second value in the second column']
+  },
+
+  //From nOnTimeBeforeHorizon.csv
+  {
+    identifier: "nOnTimeBeforeHorizon",
+    datVariableName: 'nOnTimeBeforeHorizon',
+    tupleMapping: ['VALUE.']
+  },
+
+  //From nOverDueBeforeHorizon.csv
+  {
+    identifier: "nOverDueBeforeHorizon",
+    datVariableName: 'nOverDueBeforeHorizon',
+    tupleMapping: ['VALUE.']
+  }
+
+]

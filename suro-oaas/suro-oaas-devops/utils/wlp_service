@@ -1,0 +1,150 @@
+#!/bin/bash
+#
+# myservice     This shell script takes care of starting and stopping
+#               the WebSphere Liberty Profile server, with a specific
+#               server instance.
+
+# chkconfig: 345 99 01
+# description: Start and stops the Razor service
+
+# This is where the WLP home is located.
+WLP_HOME=/opt/ibm/wlp
+
+# This is the user under whom we will be
+# running the server instance.
+WLP_USER=wlp
+
+# This is the number of seconds that we
+# wait before restarting the server once
+# we have successfully stopped it.
+WLP_STOP_TIMEOUT=5 
+
+# This is the specific name of the server
+# that we want to start as a service.
+SERVER_INSTANCE=razor
+
+# Because WLP uses a common set of scripts
+# to start and stop server instances putting
+# the name of the program won't help. We do
+# use a label that allows the user to have 
+# better information.
+SERVER_LABEL=wlp[:$SERVER_INSTANCE]
+
+# This is the location of the pid file of the specific
+# server instance we want to run.
+SERVER_PID_FILE=$WLP_HOME/usr/servers/.pid/$SERVER_INSTANCE.pid
+
+# This is the script that is used to start the server. It points
+# to the location of the server script in the WLP installation.
+SERVER_COMMAND=$WLP_HOME/bin/server
+
+# This is the variable that will contain the return value of the
+# script.
+RETVAL=0
+
+# Source function library
+. /etc/rc.d/init.d/functions
+
+
+# Do preliminary checks here, if any
+#### START of preliminary checks #########
+
+
+##### END of preliminary checks #######
+
+# Wrapper function for the "server start" command.
+#
+start() {
+	
+	echo -n $"Starting $SERVER_LABEL: "
+	daemon --pidfile=${SERVER_PID_FILE} --user=${WLP_USER} $SERVER_COMMAND start $SERVER_INSTANCE
+	#$SERVER_COMMAND start $SERVER_INSTANCE
+	RETVAL=$?
+	echo
+	[ $RETVAL = 0 ]
+	return $RETVAL
+		
+}
+
+# Wrapper function for the "server stop" command.
+#
+stop() {
+	
+	echo -n $"Stopping $SERVER_LABEL: "
+	daemon --pidfile=${SERVER_PID_FILE} --user=${WLP_USER} $SERVER_COMMAND stop $SERVER_INSTANCE
+	RETVAL=$?
+	sleep $WLP_STOP_TIMEOUT
+	
+	# we check now whether the file pid file still exists. If it does not
+	# exists we can then check whether the process with the PID is still
+	# in memory. If not, it is fine otherwise we kill the process.
+	#
+	if [ -f ${SERVER_PID_FILE} ] 
+	then
+		killproc -p ${SERVER_PID_FILE} -d ${WLP_STOP_TIMEOUT}
+		RETVAL=$?
+	fi
+	
+	#$SERVER_COMMAND stop $SERVER_INSTANCE
+	echo 
+	[ $RETVAL = 0 ] && rm -f ${SERVER_PID_FILE}
+	return $RETVAL
+}
+
+# Wrapped function for the "server status" command.
+#
+# status() {
+#	
+#	echo -n $"Checking the status of $SERVER_LABEL: "
+#	daemon --user=${WLP_USER} $SERVER_COMMAND status $SERVER_INSTANCE
+#	#$SERVER_COMMAND status $SERVER_INSTANCE
+#	RETVAL=$?
+#	return $RETVAL
+# }
+
+
+
+
+# Handle manual control parameters like start, stop, status, restart, etc.
+
+case "$1" in
+  start)
+    # Start daemons.
+	start
+    ;;
+
+  stop)
+    # Stop daemons.
+    stop
+
+    # Do clean-up works here like removing pid files from /var/run, etc.
+    ;;
+    
+  status)
+    # Check the status of the server
+    # status
+    status -p ${SERVER_PID_FILE} ${SERVER_COMMAND}
+    RETVAL=$?
+    ;;
+    
+  restart)
+    stop
+   	STOPPED=$?
+    if [ $STOPPED -eq 0 ]
+    then
+    	sleep $WLP_STOP_TIMEOUT
+    	start
+    	RETVAL=$?
+    else 
+    	echo -n $"Could not stop $SERVER_LABEL: (exit code $STOPPED).\n"
+    	RETVAL=$STOPPED
+    fi
+    ;;
+
+  *)
+    echo $"Usage: $0 {start|stop|status|restart}"
+    exit 1
+esac
+
+exit $RETVAL
+

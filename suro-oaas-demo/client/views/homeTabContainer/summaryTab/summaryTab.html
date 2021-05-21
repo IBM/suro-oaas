@@ -1,0 +1,105 @@
+<template name="summaryTab">
+
+
+    {{#if summarySolution}}
+        {{> loadingSolution}}
+	{{else}}
+		<div id="view-summaryTab">
+			<div class="row" >
+				<div class="col s6 highLevelCardLeft">
+					<div class="card-panel summaryCard">
+						<div class="flow-text" style="margin-bottom: 0px">
+							Waiting List
+						<span class="right" style="color:{{waitingList.caret.color}}">
+							<i class="fa fa-caret-{{waitingList.caret.direction}}" aria-hidden="true"></i> {{waitingList.change}}%
+						</span>
+						</div>
+						{{> summaryAllWait}}
+					</div>
+				</div>
+
+
+				<div class="col s6 highLevelCardRight">
+					<div class="card-panel summaryCard">
+						<div class="flow-text">Overdue Waiting List
+						<span class="right" style="color:{{overduePatients.caret.color}}">
+							<i class="fa fa-caret-{{overduePatients.caret.direction}}" aria-hidden="true"></i> {{overduePatients.change}}%
+						</span>
+						</div>
+						{{> summaryOverdue}}
+
+					</div>
+				</div>
+
+				<div class="col s7 highLevelCardLeft">
+					<div class="card-panel summaryCard">
+						<div class="flow-text" style="margin-bottom: 0px">Total Theatres Allocation </div>
+						{{> summaryTheatreAllocation}}
+
+					</div>
+				</div>
+				<div class="col s5 highLevelCardRight ">
+					<div class="card-panel summaryCard">
+						<div class="flow-text" style="margin-top: 22px">ICU Utilization</div>
+						{{> sliderSummary value=icuUtilisation}}
+
+						<div class="flow-text" style="margin-top: 70px">Beds Utilization</div>
+						{{> sliderSummary value=bedUtilisation}}
+
+					</div>
+				</div>
+
+
+
+
+				<!-- toggle div -->
+				<div class="toggleDiv" id="toggleDiv" style="display: none">
+					<div class="col s7 highLevelCardLeft">
+						<div class="card-panel summaryCard tallCard">
+							<div class="flow-text" style="margin-bottom: 0px"><b>KPIs Hospital Performance</b></div>
+
+							{{> planningTime}}
+						</div>
+					</div>
+
+
+					<div class="col s5 highLevelCardRight">
+						<div class="card-panel summaryCard shortCard" style="padding-left: 0px">
+							<div class="flow-text" style="margin-top: 22px; padding-left: 36px">Beds Occupancy</div>
+							{{> donutChart}}
+
+						</div>
+					</div>
+
+
+					<div class="col s5 highLevelCardRight">
+						<div class="card-panel summaryCard shortCard">
+
+							<p class="flow-text" style="margin-bottom: 0px"><b>Current Scenario Parameters</b></p>
+
+							{{#each myStrategy.parameters}}
+								{{> runParameter}}
+							{{/each}}
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row toggRow center">
+				<div class="centerLine center">
+					<div class="toggleMore">
+						<div class="toggleText">
+							More
+						</div>
+						<div class="fa fa-chevron-down fa-2x chevron" style="display: block" ></div>
+					</div>
+				</div>
+
+			</div>
+
+
+
+		</div>
+	{{/if}}
+</template>

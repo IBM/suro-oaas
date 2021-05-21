@@ -1,0 +1,53 @@
+{
+  	"label"			:	"Flexible (free form)",
+    "description"	: 	"This is the template allowing to set all the parameters. We use this for the purpose of testing to simplify the setup fo runs.",
+
+	 "parameters"	:	[{
+
+		"name"			: 	"inputWeightOverdue",
+        "value"			:	1,
+        "fixed"			:	false
+
+      },{
+        
+        "name"			: 	"inputWeightOntime",
+        "value"			:	1,
+        "fixed"			:	false
+
+      },{
+        
+        "name"			: 	"inputExtraNormalBeds",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+        
+        "name"			: 	"inputExtraIcuBeds",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+
+        "name"			: 	"inputPerformancePointBonus",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+        
+        "name"			: 	"inputLastPeriodOverduePatientPenalty",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+
+        "name"			: 	"inputPerPeriodWaitlistPatientPenalty",
+        "value"			:	1,
+        "fixed"			:	false
+      
+      },{
+
+        "name"			: 	"inputUrgencyCategory1PatientPenalty",
+        "value"			: 	1,
+        "fixed"			:	false
+    }] 
+}

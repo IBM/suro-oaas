@@ -1,0 +1,44 @@
+<template name="homeTabContainer">
+    <div id="view-homeTabContainer">
+		<div class="row rowNavigation">
+			<div class="buttonHome" style="color: black">
+				<i class="fa fa-home" aria-hidden="true"></i>
+			</div>
+
+			<div class="navTabs">
+				<ul class="tabs">
+					<li class="tab col s3 summaryLi" id="summaryLi"><a href="#summary" class="active">Summary</a></li>
+					<li class="tab col s3 chartsLi"><a   href="#charts">Details</a></li>
+				</ul>
+			</div>
+			<div class="extendedDiv">
+
+			</div>
+
+		</div>
+		<div class="row dateLabel">
+			<div class="container">
+				<div class="row">
+					<div class="col s12"><span class="smallText" >{{runDate}}</span> </div>
+					<div class="col 12">
+                <span class="flow-text">
+					{{runTitle}}
+				</span>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+        <div class="container" style="margin-top: 30px">
+            <div class="row">
+
+                <div id="charts" class="col s12">{{> chartsTab}}</div>
+                <div id="summary" class="col s12">{{> summaryTab}}</div>
+            </div>
+        </div>
+        </div>
+
+
+</template>

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Profit",
+    "label": "Maximise Profit",
+    "description": "Maximise the expected WIES income from the patients treated"
+  },
+  {
+    "name": "points",
+    "label": "Maximise Points",
+    "description": "Maximise the number of on time performance points using the government structure"
+  },
+  {
+    "name": "overdue",
+    "label": "Minimise Final Overdue",
+    "description": "Minimise the total number of overdue patients on the waiting list at the end of the time horizon"
+  },
+  {
+    "name": "totalList",
+    "label": "Minimise Final Waiting List",
+    "description": "Minimise the total number of people on the waiting list at the end of the time horizon"
+  },
+  {
+    "name": "cat1",
+    "label": "Category 1",
+    "description": "Minimise the number of days of category 1 patients waiting overdue during the entire time horizon"
+  },
+  {
+    "name": "duration",
+    "label": "Surgery Time Left",
+    "description": "Minimise the amount of surgery time left on the waiting list at the end of the time horizon, measured in how many weeks of full time surgery would be required to manage that much surgery time"
+  },
+  {
+    "name": "beds",
+    "label": "Ward Nights Left",
+    "description": "Minimise the number of required nights of stay on the ward left on the waiting list at the end of the time horizon, measured in how many weeks of complete bed usage would be required to manage that many nights"
+  },
+  {
+    "name": "imbalance",
+    "label": "Workload imbalance",
+    "description": "Minimise the difference between the remaining surgery time and the remaining ward nights, measured in consistent units of weeks"
+  }
+]

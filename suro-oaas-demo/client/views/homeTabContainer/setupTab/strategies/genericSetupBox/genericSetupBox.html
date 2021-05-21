@@ -1,0 +1,73 @@
+<template name="genericSetupBox">
+    <div id="view-genericSetupBox">
+        <div>
+
+                <!--p>Description : {{myStrategy.description}}</p-->
+
+                <div class="input-field col s12">
+                    <input id="newrRunLabel"
+                           aria-required="true"
+                           class="notSelected"
+                           type="text"
+                    >
+                    <label id="labelRun" for="newrRunLabel" data-error="Provide A Name">Scenario Title </label>
+                </div>
+
+
+
+            <div class="dynamicFieldsContainer" style="margin-top: 50px">
+                {{#each myStrategy.parameters}}
+                    {{>parameterInput}}
+                {{/each}}
+            </div>
+
+
+
+
+                <!--div class="input-field col s6 col-no-padding">
+                           <input  id="inputExtraNormalBeds" type="text" class="validate">
+                           <label for="inputExtraNormalBeds">Extra Ward Beds</label>
+                       </div>
+
+               <div class="input-field col s6 col-no-padding">
+                   <input  id="inputExtraIcuBeds" type="text" class="validate">
+                   <label for="inputExtraIcuBeds">Extra ICU Beds</label>
+               </div-->
+
+
+                <!--these are non strategy specific-->
+            <div class="col s12 col-no-padding">
+                <div class="col s12 col-no-padding" style="margin-top: 40px;padding: 0px; padding-right: 10px">
+
+                    <span class="headerGeneric setupTitle">Maximum Run Time : {{runTime}} minutes</span>
+
+                    <p class="range-field">
+                        <input class="ranger rangeTime notSelected" type="range" data-tooltip="I am tooltip"
+                               id="runTime" value="{{runTime}}" min="1" max="60"/>
+                    </p>
+                </div>
+                <div class="col s6 col-no-padding" style="margin-top: 40px;padding: 0px;padding-left: 10px;">
+                    <span class="headerGeneric setupTitle">Acceptable Optimality Gap : {{gap}}% </span>
+
+                    <p class="range-field">
+                        <input class="rangeOptimality notSelected" type="range" id="minGap" min="90" max="100" step="0.1"
+                               value="{{gap}}"/>
+                    </p>
+
+                </div>
+            </div>
+
+                <div class="col s12 center">
+                    <div class="btn btn-submission"> Submit</div>
+
+                </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</template>
+

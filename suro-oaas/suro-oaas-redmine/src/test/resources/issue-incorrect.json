@@ -1,0 +1,7 @@
+{
+	"elements" 	: 	[],
+	"value"		:	34,
+	"call"		:	{
+		"text"	:	"This json structure is completely not correct."
+	}
+}

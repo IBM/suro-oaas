@@ -1,0 +1,18 @@
+<template name="parameterInput">
+	<div class="row rowParameter">
+		<input {{disabled}} id="{{name}}"
+							required="" aria-required="true"
+							class="validate {{selectable}} modalInputText" value="{{value}}"
+							allowed-pattern="[0-9]"
+							min="{{minmax.min}}"
+							max="{{minmax.max}}"
+							type="number"
+							style="display: inline !important;"
+		>
+		<label for="{{name}}" data-error="Out of range" class="active {{labelVisible}}">{{expandedTemplate.label}} [{{minmax.min}}-{{minmax.max}}]</label>
+
+		<!--label for="{{name}}" data-error="Out of range" class="active {{labelVisible}}">{{expandedTemplate.label}}   [ Min:{{minmax.min}}, Max:{{minmax.max}} ] </label-->
+
+	</div>
+
+</template>

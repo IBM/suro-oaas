@@ -1,0 +1,20 @@
+<template name="slider">
+    <div class="sliderKPI">
+        <div class="col s12 col-no-padding">
+            <div class="mainSlide {{dClass}}">
+                <div class="fillSlide" style="width: {{slideValues.fill}}%;background-color: {{slideValues.fillColor}}">
+                </div>
+                <div class="indicator {{dClass}}" style="left: {{slideValues.indicator}}% ">
+                </div>
+                <span class="textSliderTarget" >
+                    Target {{slideValues.indicator}}%
+                </span>
+                <span class="statusCategory" style="color: {{slideValues.fillColor}}">
+                    Points : {{slideValues.points}}
+                </span>
+
+            </div>
+
+        </div>
+    </div>
+</template>

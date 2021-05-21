@@ -1,0 +1,6258 @@
+{
+	"week 1": {
+		"monday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 9
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 10
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 37
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 38
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 7
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 11
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 18
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 12
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		}],
+		"tuesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 20
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 10
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 68
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 78
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 81
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 95
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 106
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 113
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 122
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 11
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 16
+			}]
+		}],
+		"wednesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 4
+			}]
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 9
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 49
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 63
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 83
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 85
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 93
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 99
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 113
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 140
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 144
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 168
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 192
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 199
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 200
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 204
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 205
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 210
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 212
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 213
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 214
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 98
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 44
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 71
+			}]
+		}],
+		"thursday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			}]
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 87
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 190
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 192
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 197
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 223
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 244
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 121
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 156
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 169
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 170
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 184
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 190
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 209
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 211
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 216
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 219
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 225
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 226
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 230
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 232
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 38
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 155
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 169
+			}]
+		}],
+		"friday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 2
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 9
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 212
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 215
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 218
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 226
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 231
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 232
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 233
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 234
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 236
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 240
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 245
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 251
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 259
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 261
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 264
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 266
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 274
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 286
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 292
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 295
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 301
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 42
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 50
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 61
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 78
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 84
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 85
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 86
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 98
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 99
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 2
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 194
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 362
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 10
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 86
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 18
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 25
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 41
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 47
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 48
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 63
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 59
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 69
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 134
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 140
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		}],
+		"saturday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}],
+		"sunday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}]
+	},
+	"week 2": {
+		"monday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 44
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 240
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 257
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 276
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 284
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 297
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 310
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 326
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 100
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 101
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 118
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 121
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 128
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 129
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 131
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 137
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 142
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 143
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 149
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 150
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 151
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 157
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 159
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 166
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 180
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 188
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 193
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 194
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 206
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 271
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 296
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 353
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 363
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 6
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 19
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 20
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 25
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 358
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 361
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 363
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 151
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 163
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 164
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 180
+			}]
+		}],
+		"tuesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 22
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 34
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 298
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 299
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 309
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 310
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 311
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 312
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 313
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 316
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 318
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 206
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 207
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 212
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 82
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 92
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 51
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 54
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 71
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 72
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 79
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 25
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 31
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 184
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 207
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 212
+			}]
+		}],
+		"wednesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 2
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 49
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 50
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 33
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 34
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 35
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 38
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 54
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 35
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 94
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 99
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 101
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 102
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 105
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 106
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 107
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 130
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 231
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 238
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 266
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 276
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 281
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 318
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 322
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 323
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 332
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 25
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 17
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 134
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 155
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 183
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 197
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 211
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 213
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 220
+			}]
+		}],
+		"thursday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 4
+			}]
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 36
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 54
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 55
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 56
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 210
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 213
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 217
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 219
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 220
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 224
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 226
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 230
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 232
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 233
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 240
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 241
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 247
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 251
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 258
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 259
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 260
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 261
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 262
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 265
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 266
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 363
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 139
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 149
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 153
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 161
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 163
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 182
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 183
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 184
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 190
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 205
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 81
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 83
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 84
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 90
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 358
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 6
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 213
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 217
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 219
+			}]
+		}],
+		"friday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 20
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 6
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 92
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 204
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 209
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 225
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 238
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 254
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 10
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 205
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 210
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 217
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 218
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 222
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 232
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 236
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 244
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 245
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 246
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 20
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 9
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 57
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 225
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 240
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 245
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 253
+			}]
+		}],
+		"saturday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}],
+		"sunday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}]
+	},
+	"week 3": {
+		"monday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 53
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 59
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 96
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 5
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 10
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 7
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 11
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 18
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 21
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 303
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 306
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 326
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 362
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 363
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 244
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 246
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 249
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 250
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 257
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 263
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 264
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 269
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 270
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 4,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 20
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 25
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 84
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 87
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 4
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 31
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 250
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 264
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 275
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 276
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 215
+			}]
+		}],
+		"tuesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 59
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 77
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 78
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 22
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 31
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 121
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 134
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 141
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 148
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 185
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 269
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 277
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 281
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 284
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 288
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 290
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 295
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 296
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 297
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 299
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 2
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 7
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 13
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 21
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 31
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 37
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 39
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 61
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 284
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 298
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 302
+			}]
+		}],
+		"wednesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 63
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 119
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 177
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 248
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 51
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 33
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 34
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 35
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 37
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 41
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 261
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 262
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 269
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 270
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 273
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 274
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 275
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 276
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 280
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 284
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 288
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 289
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 290
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 291
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 296
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 297
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 302
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 308
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 309
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 310
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 311
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 302
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 303
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 310
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 311
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 312
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 318
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 324
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 86
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 90
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 22
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 26
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 35
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 41
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 38
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 91
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 63
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 75
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 77
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 169
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 220
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 221
+			}]
+		}],
+		"thursday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 20
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 21
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 50
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 54
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 55
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 60
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 61
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 311
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 315
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 318
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 321
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 329
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 335
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 337
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 340
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 351
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 352
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 353
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 357
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 359
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 363
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 14
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 19
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 21
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 35
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 42
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 47
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 48
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 55
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 56
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 61
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 64
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 69
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 93
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 101
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 115
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 301
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 314
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 248
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 252
+			}]
+		}],
+		"friday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 23
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 41
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 42
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 43
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 45
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 47
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 48
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 49
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 188
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 194
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 196
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 224
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 238
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 244
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 245
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 246
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 3
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 53
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 59
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 63
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 66
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 90
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 117
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 139
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 39
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 41
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 49
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 82
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 313
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 316
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 328
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 211
+			}]
+		}],
+		"saturday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}],
+		"sunday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}]
+	},
+	"week 4": {
+		"monday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 28
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 46
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 51
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 52
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 53
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 56
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 58
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 59
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 249
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 291
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 296
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 299
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 305
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 8
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 31
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 71
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 80
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 363
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 137
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 145
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 146
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 227
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 229
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 237
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 243
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 249
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 270
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 271
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 290
+			}]
+		}],
+		"tuesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 27
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 250
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 275
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 290
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 58
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 64
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 69
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 71
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 76
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 58
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 309
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 324
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 332
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 338
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 360
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 25
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 23
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 24
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 144
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 145
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 150
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 80
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 180
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 190
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 135
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 143
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 149
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 194
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 197
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 205
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 233
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 254
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 325
+			}]
+		}],
+		"wednesday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 56
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 43
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 58
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 61
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 63
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 68
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 72
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 73
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 75
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 15
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 16
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 19
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 22
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 28
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 33
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 34
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 36
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 37
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 40
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 42
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 43
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 48
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 25
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 331
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 343
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 353
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 357
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 360
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 364
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 29
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 149
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 168
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 176
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 207
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 288
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 290
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 295
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 302
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 316
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 324
+			}]
+		}],
+		"thursday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 49
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 50
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 71
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 304
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 308
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 309
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 316
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 317
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 323
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 325
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 330
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 335
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 336
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 342
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 346
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 347
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 349
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 351
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 352
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 357
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 363
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 364
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 48
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 50
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 53
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 55
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 56
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 57
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 60
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 62
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 63
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 364
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 352
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 357
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 359
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 13
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 50
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 205
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 288
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 307
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 360
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 189
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 190
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 90
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 212
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 329
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 336
+			}]
+		}],
+		"friday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 17
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 23
+			}]
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 30
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 287
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 301
+			}]
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 75
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 77
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 78
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 81
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 82
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 83
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 84
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 88
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 344
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 352
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 355
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 362
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 47
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 60
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 6
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 11
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 12
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 19
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 365
+			}]
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 1,
+			"allocatedSessionsBase": 3,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 0
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 70
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 74
+			}]
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 3,
+			"allocatedSessionsBase": 1,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 189
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 195
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 211
+			}]
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 4,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 89
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 90
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 349
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 350
+			},
+			{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 364
+			}]
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 2,
+			"allocatedSessionsBase": 2,
+			"treatedPatients": [{
+				"surgeryType": 0,
+				"isOverdue": 0,
+				"daysUntilOverdue": 87
+			}]
+		}],
+		"saturday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}],
+		"sunday": [{
+			"medicalUnitId": 11,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 12,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 13,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 15,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 16,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 18,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 19,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 20,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 21,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 22,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		},
+		{
+			"medicalUnitId": 23,
+			"allocatedSessions": 0,
+			"allocatedSessionsBase": 0,
+			"treatedPatients": []
+		}]
+	}
+}

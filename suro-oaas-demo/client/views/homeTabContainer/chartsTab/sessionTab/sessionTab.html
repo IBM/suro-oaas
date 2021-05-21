@@ -1,0 +1,183 @@
+<template name="sessionTab">
+	<div id="view-sessionTab">
+
+		{{#if solutionAvailable}}
+
+			<div class="row">
+				<div class="col s12">
+					<div id="sessions-department-chart"></div>
+				</div>
+
+				<div class="col s12">
+					<a href="#" id="expand-session-data">
+						<span>Show Table Data</span>
+						<span style="display: none;">Hide Table Data</span>
+					</a>
+
+					<div id="table-data-session-total" style="display: none;">
+
+						<table class="striped">
+							<thead>
+							<tr>
+								<th></th>
+								{{#each departmentNames}}
+									<th title="{{this}}">{{this}}</th>
+								{{/each}}
+							</tr>
+							</thead>
+							<tbody>
+							{{#each tableViewChartData}}
+								<tr>
+									<td title="{{id}}">{{id}}</td>
+									{{#each values}}
+										<td>{{value}}</td>
+									{{/each}}
+								</tr>
+							{{/each}}
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col s12 department-legend">
+				{{#each for 11 23}}
+					{{#with resolveDepartment value}}
+						<div class="department-legend-item">
+							<span class="square department-{{../value}}"></span> {{this}}
+						</div>
+					{{/with}}
+				{{/each}}
+
+			</div>
+
+			<div class="col s12">
+				{{#each sessionData}}
+
+					{{#if isBeginningOfWeek period}}
+						<h5>
+							Week {{getWeek period}}
+							<div class="toggle-buttons" data-week="{{getWeek period}}">
+								<span class="fa fa-calendar active" title="Show actual sessions"></span>
+								<span class="fa fa-bar-chart" title="Show comparison with base plan"></span>
+							</div>
+						</h5>
+					{{/if}}
+
+					{{#if isCompareWeek period}}
+						{{#if isBeginningOfWeek period}}
+							<div id="compare-sessions-week-{{getWeek period}}" class="week-chart">{{renderWeekData period}}</div>
+						{{/if}}
+					{{else}}
+
+						<div class="row day">
+							<div class="col s2 period">
+								{{resolveWeekday period}}
+							</div>
+							<div class="col s10 sessions">
+								<div class="row">
+
+									{{#each departments this}}
+										<div class="col slot slot-{{sessions}} department-{{unitCode}}" data-department-unitcode="{{unitCode}}">
+											{{#with resolveDepartment unitCode}}
+												<span class="hide department-name">{{this}}</span>
+											{{/with}}
+
+											{{#each for 1 sessions}}
+												<div class="col session-slot slot-1-{{../sessions}}">
+													{{#if equals value 1}}
+														{{../patients}}
+													{{/if}}
+
+													{{#each ../surgeryTypes}}
+														<span class="hide" 	data-duration="{{duration}}"
+															  data-period="{{../../../period}}"
+															  data-category="{{category}}"
+															  data-overdue="{{remaining}}"
+															  data-cluster="{{cluster}}"
+															  data-length-of-stay="{{lengthOfStay}}"
+															  data-icu-probability="{{icuProbability}}">
+
+														</span>
+													{{/each}}
+												</div>
+											{{/each}}
+
+										</div>
+									{{/each}}
+
+								</div>
+
+							</div>
+						</div>
+
+					{{/if}}
+
+				{{/each}}
+			</div>
+
+			<div class="col s12 department-legend">
+				{{#each for 11 23}}
+					{{#with resolveDepartment value}}
+						<div class="department-legend-item">
+							<span class="square department-{{../value}}"></span> {{this}}
+						</div>
+					{{/with}}
+				{{/each}}
+
+			</div>
+
+			<div id="session-overlay" style="display: none;">
+				<h5>Patients - <span id="overlay-department-name"></span></h5>
+				<table class="striped">
+					<thead>
+						<tr>
+							<th>Patient</th>
+							<th>Category</th>
+							<th>Duration</th>
+							<th>Length of Stay</th>
+							<th>ICU Chance</th>
+							<th>Due in</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{#with currentPatients}}
+							{{#each this}}
+								<tr>
+									<td>Patient {{patientNumber}}</td>
+									<td>{{category}}</td>
+									<td>{{duration}} min</td>
+									<td>
+										{{#if equals lengthOfStay 0}}
+											-
+										{{else}}
+											{{lengthOfStay}} days
+										{{/if}}
+									</td>
+									<td>
+										{{#if equals icuProbability 0}}
+											-
+										{{else}}
+											{{icuProbability}}%
+										{{/if}}
+									</td>
+									<td>
+										{{#if isOverdue}}
+											<span class="fa fa-clock-o overdue"></span> Overdue
+										{{else}}
+											<span class="fa fa-clock-o"></span> {{remaining}} Days
+										{{/if}}
+									</td>
+								</tr>
+							{{/each}}
+						{{/with}}
+					</tbody>
+				</table>
+
+			</div>
+
+		{{/if}}
+
+	</div>
+</template>
